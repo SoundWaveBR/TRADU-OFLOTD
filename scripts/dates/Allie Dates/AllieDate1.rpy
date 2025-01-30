@@ -26,102 +26,102 @@ a "Ah merd-"
 m "Ah por-"
 with vpunch
 play sound Rollerblade
-"We started rolling down the hill - faster, and faster, and faster."
+"Começamos a descer a colina - cada vez mais rápido, cada vez mais rápido."
 with vpunch # Allie
-"Allie was rolling down the hill backwards at full speed. I could see panic in her eyes."
-"I couldn't figure out how to stop, we were going faster and faster."
+"Allie estava rolando colina abaixo para trás a toda velocidade. Eu podia ver pânico em seus olhos."
+"Eu não conseguia descobrir como parar, estávamos indo cada vez mais rápido."
 with vpunch # Allie
-"I screamed -"
+"Eu gritei -"
 show a laugh
-"Allie laughed and pointed at me."
+"Allie riu e apontou para mim."
 show a happy
-a "Gosh, your face is priceless! I love it."
+a "Nossa, seu rosto não tem preço! Eu o amo."
 stop music
 play music CarpeDiem
-"Allie turned around effortlessly, and somehow glided next to me, without ever having letting go of my hand."
-"Our breakneck pace became slower and slower as she steered us back and forth repeatedly."
-"Before I knew it, we were gliding down the roads smoothly."
-"The wind felt so nice."
+"Allie se virou sem esforço e, de alguma forma, deslizou para perto de mim, sem nunca ter soltado minha mão."
+"Nosso ritmo alucinante ficou cada vez mais lento enquanto ela nos guiava para frente e para trás repetidamente."
+"Antes que eu percebesse, estávamos deslizando pelas estradas suavemente."
+"O vento estava tão bom."
 hide a with dissolve
 show bg AllieRollerblading with dissolve
 #show a laugh
-a "Now you've got the hang of it!"
-m "You've got a funny way of teaching."
+a "Agora você pegou o jeito!"
+m "Você tem um jeito engraçado de ensinar."
 #show a happy
-a "The best way to teach a bird to fly is throwing it off a cliff, no?"
-m "That's definitely a.. way of looking at it."
+a "A melhor maneira de ensinar um pássaro a voar é jogando-o de um penhasco, não?"
+m "Essa é definitivamente uma... maneira de ver as coisas."
 #show a neutral
-a "Don't worry about it! You weren't ever in danger."
-m "Have you been rollerblading for a long time?"
+a "Não se preocupe com isso! Você nunca esteve em perigo."
+m "Você anda de patins há muito tempo?"
 #show a laugh
-a "Nope!"
+a "Não!"
 #show a neutral
-a "I actually just learned how to today."
-m "Er... what was that about never being in danger?"
+a "Na verdade, eu só aprendi hoje."
+m "Err... o que foi aquilo sobre nunca estar em perigo?"
 show bg Hills with dissolve
 show a happy at pos50a with dissolve
 a "Shhhh."
-m "You're quite the daredevil, aren't you?"
+m "Você é muito ousado, não é?"
 show a laugh
-a "What gave that away?"
+a "O que revelou isso?"
 with vpunch
-"She laughed as she slapped me on the back."
+"Ela riu e me deu um tapinha nas costas."
 show a happy
-a "You know, you're a pretty quick learner!"
+a "Você sabe que aprende bem rápido!"
 show a neutral
-a "You picked up roller blading almost as fast as I did."
-m "Well, I've got a pretty great teacher."
-m "It's a lot of fun hanging out with you, Allie."
+a "Você aprendeu a andar de patins quase tão rápido quanto eu."
+m "Bem, eu tenho uma ótima professora."
+m "É muito divertido sair com você, Allie."
 show a laugh
-a "Shucks, I feel the same way, [name]!"
+a "Puxa, eu me sinto da mesma forma, [name]!"
 show a happy
-a "It's great to be around someone willing to go on an adventure."
+a "É ótimo estar perto de alguém disposto a embarcar em uma aventura."
 show a laugh
-a "The world's gone crazy, we're all gonna die, you might as well be around people that make life worth living."
-m "I couldn't say it better myself."
+a "O mundo enlouqueceu, todos nós vamos morrer, você pode muito bem estar perto de pessoas que fazem a vida valer a pena."
+m "Eu não poderia dizer melhor."
 show a sassy
-a "You know, I bet you can't skate backwards."
+a "Sabe, aposto que você não consegue patinar para trás."
 # with vpunch # Allie
 show a sassy with vpunch
 play sound Rollerblade
-"Allie reversed and started skating backwards, as if to taunt me."
-m "Oh? Why's that?"
+"Allie deu marcha ré e começou a patinar para trás, como se quisesse me provocar."
+m "Ah? Por quê?"
 show a happy
-a "I just think it's a bit too scary for a person who screams when they start going down a little bump."
+a "Eu só acho que é um pouco assustador para uma pessoa que grita quando começa a descer um pequeno buraco."
 show a worried
-a "'I'm [name], and I can't handle a little bump!! AAAAAAH!! HELP ME!!!'"
-m "Come on, it was a hill!"
+a "'Eu sou [name], e não consigo lidar com um pequeno solavanco!! AAAAAAH!! ME AJUDEM!!!'"
+m "Vamos, era uma colina!"
 show a laugh
-a "Yeah, yeah."
-"I felt a fire light inside me."
-m "Bring it on, Allie!"
+a "Sim, sim."
+"Senti uma luz de fogo dentro de mim."
+m "Vamos lá, Allie!"
 show a surprised
-a "Oh, are you sure?"
-m "Did I stutter?"
-"There comes a time in every person's life where we know we're taking a stupid bet, but do it anyway."
+a "Ah, você tem certeza?"
+m "Eu gaguejei?"
+"Chega um momento na vida de cada pessoa em que sabemos que estamos fazendo uma aposta idiota, mas fazemos mesmo assim."
 play sound Rollerblade
 
 menu:
-    n "With the power of misplaced confidence and adrenaline, I jumped high into the air..."
+    n "Com o poder da confiança e adrenalina deslocadas, pulei alto no ar..."
 
-    "...and did a 360 rotation!":
+    "...e fiz uma rotação de 360!":
         jump rotation360
-    "...and did a backflip!":
+    "...e deu um mortal para trás!":
         jump backflip
 
 label rotation360:
-"...and did a 360 rotation!!"
-"Wait, am I spinning, or is the world spinning? I'm not sure."
+"...e fez uma rotação de 360!!"
+"Espera, eu estou girando, ou o mundo está girando? Não tenho certeza."
 jump after_stunt
 
 label backflip:
-"...and did a backflip!!!"
-"Wait, am I doing a flip, or is the world flipping? I'm not sure."
+"...e deu um mortal para trás!!!"
+"Espera aí, eu estou dando um mortal ou o mundo está virando? Não tenho certeza."
 
 label after_stunt:
-"Then it dawned on me."
+"Então me dei conta."
 show a surprised
-m "Oh fu-"
+m "Ah caralh-"
 hide a with dissolve
 show bg Black with dissolve
 stop music
@@ -132,69 +132,69 @@ play music Smile
 "..."
 play sound Glitch1
 # "Here's a {glitch=50}{color=#0f0}{b}Some Dialogue{/b}{/color} Tag{/glitch}"
-q "{glitch=50}{b}No. I won't let you kill [name].{/b}{/glitch}"
-"What...?"
+q "{glitch=50}{b}Não. Eu não vou deixar você matar[name].{/b}{/glitch}"
+"O que...?"
 play sound Glitch2
-q "{glitch=50}{b}You're going to wish we had.{/b}{/glitch}"
+q "{glitch=50}{b}Você vai desejar que tivéssemos feito isso.{/b}{/glitch}"
 stop music
 show bg RoomMorning with dissolve
-"What just...?"
+"O que foi...?"
 show a worried at pos50a with dissolve
-m "What the hell?"
+m "Mas que merda?"
 show a surprised
 play music CarpeDiem
-a "You're up! You okay, [name]?"
+a "Você está acordado! Você está bem, [name]?"
 show a worried
-a "Try not to move. You're a little banged up right now, but you'll be just fine in no time."
+a "Tente não se mover. Você está um pouco machucado agora, mas ficará bem em breve."
 show a happy
-a "Kat and I treated your injuries. Pretty well if I do say so myself!"
-m "What... what happened?"
+a "Kat e eu tratamos dos seus ferimentos. Muito bem, se é que posso dizer!"
+m "O que... o que aconteceu?"
 show a laugh
-a "You uh... well, 'skated backwards'."
+a "Você, uh... bem, 'patinou para trás'."
 show a worried
-a "We're defining skating quite liberally, huh?"
-m "How'd I get here?"
+a "Estamos definindo patinação de forma bem liberal, hein?"
+m "Como cheguei aqui?"
 show a neutral
-a "I carried you here."
-m "Oh man, my head..."
+a "Eu carreguei você até aqui."
+m "Cara, minha cabeça..."
 show a worried
-a "Take it easy. It's only been a few hours since you KO'd yourself."
+a "Calma. Faz apenas algumas horas que você se nocauteou."
 show a blush
-a "Um, well, it's sorta my fault, but..."
+a "Hum, bem, é meio que culpa minha, mas..."
 show a worried
-a "I made you some food, it should help you get your strength back up quick."
-m "Thanks, Allie. That's really nice of you."
+a "Eu fiz um pouco de comida para você, deve ajudar você a recuperar suas forças rapidamente."
+m "Obrigada, Allie. Isso é muito legal da sua parte."
 show a laugh
-a "Don't expect something that Violet would make!"
+a "Não espere algo que Violet faria!"
 show a worried
-a "All I can promise is that the food is probably healthier than my last suggestion before you knocked yourself out."
-m "I'll take my chances."
-"I took a bite of the food cautiously."
+a "Tudo o que posso prometer é que a comida provavelmente é mais saudável do que minha última sugestão antes de você se nocautear."
+m "Vou arriscar."
+"Dei uma mordida na comida com cuidado."
 show a surprised
-m "Gah!!!! I- *Cough* I'm - I'm dying...! *Cough*"
+m "Gah!!!! Eu- *Tosse* Eu- Eu estou morrendo...! *Tosse*"
 show a worried
-"For a moment, Allie was wide-eyed with shock and horror."
+"Por um momento, Allie ficou com os olhos arregalados de choque e horror."
 show a angry
-m "Haha, I'm just messing with you. The food's delicious. Thanks Allie."
-m "I just figured I'd get a little bit of payback."
+m "Haha, estou só brincando com você. A comida está deliciosa. Obrigada, Allie."
+m "Só pensei que conseguiria um pouco de vingança."
 show a laugh
-a "You know, no one forced you to jump!"
-"She laughed and slapped me on the shoulder, then ran her hand through my hair and scratched it."
-"I found myself smiling and admiring the blue of her eyes."
+a "Sabe, ninguém te forçou a pular!"
+"Ela riu e me deu um tapa no ombro, depois passou a mão no meu cabelo e o coçou."
+"Eu me vi sorrindo e admirando o azul dos olhos dela."
 show a happy
-a "I'm looking forward to our next adventure, [name]."
+a "Estou ansioso pela nossa próxima aventura, [name]."
 show a laugh
-a "But promise to not be too stupid again, okay?"
-m "I'll try my best. But people can't help but do stupid things to impress a pretty girl."
+a "Mas prometa não ser tão idiota de novo, ok?"
+m "Vou tentar o meu melhor. Mas as pessoas não conseguem evitar fazer coisas idiotas para impressionar uma garota bonita."
 show a blush
-a "I guess 'impressed' is what we'll call it."
-"We spent the rest of the day making fun of each other for how stupid we were being."
-"Somehow, someway, Allie could take the ordinary and turn it into an adventure."
-"I was laughing so hard that I could barely feel any pain."
+a "Acho que 'impressionado' é como vamos chamar."
+"Passamos o resto do dia tirando sarro um do outro por quão estúpidos estávamos sendo."
+"De alguma forma, de alguma forma, Allie conseguia pegar o comum e transformá-lo em uma aventura."
+"Eu estava rindo tanto que mal conseguia sentir dor."
 hide a with dissolve
 show bg Black with dissolve
 
-"Before I knew it, it was night time."
+"Antes que eu percebesse, já era noite."
 
 $ allieAffection=1
 jump postDateSelector

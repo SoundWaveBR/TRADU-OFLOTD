@@ -1,2 +1,5 @@
-# TRADU-OFLOTD
-Tradução do jogo Find Love or Die Trying
+# TRADUÇÃO Find Love or Die Trying
+
+
+
+Tradução feita por fã...

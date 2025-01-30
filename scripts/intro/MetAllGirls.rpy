@@ -11,37 +11,37 @@ show s happy at pos60s with dissolve # former look:left
 
 
 show k neutral at pos45k with dissolve # former ,,-1 # former look:left
-"By the time I got there, Kat and the girls were surrounding a blackboard covered with scribbles and math equations."
+"Quando cheguei lá, Kat e as meninas estavam em volta de um quadro negro coberto de rabiscos e equações matemáticas."
 show k flirt
-k "...And that's why [name] is the perfect soulmate for each of you."
+k "...E é por isso que [name] é a alma gêmea perfeita para cada um de vocês."
 show s surprised
-s "I'm sorry, you just drew a bunch of numbers and symbols that don't mean anything."
+"Desculpe, você acabou de desenhar um monte de números e símbolos que não significam nada."
 show t surprised
-t "It's like the bullshit math they show on-screen in a movie!"
+t "É como a matemática idiota que mostram na tela de um filme!"
 show k happy
-k "Ah, you're late to the party, [name]!"
+k "Ah, você está atrasado para a festa, [name]!"
 show k flirt
-k "But you're just in time for the first 'alone time' segment!"
-m "Alone time segment?"
+k "Mas você chegou bem a tempo para o primeiro segmento 'tempo sozinho'!"
+m "Segmento de tempo sozinho?"
 show k laugh
-k "You can't find your soulmate without having a little alone time, together!"
+k "Você não pode encontrar sua alma gêmea sem passar um tempinho sozinho, juntos!"
 show k neutral
 show y blush
 show a laugh
 show s tease
 show t neutral
 show k flirt
-k "It's time to pick your first soulmate candidate - one of two lovely ladies you'll get to spend time with this week."
+k "É hora de escolher sua primeira candidata a alma gêmea - uma das duas adoráveis moças com quem você passará um tempo esta semana."
 show k neutral
-k "So without further ado... who's it going to be?"
-m "Wait, I have to choose already?"
-m "I haven't even had the chance to really talk with any of them yet."
+k "Então, sem mais delongas... quem vai ser?"
+m "Espera, eu já tenho que escolher?"
+m "Eu nem tive a chance de realmente falar com nenhum deles ainda."
 show k flirt
-k "Don't think of it that way! Think of it more like, well... who do you want to talk to the most right now."
-m "Alright, I guess."
+k "Não pense dessa forma! Pense mais como, bem... com quem você mais quer falar agora."
+m "Tudo bem, eu acho."
 
 menu:
-    m "I'd like to spend today's alone time with..."
+    m "Gostaria de passar o tempo sozinho de hoje com..."
 
     "Allie":
         jump MetAllGirlsAllie
@@ -60,12 +60,12 @@ m "Allie."
 show a happy
 $ selectedDate="Allie"
 show k happy
-k "We'll make it happen!"
+k "Nós faremos isso acontecer!"
 show k angry
-k "Let's get the cameras rolling, people! We're in for a bumpy ride on day one!"
-b "Yes ma'am!"
+k "Vamos começar a filmar, pessoal! Vamos ter uma jornada turbulenta no primeiro dia!"
+b "Sim, senhora!"
 show k flirt
-k "Now be a dear and give us a minute to set up the scene, hmm?"
+k "Agora seja gentil e nos dê um minuto para preparar o cenário, hein?"
 jump DateSelector
 
 label MetAllGirlsScarlett:
@@ -74,12 +74,12 @@ m "Scarlett."
 $ selectedDate="Scarlett"
 show s happy
 show k happy
-k "Alright! We'll make it happen."
+k "Tudo bem! Nós faremos isso acontecer."
 show k angry
-k "Places, people! Let's have [name] start in the mansion... and you know where to bring Scarlett."
-b "Yes ma'am!"
+k "Lugares, pessoal! Vamos fazer com que [name] comece na mansão... e você sabe para onde levar Scarlett."
+b "Sim, senhora!"
 show k happy
-k "Give us a minute to set up the scene, then go find her!"
+k "Dê-nos um minuto para preparar a cena e depois vá procurá-la!"
 jump DateSelector
 
 label MetAllGirlsTerra:
@@ -88,12 +88,12 @@ m "Terra."
 show t happy
 $ selectedDate="Terra"
 show k happy
-k "Alright! Our work's cut out for us."
+k "Tudo bem! Temos muito trabalho pela frente."
 show k angry
-k "Places, people! You know where to put Terra."
-b "Yes ma'am!"
+k "Lugares, pessoal! Vocês sabem onde colocar Terra."
+b "Sim senhora!"
 show k happy
-k "Give us a minute to set up the scene, then go find her!"
+k "Dê-nos um minuto para preparar a cena e depois vá procurá-la!"
 jump DateSelector
 
 label MetAllGirlsViolet:
@@ -102,12 +102,12 @@ m "Violet."
 show v sassy
 $ selectedDate="Violet"
 show k happy
-k "Alright! We'll make it happen."
+k "Tudo bem! Nós faremos isso acontecer."
 show k angry
-k "Places, people! Let's have [name] start in the mansion... and you know where to put Violet."
-b "Yes ma'am!"
+k "Lugares, pessoal! Vamos fazer com que [name] comece na mansão... e você sabe onde colocar Violet."
+b "Sim, senhora!"
 show k happy
-k "Give us a minute to set up the scene, then go find her!"
+k "Dê-nos um minuto para preparar a cena e depois vá procurá-la!"
 jump DateSelector
 
 label MetAllGirlsYui:
@@ -116,14 +116,14 @@ m "Yui."
 $ selectedDate="Yui"
 show k happy
 show y blush
-k "Yessss! Cough it up, Four! I won the bet."
-b4 "But that was my whole salary!! How am I gonna -"
+k "Simmm! Desembucha, Quatro! Ganhei a aposta."
+b4 "Mas esse era todo o meu salário!! Como é que eu vou -"
 show k laugh
-k "And great choice, [name]! I knew I could count on you!"
+k "E ótima escolha, [name]! Eu sabia que podia contar com você!"
 m "..."
 show k angry
-k "Alright, places, people! Let's get this show on the road!"
-b "Yes ma'am!"
+k "Tudo bem, lugares, pessoas! Vamos começar o show!"
+b "Sim, senhora!"
 show k flirt
-k "And... action!"
+k "E... Ação!"
 jump DateSelector

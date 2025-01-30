@@ -6,172 +6,172 @@ play music CarpeDiem
 $ allieAffection=2
 
 show a sassy at pos50a with dissolve
-a "Howdy, [name]. You ready for round 2?"
+a "Oi Oi, [name]. Preparado para o round 2?"
 show a laugh
-a "I figured you might want to hang out somewhere where rollerblades don't work!"
-m "Aw, I spent all night dreaming of the next chance I could use those two little death machines."
+a "Imaginei que você poderia querer ficar em algum lugar onde patins não funcionam!"
+m "Ah, passei a noite toda sonhando com a próxima chance de usar essas duas pequenas máquinas de morte."
 show a happy
-a "Then I think you'll love what we've got in store today! There's no wheels where we're going."
-m "What do you mean?"
+a "Então acho que você vai adorar o que temos guardado para hoje! Não há rodas para onde estamos indo."
+m "O que você quer dizer?"
 show a neutral
-a "You'll see. Follow me!"
+a "Você verá. Vem comigo!"
 show a surprised
-a "Ah, first I'm gonna need you to close your eyes."
-m "...I'm not sure I like where this is going."
+a "Ah, primeiro preciso que você feche os olhos."
+m "...Não tenho certeza se gosto de onde isso está indo."
 show a laugh
-a "Nothing to worry about, [name]. I'll be right next to you the whole time."
-m "Because that's always gone well."
+a "Nada para se preocupar, [name]. Eu estarei bem ao seu lado o tempo todo."
+m "Porque isso sempre deu certo."
 show a happy
-a "Hasn't it?"
+a "Não é mesmo?"
 hide a with dissolve
 show bg Black with dissolve
-"Allie moved behind me and covered my eyes with her hands."
-a "Now let's just keep walking forward. Trust me!"
+"Allie se moveu para trás de mim e cobriu meus olhos com as mãos."
+a "Agora vamos continuar andando para frente. Confie em mim!"
 $ renpy.sound.play("audio/sfx/walking_on_dirt.mp3", loop=True) # loop:true volume:0.6
-m "Right..."
-"I'd be lying if I said I wasn't somewhat enjoying this. My heart skipped a beat when she wrapped her arms around me."
-"I cautiously took step after step forward."
+m "Certo..."
+"Eu estaria mentindo se dissesse que não estou gostando um pouco disso. Meu coração pulou uma batida quando ela colocou os braços em volta de mim."
+"Eu cautelosamente dei um passo após o outro para frente."
 stop sound
 play sound Waves # loop:true volume:75
 $ renpy.sound.play("audio/sfx/beach_waves.mp3", loop=True)
 
-"First, I felt dirt... then sand... then... water?"
-m "Are you trying to make me drown myself?"
-a "Of course not! Though, I have to admit, this does look a lot like how they killed people back in the day."
+"Primeiro, senti sujeira... depois areia... depois... água?"
+m "Você está tentando me fazer me afogar?"
+a "Claro que não! Embora, eu tenha que admitir, isso se parece muito com a forma como eles matavam as pessoas antigamente."
 m "..."
-a "Ah, you're gonna want to take a really high step forward next, or it's gonna hurt."
+a "Ah, você vai querer dar um passo bem alto para frente, ou vai doer."
 play sound MetalImpact
-"I raised my right leg as high as I could, then stepped forward. Something clanged, like metal."
+"Levantei minha perna direita o mais alto que pude, então dei um passo à frente. Algo fez barulho, como metal."
 play sound MetalImpact
-"Next, I brought over my left leg."
+"Em seguida, trouxe minha perna esquerda."
 $ renpy.sound.play("audio/sfx/beach_waves.mp3", loop=True)
-a "Keep your eyes closed for just a second longer! I just gotta do one thing."
-"Allie let go of me, and took a few steps forward."
-a "Brace yourself!"
+a "Mantenha os olhos fechados por mais um segundo! Só preciso fazer uma coisa."
+"Allie me soltou e deu alguns passos para frente."
+a "Prepare-se!"
 play sound Engine # loop:true
 #; SOUND OF THE ENGINE
-m "Wait, what's -"
+m "Espere, o que é -"
 $ renpy.sound.play("audio/sfx/beach_waves.mp3", loop=True)
 
 stop music
 hide a with dissolve
 show bg AllieBoat with dissolve
 play music AlmostBliss
-"I was knocked off my feet by the sudden movement, and opened my eyes on reflex."
-"Water sprayed onto my body as I struggled to regain my balance."
+"Fui derrubado pelo movimento repentino e abri os olhos por reflexo."
+"Água espirrou no meu corpo enquanto eu lutava para recuperar o equilíbrio."
 #show a happy
-a "All aboard the S.S. St. Allie!"
-m "...When and where did you get a boat?"
+a "Todos a bordo do S.S. St. Allie!"
+m "...Quando e onde você conseguiu um barco?"
 #show a laugh
-a "Pretty cool, right? I found this baby in the back of the mansion this morning."
-m "You just 'found' it?"
+a "Bem legal, né? Eu encontrei esse bebê nos fundos da mansão esta manhã."
+m "Você acabou de 'encontrá-lo'?"
 #show a neutral
-a "...Anyway, I asked Kat if I could take it for a spin."
+a "...De qualquer forma, perguntei a Kat se eu poderia dar uma volta."
 #show a happy
-a "She said that as long as we stay within a few clicks of the island, we're good, or the engine will automatically shut off."
+a "Ela disse que, se ficássemos a poucos passos da ilha, tudo bem, ou o motor desligaria automaticamente."
 #show a laugh
 
 
 menu:
-    a "So I thought, why not have a little joyride around the island?"
+    a "Então pensei: por que não dar uma volta pela ilha?"
 
-    "I like the sound of that":
+    "Gostei do som disso":
         jump allieDatec1
-    "What could go wrong?":
+    "O que poderia dar errado?":
         jump allieDatec2
 
 label allieDatec1:
-m "I like the sound of that."
+m "Gostei do som disso."
 #show a happy
-a "And away... we go!"
+a "E lá vamos nós!"
 jump ad1_post_choice
 
 label allieDatec2:
-m "What could go wrong?"
+m "O que poderia dar errado?"
 #show a laugh
-a "There's no fun in thinking that, is there?"
+a "Não há graça em pensar nisso, não é?"
 #show a happy
-a "So why bother!"
-"Why indeed, thought the person stuck on a life or death dating show."
+a "Então por que se incomodar!"
+"Por que mesmo, pensei que a pessoa estava presa em um programa de namoro de vida ou morte."
 jump ad1_post_choice
 
 label ad1_post_choice:
 
-"We cruised around the island for a while, taking note of the different buildings covering the island."
-"The mansion seemed so small from way out here."
-"Hours flew by as we cruised around."
+"Nós navegamos pela ilha por um tempo, observando os diferentes edifícios que a cobriam."
+"A mansão parecia tão pequena daqui."
+"Horas voaram enquanto navegávamos."
 show bg BeachEvening with dissolve
 show a serious at pos50a with dissolve
 stop music
 play music TouchingMomentsOne
-"Allie took a deep breath and sighed."
-m "You okay, Allie? You don't seem as chipper as usual."
+"Allie respirou fundo e suspirou."
+m "Você está bem, Allie? Você não parece tão alegre como sempre."
 #show a laugh
 show a sad
-a "...I guess I'm a little homesick."
+a "...Acho que estou com um pouco de saudades de casa."
 show a surprised
-a "It's nothing to do with you, promise! I just..."
+a "Não tem nada a ver com você, prometo! Eu só..."
 show a worried
-a "I'm just worried about my old man."
-m "I'm sorry, wasn't your father...?"
+a "Só estou preocupado com meu velho."
+m "Desculpe, seu pai não era...?"
 show a serious
-a "Ah, yeah, he's long gone. You know the old story about New Asia."
+a "Ah, sim, ele se foi há muito tempo. Você conhece a velha história sobre a Nova Ásia."
 show a neutral
-a "I'm talking about Bill. He was a good friend of my Dad's, and he's taken care of me and a whole lot of other kids."
-m "Sounds like a cool dude."
+a "Estou falando do Bill. Ele era um bom amigo do meu pai e cuidou de mim e de muitas outras crianças."
+m "Parece um cara legal."
 show a laugh
-a "You sure have a way with words, don't you, [name]?"
+a "Você realmente tem um jeito com as palavras, não é? [name]?"
 show a neutral
-a "I don't dwell much on the past. It just slows you down."
-m "I couldn't agree more."
+a "Eu não me detenho muito no passado. Ele só te atrasa."
+m "Eu não poderia concordar mais."
 show a laugh
-a "Is that the amnesia talking?"
-m "Who knows?"
-"She laughed as she put her hand tenderly against my cheek."
+a "É a amnésia falando?"
+m "Quem sabe?"
+"Ela riu enquanto colocava a mão carinhosamente em minha bochecha."
 show a happy
-a "I'm more worried that he'll get himself into trouble if I'm not around to keep him in check."
-m "What's he like?"
+a "Estou mais preocupado que ele se meta em problemas se eu não estiver por perto para mantê-lo sob controle."
+m "Como ele é?"
 show a worried
-a "Let's just say that a lot of how I act, is from him, but... I'm much more restrained."
+a "Digamos que muito do meu comportamento vem dele, mas... sou muito mais contido."
 show a surprised
-m "If you're like this, I guess I wouldn't survive even a single day hanging out with him."
+m "Se você é assim, acho que eu não sobreviveria nem um dia sequer saindo com ele."
 show a angry
-a "Hey! What's that supposed to mean?"
-m "Oh, nothing at all."
+a "Ei! O que isso quer dizer?"
+m "Ah, nada mesmo."
 show a laugh
 with vpunch
-"Allie made a sharp turn. The sudden force almost threw me out of the boat."
-m "Hey! What was that for?"
+"Allie fez uma curva fechada. A força repentina quase me jogou para fora do barco."
+m "Ei! O que foi isso?"
 show a happy
-a "Oh, nothing at all."
-"I couldn't help but smile at her. She was practically shining when she had that devilish grin."
+a "Ah, nada mesmo."
+"Não pude deixar de sorrir para ela. Ela estava praticamente brilhando quando tinha aquele sorriso diabólico."
 show a neutral
-m "I'm sure he's doing just fine, Allie."
-m "He's probably watching right now, just to make sure you're safe."
+m "Tenho certeza de que ele está bem, Allie."
+m "Ele provavelmente está assistindo agora, só para ter certeza de que você está segura."
 show a surprised
-a "You're probably right, now that I think about it."
+a "Agora que penso nisso, você provavelmente está certo."
 show a neutral
-a "He always wastes the day watching shitty reality TV shows."
+a "Ele sempre desperdiça o dia assistindo a reality shows de merda."
 show a laugh
-a "Which gives me an idea..."
-m "What's that?"
+a "O que me dá uma ideia..."
+m "O que é isso?"
 stop music
 play music CarpeDiem
 show a blush
-"With one hand on the wheel, Allie turned to me, and kissed me on the lips."
-"I kissed her back. It felt like lightning was running through my veins."
+"Com uma mão no volante, Allie se virou para mim e me beijou nos lábios."
+"Eu a beijei de volta. Parecia que um raio estava correndo em minhas veias."
 with vpunch
-"The boat started to rock back and forth more and more uncontrollably, but we didn't stop."
+"O barco começou a balançar para frente e para trás de forma cada vez mais incontrolável, mas não paramos."
 show a laugh
-a "That's got to give Bill a heart attack!"
+a "Isso deve ter dado um ataque cardíaco no Bill!"
 show a angry
-a "Seriously! What kind of father lets their daughter go on a trashy show like this?"
-"I couldn't help but laugh."
+a "Sério! Que tipo de pai deixa a filha ir a um show trash como esse?"
+"Não consegui deixar de rir."
 show a sassy
-a "Eh, whatever. It's been a fun ride so far."
+a "Eh, tanto faz. Tem sido uma viagem divertida até agora."
 show a laugh
-a "And here's to the next one with you, [name]!"
-"She kissed me again, sending the boat into an erratic frenzy."
-"We spent the rest of the day together cruising around on the boat, till we ran out of daylight."
+a "E aqui vai para o próximo com você, [name]!"
+"Ela me beijou de novo, deixando o barco em um frenesi errático."
+"Passamos o resto do dia juntos navegando no barco, até que ficamos sem luz do dia."
 stop sound
 jump postDateSelector

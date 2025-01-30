@@ -7,54 +7,54 @@ play sound Waves # loop:true
 show y angry at pos10y with dissolve
 show s surprised at pos30s with dissolve
 show v sassy at pos70v with dissolve
-s "A beach scene? Seriously?"
+s "Uma cena de praia? Sério?"
 show v annoyed
-v "Not only gratuitous, but oh so predictable."
+v "Não apenas gratuito, mas oh tão previsível."
 
-y "Oh come on! It's the beach! Don't be so negative!"
+y "Ah, vamos lá! É a praia! Não seja tão negativo!"
 show s happy
-v "I guess you're right. It's not every day you get to go the beach."
+v "Acho que você está certo. Não é todo dia que você pode ir à praia."
 #;; say something about testing the thing from ScarlettDate2
 show v surprised
-v "Are you alright, Terra? You've looked better."
-"Terra was practically crawling on the beach sand, like a zombie with one arm."
+v "Você está bem, Terra? Você parecia melhor."
+"Terra estava praticamente rastejando na areia da praia, como um zumbi com um braço."
 show t sad at pos90t with dissolve# former ,,-1 # former look:left
-t "Sunlight... my worst enemy... we meet again, you piece of shit..."
+t "Luz do sol... meu pior inimigo... nos encontramos de novo, seu pedaço de merda..."
 show a laugh at pos50a  with dissolve
-a "There's some shade under the beach umbrellas over there, Terra!"
+a "Tem um pouco de sombra sob os guarda-sóis ali, Terra!"
 show a worried
-a "You look like you could use it."
+a "Parece que você precisa disso."
 show t surprised
 t "...!"
 hide t with dissolve
-"I swear I'd never seen Terra move so fast."
+"Juro que nunca vi Terra se mover tão rápido."
 show s laugh
-s "Let's go in the water! Come on!"
-"Scarlett grabbed Violet by her hand and pulled her towards the water."
+s "Vamos para a água! Vamos!"
+"Scarlett agarrou Violet pela mão e a puxou em direção à água."
 show v blush
-v "Ah, but I didn't bring anything to change -"
+v "Ah, mas eu não trouxe nada para mudar -"
 hide s with dissolve
 hide v with dissolve
 show y laugh
-y "Now that's the spirit! Wait up, you guys!"
+y "Agora sim, esse é o espírito! Esperem, pessoal!"
 hide y with dissolve
 show a laugh
-a "And just like that, they're off."
-m "You up to join them?"
+a "E assim, eles partiram."
+m "Você está a fim de se juntar a eles?"
 show a happy
-a "I'd be crazy to miss out on this! Just one thing first..."
+a "Eu seria louco de perder isso! Só uma coisa primeiro..."
 stop music
 play music CarpeDiem
-"Allie pulled me in with her arms and kissed me passionately."
+"Allie me puxou para perto de si e me beijou apaixonadamente."
 show a sassy
-a "It's hotter when the other girls are around. You think they saw?"
-"I couldn't stop my jaw from dropping."
+a "É mais quente quando as outras garotas estão por perto. Você acha que elas viram?"
+"Não consegui evitar que meu queixo caísse."
 show a laugh
-a "The look on your face is priceless, my god!"
+a "A expressão no seu rosto não tem preço, meu Deus!"
 show a sassy
-a "Try to keep up!"
-"Allie ran to join the other girls in the water."
-"I smiled and followed suit."
-"We spent the rest of the morning enjoying the warm weather on the beach."
+a "Tente acompanhar!"
+"Allie correu para se juntar às outras garotas na água."
+"Eu sorri e segui o exemplo."
+"Passamos o resto da manhã aproveitando o clima quente na praia."
 #; Afterwards, I wanted to spend the rest of the day with..."
 jump postMorningSelector

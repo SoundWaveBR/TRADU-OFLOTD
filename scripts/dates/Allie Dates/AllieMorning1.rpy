@@ -11,36 +11,36 @@ show v neutral at pos80v with dissolve # posleft
 show t neutral at pos35t with dissolve # former ,,-1 # former look:left
 show a happy at pos50a with dissolve # former ,,-1 # former look:right
 with dissolve
-y "Oh my gosh, I heard what happened yesterday. Are you okay?"
-m "No worries, I'm good. Thanks, Yui."
+y "Meu Deus, ouvi o que aconteceu ontem. Você está bem?"
+m "Não se preocupe, estou bem. Obrigada, Yui."
 show y happy
-y "I'm so relieved!"
+y "Estou tão aliviado!"
 show v surprised
-v "Should you not be resting after yesterday?"
-m "Nah, no need. I've only got a few scrapes and bruises."
+v "Você não deveria estar descansando depois de ontem?"
+m "Não, não precisa. Só tenho alguns arranhões e hematomas."
 show s surprised
-s "I'm surprised the both of you aren't dead after what you pulled."
+s "Estou surpreso que vocês dois não estejam mortos depois do que fizeram."
 show a worried
 show y surprised
-a "Believe me, me too."
-m "Wait, what?"
+a "Acredite em mim, eu também."
+m "Espere, o quê?"
 show v laugh
 show a laugh
-a "I mean, *cough*, no worries, Scarlett. I've been rollerblading for longer than most people have ever."
-"Technically, that's probably true, but..."
+a "Quer dizer, *tosse*, não se preocupe, Scarlett. Eu ando de patins há mais tempo do que a maioria das pessoas."
+"Tecnicamente, isso provavelmente é verdade, mas..."
 show t happy
 show v worried
-t "You should teach us how to rollerblade, Allie!"
+t "Você deveria nos ensinar a andar de patins, Allie!"
 show t happy
-t "It seems like it'd be fun."
+t "Parece que seria divertido."
 show s worried
 show y worried
-y "Uh, you sure, Terra? I feel like that might not be a good idea."
+y "Uh, você tem certeza, Terra? Acho que isso pode não ser uma boa ideia."
 show t neutral
-t "What's the worst that could happen?"
+t "Qual é a pior coisa que poderia acontecer?"
 show a happy
-a "I like your attitude, girl! Come on, let's hit the road!"
-"Allie grabbed Terra's hand and pulled her away."
+a "Gostei da sua atitude, garota! Vamos, vamos pegar a estrada!"
+"Allie agarrou a mão de Terra e a puxou para longe."
 show bg KitchenNoon with dissolve
 
 hide y
@@ -49,27 +49,27 @@ hide a
 hide t
 hide s
 with dissolve
-"-- Some time later --"
+"-- Algum tempo depois --"
 show s happy at pos75s with dissolve
-s "Hey Terra! How was skating?"
+s "Olá Terra! Como foi a patinação?"
 show t worried at pos25t with dissolve
 t "..."
 show t worried at pos25t with dissolve
-t "There's no words..."
+t "Não há palavras..."
 show t worried at pos25t with dissolve
 play sound Hit
 hide t with dissolve
 show s worried  at pos50s with moveinright
-s "...I think Allie broke Terra."
-"Scarlett waved her hands frantically in front of Terra's face, as if to check if anyone was still in there."
+s "...Acho que Allie quebrou Terra."
+"Scarlett agitou as mãos freneticamente na frente do rosto de Terra, como se para verificar se ainda havia alguém lá dentro."
 show s surprised
-s "Terra, you in there?"
+s "Terra, você está aí?"
 show s happy
-s "...Hey Terra, the internet's back!"
+s "...Ei, Terra, a internet voltou!"
 t "..."
-"I guess nobody's home."
+"Acho que não tem ninguém em casa."
 show s surprised
-s "Uh, is there a medic on the island?"
+s "Uh, tem algum médico na ilha?"
 
 if scarlettAffection >= 1:
     jump ScarlettJoke
@@ -79,39 +79,39 @@ if scarlettAffection == 0:
 
 label ScarlettJoke:
 show s happy
-s "Wait a minute, I made a new serum the other day that just might be the thing to restore Terra's mind."
+s "Espere um minuto, eu fiz um novo soro outro dia que pode ser a solução para restaurar a mente de Terra."
 show s neutral
-s "Just give me a second to administer it..."
-m "Hold on, are you talking about the thing that turned everyone to zombies?"
+s "Só me dê um segundo para administrar..."
+m "Espere aí, você está falando da coisa que transformou todo mundo em zumbis?"
 show s laugh
-s "Well, I just think, one field test really isn't enough to see if it's botched or not, so why not just -"
-"I tried to stop her from administering it, but it was too late."
+s "Bem, eu só acho que um teste de campo realmente não é o suficiente para ver se está errado ou não, então por que não apenas -"
+"Eu tentei impedi-la de administrá-lo, mas era tarde demais."
 show s surprised at pos70s
 show t surprised at pos30t # former look:right
 with vpunch
 t "Gaaaaaaah!!!!"
-m "Oh boy..."
+m "Ah cara..."
 show t angry
-t "Gimme BRAINS!!! BANANAS!!!!"
+t "Me dê CÉREBROS!!! BANANAS!!!!"
 show s sad
-s "Guess this one's a bust, too."
-m "Do you have an antidote??"
+s "Acho que esse também é um fracasso."
+m "Você tem um antídoto??"
 show s happy
 s "..."
 m "..."
 show s laugh
-s "Just kidding, kidding. I've got it right here. Just give me a moment."
-"Luckily, Terra ended up being okay."
-"We spent the rest of the morning playing video games as therapy for Terra."
+s "Brincadeira, brincadeira. Eu entendi bem aqui. Só me dê um momento."
+"Felizmente, Terra acabou ficando bem."
+"Passamos o resto da manhã jogando videogame como terapia para Terra."
 jump postMorningSelector
 
 #; Opportunity here to have a thing here if you've been on a ScarlettDate here
 #; like, oh shit, i got something i could try to revitalize her mind
 label PastScarlettJoke:
 "..."
-"Luckily, Terra was fine."
-"After that was resolved, we spend the rest of the morning playing video games as therapy for Terra."
-"She still doesn't remember a thing about what happened."
-"What did you see, Terra?"
-"...I guess we'll never know."
+"Felizmente, Terra estava bem."
+"Depois que isso foi resolvido, passamos o resto da manhã jogando videogame como terapia para Terra."
+"Ela ainda não se lembra de nada sobre o que aconteceu."
+"O que você viu, Terra?"
+"...Acho que nunca saberemos."
 jump postMorningSelector

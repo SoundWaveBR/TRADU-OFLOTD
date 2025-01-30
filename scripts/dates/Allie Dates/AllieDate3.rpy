@@ -249,21 +249,21 @@ show a surprised
 k "...Boa tentativa."
 "E então eu vi algo que nunca tinha visto antes - e nunca mais veria."
 show bg LakeNight with dissolve
-"The sky rapidly turned from bright blue to black, as if it were water being drowned in the darkest ink."
+"O céu rapidamente mudou de azul aconchegante para preto, como se fosse água sendo afogada na tinta mais escura."
 hide k with dissolve
 hide a with dissolve
 show bg Black with dissolve
-"Then the bright sun in the sky... went out, like a candle in the wind."
-"Even though I knew I was standing outside , I couldn't even see my hands in front of my face."
-"Then I felt somebody grab me from behind - no, not somebody - there must be several people."
+"Então o sol brilhante no céu... se apagou, como uma vela ao vento."
+"Mesmo sabendo que estava do lado de fora, eu não conseguia nem ver minhas mãos na frente do meu rosto."
+"Então eu senti alguém me agarrar por trás - não, não alguém - deve haver várias pessoas."
 play sound Hit
-"They forced me to the ground and cuffed me behind my back."
+"Eles me forçaram a deitar no chão e me algemaram nas costas."
 play sound Handcuffs
-"I screamed, but there was no sound."
+"Eu gritei, mas não saia som nenhum."
 #play sound Hit
-"I tried to fight, but there was no way out."
-"I screamed at Allie, for her to run as far as she could - but I heard no response."
-"Then... nothing."
+"Tentei lutar, mas não havia saída."
+"Gritei para Allie, para ela correr o mais longe que pudesse - mas não ouvi resposta."
+"Então... nada."
 
 if playthrough == 1:
     jump P1Ending
@@ -277,71 +277,71 @@ hide a with dissolve
 show bg MansionEvening with dissolve
 stop music
 play music Morning
-"...But luckily, nothing came of it."
-"Next, the production staff separated Allie and I. It looks like Kat had arranged something special for the two of us."
-"All I was told was that I wasn't allowed to see Allie until evening - apparently that's the nicest time to film."
-"Till then, the production team helped me to look the part of a romantic novel protagonist. I was dressed to the nines."
-"I must have sat through a few hundred photoshoots and interviews before they told me it was time to see her."
+"...Mas felizmente, nada aconteceu."
+"Em seguida, a equipe de produção separou Allie e eu. Parece que Kat tinha arranjado algo especial para nós dois."
+"Tudo o que me disseram foi que eu não poderia ver Allie até a noite - aparentemente é o melhor momento para filmar."
+"Até então, a equipe de produção me ajudou a parecer o papel de uma protagonista de romance. Eu estava vestida com esmero."
+"Devo ter assistido a algumas centenas de sessões de fotos e entrevistas antes que me dissessem que era hora de vê-la."
 #show bg Palace with dissolve
 stop music
 play music RomanticJazz
-"...But it was worth it."
+"...Mas valeu a pena."
 show bg Palace with dissolve
-m "Wow. Even for this island, this place is fancy with a capital F."
+m "Uau. Mesmo para esta ilha, este lugar é chique com F maiúsculo."
 show b2 worried at pos75b with dissolve
-b2 "Tell me about it, man. I broke one plate here, and I'll have to pay it off for the rest of my life."
+b2 "Me conta, cara. Eu quebrei um prato aqui, e vou ter que pagar por isso pelo resto da minha vida."
 show b2 happy
-b2 "I mean, uh, welcome to the Ocean Palace. Allow me to show you to your seat."
-"Two gestured at me to follow him."
+b2 "Quero dizer, uh, bem-vindo ao Ocean Palace. Deixe-me mostrar seu assento."
+"Two gesticulou para que eu o seguisse."
 hide b2 with dissolve
-"We'd only taken a few steps when I saw her, and when I did, I couldn't help but crack up."
+"Nós só tínhamos dado alguns passos quando a vi e, quando o fiz, não consegui evitar cair na gargalhada."
 show a happy at pos50a with dissolve
-m "You know, I kind of expected you to be dressed up too, given all the shit the crew put me through."
+m "Sabe, eu meio que esperava que você também estivesse bem vestido, considerando toda a merda que a equipe me fez passar."
 show a sassy
-a "What's the point? It'd just get ruined."
-m "...How would it get ruined?"
+a "Qual é o sentido? Ele simplesmente seria arruinado."
+m "...Como ele seria arruinado?"
 show a laugh
-a "Oh, you'll see. Come on!"
+a "Ah, você vai ver. Vamos!"
 show a sassy
-"She reached for my hand - I put mine in hers, with a smile on my face."
-"She pulled me along with her towards the door."
+"Ela pegou minha mão - eu coloquei a minha na dela, com um sorriso no rosto."
+"Ela me puxou junto com ela em direção à porta."
 show a surprised
 with vpunch
-a "Woah!"
-"We stumbled against a table, which knocked a plate onto the floor."
-"It promptly shattered into a million pieces."
+a "Opa!"
+"Nós tropeçamos em uma mesa, que derrubou um prato no chão."
+"Ele prontamente se quebrou em um milhão de pedaços."
 show a happy
-a "...In case you were watching Kat, that was Two!!"
+a "...Caso você esteja observando Kat, esse era o Dois!!"
 show b2 worried at pos75b with dissolve
-b2 "I knew I should've just been an accountant!"
+b2 "Eu sabia que deveria ter sido apenas contador!"
 hide b2 with dissolve
 hide a with dissolve
 
 show bg RoadNight with dissolve
 show a laugh at pos50a with dissolve
-"She laughed as she pulled me along with her to the outside."
-"The night air had never tasted so fresh."
-"Each breath for air as we ran along the road made my worries and fears just... disappear."
+"Ela riu enquanto me puxava com ela para fora."
+"O ar da noite nunca teve um gosto tão fresco."
+"Cada respiração enquanto corríamos pela estrada fez minhas preocupações e medos simplesmente... desaparecerem."
 show bg BeachNight with dissolve
-"Eventually, we ran all the way to the beach."
+"Por fim, corremos até a praia."
 show a happy
-a "Come on!!!"
-"She tightened her hand and pulled me along with her to the water."
+a "Vamos!!!"
+"Ela apertou a mão e me puxou junto com ela para a água."
 show a laugh
-m "Wait just a-"
-"She laughed like a maniac as she cannonballed us into the ocean."
-"My first instinct was to swim back up to the surface, but then Allie put her hands against my face, and looked deep into my eyes."
+m "Espere só um-"
+"Ela riu como uma maníaca enquanto nos jogava no oceano."
+"Meu primeiro instinto foi nadar de volta para a superfície, mas então Allie colocou as mãos no meu rosto e olhou fundo nos meus olhos."
 show a blush
-"She smiled, then kissed me passionately."
+"Ela sorriu e me beijou apaixonadamente."
 show a sassy
-"It was as if time had stopped."
-"A few moments later, we went back up to the surface."
+"Foi como se o tempo tivesse parado."
+"Alguns momentos depois, voltamos à superfície."
 show a happy
-a "...I figure you could use a fun distraction from everything that happened earlier."
-"Was she doing this for me?"
-m "I never know what to expect with you, you know?"
+a "...Imagino que você poderia usar uma distração divertida de tudo o que aconteceu antes."
+"Ela estava fazendo isso por mim?"
+m "Eu nunca sei o que esperar de você, sabia?"
 show a sassy
-a "And you never will."
-"It was a night to remember."
+a "E você nunca irá."
+"Foi uma noite para lembrar."
 $ allieAffection=3
 jump postDateSelector

@@ -3,17 +3,17 @@ label AllieMorning3:
 play music RomanticJazz
 show bg RoomMorning with dissolve
 show a surprised at pos50a with dissolve
-a "Huh. Well, this isn't the worst place I thought I could wake up yesterday."
-m "I'll take that as a compliment...?"
+a "Huh. Bem, este não é o pior lugar que pensei que poderia acordar ontem."
+m "Vou levar isso como um elogio...?"
 show a laugh
-"She laughed and pinched my cheek."
+"Ela riu e beliscou minha bochecha."
 show a happy
-a "Well, it's been a blast, [name]!"
+a "Bem, foi uma explosão, [name]!"
 show a sassy
-a "I've some more cruising around to do, and I think you've got another date on your plate today."
-m "...Yeah, that's just how the show goes. Sorr-"
+a "Tenho mais algumas voltas para fazer, e acho que você tem outro encontro marcado para hoje."
+m "...É, é assim que o show acontece. Desculpe-"
 show a laugh
 hide a with dissolve
-"She was gone before I even had a chance to finish."
-"...That woman is a force of nature."
+"Ela se foi antes mesmo que eu tivesse a chance de terminar."
+"...Aquela mulher é uma força da natureza."
 jump postMorningSelector

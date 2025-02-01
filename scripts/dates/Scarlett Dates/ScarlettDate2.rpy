@@ -159,43 +159,43 @@ show bg MansionIndoorsNight with dissolve # time:2
 show s neutral
 s "...É bom ter alguém que entende."
 show s laugh
-s "You know, I've got a silly idea, if you're interested."
-m "Let's hear it!"
+s "Sabe, tenho uma ideia boba, se estiver interessado."
+m "Fala aí!"
 show s happy
-s "...Getting engaged in a week is stupid, and a person who'd agree to that is even stupider than that."
+s "...Ficar noivo em uma semana é estúpido, e uma pessoa que concorda com isso é ainda mais estúpida do que isso."
 show s neutral
-s "But I... I think I'd say yes if it were you, [name]. If only to see where life goes with someone like you."
-m "That's..."
+s "Mas eu... acho que diria sim se fosse você, [name]. Só para ver onde a vida vai com alguém como você."
+m "Isso é..."
 show s annoyed
-s "Shhh, shh, let me finish."
+s "Shhh, shh, deixa eu terminar."
 show s happy
-s "Regardless of who you ask on the last day, I'd... like to be your friend in the times to come."
+s "Independente de quem você perguntar no último dia, eu gostaria... de sua amiga no tempo que há de vir."
 show s worried
-s "I-If... you'll be mine. I can't remember the last time I had a friend to just... talk to, about how I feel."
+s "S-Se.... você ser meu. Eu não consigo me lembrar da última vez que eu tive um amigo para só... conversar, como eu me sinto."
 show s happy
-s "I think this was the first time... that I felt a little better about what happened."
+s "Eu acho que essa foi a primeira vez... eu me sinto um pouco melhor sobre o que aconteceu."
 show s laugh
-s " I'd want you to feel better about the past too."
+s "Eu gostaria que você se sentisse melhor sobre o passado também."
 show s sad
-s "I don't want you to feel alone in this world. It's sad enough, you know?"
+s  "Eu não quero que você se sinta sozinho nesse mundo. Isso é muito triste, você não acha?"
 show s neutral
-s "And maybe I'm just being foolish, but who knows. Maybe if we're still in each other's lives after all this, we'll be able to help each other take back the lives we wanted."
+s "E talvez eu esteja sendo tola, mas quem sabe. Talvez se nós continuarmos em outras vidas depois de tudo isso, seremos capazes de ajudar um ao outro a retomar as vidas que queríamos."
 show s laugh
-s "What do you say?"
-m "I was thinking the same thing, Scarlett."
+s "O que você disse?"
+m "Eu estava pensando a mesma coisa, Scarlett."
 show s flirt
-s "I'm glad. But, uh, how to say...."
+s "Eu estou feliz. Mas, uh, como dizer..."
 show s happy
-s "I'd still prefer it if you pick me. What can I say, I'm a bit competitive!"
+s "Eu ainda preferiria que você me escolhesse. O que posso dizer, sou um pouco competitiva!"
 show s angry
-s "On second thought, I'm very competitive!"
+s "Pensando bem, sou muito competitiva!"
 show s happy
-s "Just saying, but out of all the girls, I'm the best educated, had the most illustrious career, won first place in the National New Asian Science Exhibition, and -"
+s "Só estou dizendo, mas de todas as garotas, eu sou a mais educada, tive a carreira mais ilustre, ganhei o primeiro lugar na Exposição Nacional de Novas Ciências Asiáticas e -"
 show s neutral
-"I laughed out loud as she listed her accomplishments one by one. She made angry faces at me in mock-anger."
+"Eu ri alto enquanto ela listava suas realizações uma por uma. Ela fez caretas de raiva para mim em falsa raiva."
 show s happy
-s "But most of all... I want you to have a happy life, and I think someone else might... get it wrong."
-"We spent the rest of the evening enjoying each other's company."
-"The laughter and smiles never stopped, and she never let go of my hand during our walk."
+s "Mas acima de tudo... quero que você tenha uma vida feliz, e acho que outra pessoa pode... errar."
+"Passamos o resto da noite aproveitando a companhia um do outro."
+"As risadas e os sorrisos nunca pararam, e ela nunca soltou minha mão durante nossa caminhada."
 $ scarlettAffection=2
 jump postDateSelector

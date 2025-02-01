@@ -7,134 +7,134 @@ $ scarlettAffection=1
 #; maybe she's super awkward the first time, so she tries to make up for it by being cool the second time."
 show bg RoomMorning with dissolve
 play music MasterDisorder
-"It didn't take long to find Scarlett. She found me first."
+"Não demorou muito para encontrar Scarlett. Ela me encontrou primeiro."
 play sound DoorOpen
-"She had just burst through my door, and was trying to catch her breath as she slammed it shut behind her."
+"Ela tinha acabado de entrar pela minha porta e estava tentando recuperar o fôlego quando a fechou com força atrás de si."
 play sound DoorClose
 show s worried at pos50s with dissolve
-s "[name]! Thank god you're okay, oh my god."
-m "What's going on, Scarlett?"
+s "[name]! Graças a Deus você está bem, meu Deus."
+m "O que está acontecendo, Scarlett?"
 show s sad
-s "Long story short, I experimented with some of the local fauna on the island earlier, there's really nothing like it, it's really incredible, and ugh I messed up my intro with you earlier, and -"
-m "Woah! Slow down."
+s "Resumindo a história, eu experimentei um pouco da fauna local da ilha antes, não há nada igual, é realmente incrível, e ugh, eu errei minha introdução com você antes, e -"
+m "Uau! Devagar."
 show s worried
-s "*sigh*"
+s "*suspiro*"
 show s laugh
-s "...I made a new chemical compound that causes amnesia! It's amazing!"
-m "Wow! That's not something you hear every day."
+s "...Eu fiz um novo composto químico que causa amnésia! É incrível!"
+m "Uau! Isso não é algo que você ouve todo dia."
 show s happy
-s "The cool thing is, applying just the right amount to a person can make them forget specific things - who they are, how to write, anything."
+s "O legal é que aplicar a quantidade certa em uma pessoa pode fazê-la esquecer coisas específicas — quem ela é, como escrever, qualquer coisa."
 show s worried
-s "The bad thing is..."
+s "O ruim é que..."
 stop music
 play sound Hit
 play music RavingEnergy
 with vpunch
-"Something slammed into the door outside. I almost jumped up from the surprise."
-b4 "Gimme brains!!!!! And bananas!!!"
+"Algo bateu na porta lá fora. Quase pulei de surpresa."
+b4 "Dê-me cérebros!!!!! E bananas!!!"
 show s serious
-s "...Applying too much turns people to rabid monkey zombies, hell-bent on eating human brains."
+s "...Aplicar muito transforma as pessoas em macacos zumbis raivosos, determinados a comer cérebros humanos."
 show s worried
-s "...And bananas."
-m "Dear god, not the bananas..."
+s "...E bananas."
+m "Meu Deus, as bananas não..."
 with vpunch
 play sound Hit
-"The door slammed again. It sounded like it was about to be knocked down."
+"A porta bateu novamente. Parecia que ela estava prestes a ser derrubada."
 show s angry
-s "We need to get out of here, and fast!"
+s "Precisamos sair daqui, e rápido!"
 show b4 angry at pos30b
 show s surprised at pos70s
 with dissolve
 play sound Hit
 with vpunch
-"Four busted through the door, and blocked our only exit."
-b4 "GIMME BRAINS! AND BANANAS!"
-m "I'll get him out of the way! It'll give you time to run!"
+"Quatro arrombaram a porta e bloquearam nossa única saída."
+b4 "ME DÊ CÉREBROS! E BANANAS!"
+m "Vou tirá-lo do caminho! Vai dar tempo de você correr!"
 show s serious
-s "I've got a better idea."
+s "Tenho uma ideia melhor."
 stop music
 play music RunAmok
 play sound AnimeShine
 show s happy
 with vpunch
-"Scarlett blasted Four with a white powder, covering his face entirely."
+"Scarlett atingiu Quatro com um pó branco, cobrindo seu rosto completamente."
 hide b4 # with dissolve
 play sound Hit
 
-"He flailed wildly for a few seconds, then fell to the ground, unconscious."
+"Ele se debateu violentamente por alguns segundos e depois caiu no chão, inconsciente."
 
 menu:
-    "What was that!?":
+    "O que é que foi isso!?":
         jump sd1_c1
-    "Is he going to be okay?":
+    "Ele vai ficar bem?":
         jump sd1_c2
 
 label sd1_c1:
-m "Woah, what was that?"
+m "Uau, o que foi isso?"
 show s laugh  at pos50s with dissolve
-s "Uh, let's just say Four's seeing all the bananas he wants now, and we'll leave it at that. Follow me!"
+s "Uh, vamos apenas dizer que Quatro está vendo todas as bananas que quer agora, e vamos deixar por isso mesmo. Siga-me!"
 
 jump after_cd1_choice
 
 label sd1_c2:
-m "Woah, is he gonna be... okay?"
+m "Uau, ele vai ficar... bem?"
 show s laugh  at pos50s with dissolve
-s "...I guess we'll find out!"
+s "...Acho que vamos descobrir!"
 show s worried
-s "For now, let's focus on getting out of here!"
+s "Por enquanto, vamos nos concentrar em sair daqui!"
 
 label after_cd1_choice:
 
 show bg MansionMorning with dissolve
 stop music
 play music Sincerely
-"We ran outside of the mansion as fast as we could."
-m "How did this even happen?"
+"Corremos para fora da mansão o mais rápido que pudemos."
+m "Como isso aconteceu?"
 show s worried
-s "Ooh, I was afraid you'd ask that."
+s "Ooh, eu estava com medo que você perguntasse isso."
 show s sad
-s "...I heard from Terra that you lost your memories, and I... I wanted to see if I could help you get them back."
+s "...Ouvi de Terra que você perdeu suas memórias, e eu... eu queria ver se poderia ajudar você a recuperá-las."
 show s laugh
-s "So I, uh... may have experimented on the Brothers Five... to see if I could erase their memories... and bring them back."
+s "Então eu, uh... posso ter feito experimentos nos Cinco Irmãos... para ver se eu conseguia apagar suas memórias... e trazê-los de volta."
 show s surprised
-s "I must have done the numbers wrong - I added way too much, I didn't realize their brains were so empty in the first place!"
+s "Devo ter feito as contas errado. Somei demais. Não percebi que os cérebros deles eram tão vazios!"
 show s happy
-m "In a weird way... that's really sweet, Scarlett. Thanks. Crazy, but still, thanks."
+m "De uma forma estranha... isso é muito fofo, Scarlett. Obrigada. Loucura, mas ainda assim, obrigada."
 show s neutral
-s "I'll fix this, I swear. I just need time to make an antidote."
+s "Eu vou consertar isso, eu juro. Só preciso de tempo para fazer um antídoto."
 show s happy
-s "Luckily, I left my tools and supplies pretty near here. We can stay there till we've got an antidote."
-m "Sounds like a plan. Lead the way!"
-m "Wait... where are the other girls? Do you think they're still inside?"
+s "Por sorte, deixei minhas ferramentas e suprimentos bem perto daqui. Podemos ficar lá até termos um antídoto."
+m "Parece um plano. Lidere o caminho!"
+m "Espere... onde estão as outras garotas? Você acha que elas ainda estão lá dentro?"
 show s worried
-s "...They're... actually trapped inside the library right now."
-m "Oh shit! We've got to go back and save them!"
+s "...Eles estão... na verdade presos dentro da biblioteca agora."
+m "Oh merda! Temos que voltar e salvá-los!"
 show s sad
-s "Um... I don't know how to say this, but..."
+s "Hum... Não sei como dizer isso, mas..."
 show s laugh
-s "I accidentally turned them to zombies too, hahaha..."
+s "Eu acidentalmente os transformei em zumbis também, hahaha..."
 show s worried
-s "But they were a little bit much so I locked them in the library, ha... ha... ha...?"
-"...We're doomed, aren't we."
+s "Mas eles eram um pouco demais, então eu os tranquei na biblioteca, ha... ha... ha...?"
+"...Estamos condenados, não estamos."
 show s happy
-"Scarlett and I passed the time talking about the craziness that was going on, and coming up with a plan to save everybody."
-"She seemed to be quite frazzled, despite seeming so put together - but I could tell she really did care about the infected."
-"...Not enough to prevent this from happening in the first place, but enough."
-"I watched her build a machine that she insists can turn them back to normal, but..."
-"...Looking at it, I can't help but be a little skeptical."
+"Scarlett e eu passamos o tempo conversando sobre a loucura que estava acontecendo e bolando um plano para salvar todo mundo."
+"Ela parecia estar bem estressada, apesar de parecer tão organizada - mas eu podia dizer que ela realmente se importava com os infectados."
+"...Não o suficiente para evitar que isso acontecesse em primeiro lugar, mas o suficiente."
+"Eu a vi construir uma máquina que ela insiste que pode fazê-los voltar ao normal, mas..."
+"...Olhando para isso, não posso deixar de ficar um pouco cético."
 show bg MansionEvening with dissolve
 show s happy
 stop music
 play music RavingEnergy
-s "Alright, it's showtime."
-m "You really think this will work?"
+s "Tudo bem, é hora do show."
+m "Você realmente acha que isso vai funcionar?"
 show s laugh
-s "You bet! I made it, after all!"
+s "Pode apostar! Afinal, eu consegui!"
 show bg MansionIndoorsNight with dissolve# time:1
-"Looks like the coast is clear here..."
-"We walked to the outside of the library undetected, but we definitely weren't alone in here."
+"Parece que a costa está limpa aqui..."
+"Nós andamos até o lado de fora da biblioteca sem sermos detectados, mas definitivamente não estávamos sozinhos aqui."
 show s serious
-s "Alright! It's time to save our friends!"
+s "Tudo bem! É hora de salvar nossos amigos!"
 hide s with dissolve
 play sound DoorOpen
 show bg Library with dissolve # time:2
@@ -144,10 +144,10 @@ show t angry at pos40t
 show v angry at pos60v
 
 with dissolve
-all "Braiiiiins!!!!"
+all "Céeeerebrooos!!!!"
 with vpunch
-m "They're coming right at us!!"
-s "Nothing to worry about."
+m "Eles estão vindo direto para nós!!"
+s "Nada com que se preocupar."
 hide s
 hide a
 hide t
@@ -159,30 +159,30 @@ play music RunAmok
 show bg ScarlettShooting with dissolve # time:2
 #play ambient Minigun # loop:true
 $ renpy.sound.play("audio/sfx/minigun.mp3", loop=True)
-s "This is payback for you guys acing your introductions!!"
-m "I'm sorry... what?"
-s "Oh, uh... nothing."
-m "...You sure that's gonna cure them?"
-s "Of course, what does it look like I'm doing?"
+s "Isso é vingança por vocês terem arrasado nas apresentações!!"
+m "Desculpe... o quê?"
+s "Oh, uh... nada."
+m "...Tem certeza de que isso vai curá-los?"
+s "Claro, o que parece que estou fazendo?"
 m "..."
-"Something told me Scarlett was enjoying this a little too much..."
-k "Uh... what the hell? I take my eyes off the cameras for one second, and... there's zombies in the house."
-s "Not for much longer, promise!!"
-"We spent the rest of the day administering the antidote to each person. Each of them knocked out as soon as we delivered the cure."
+"Algo me disse que Scarlett estava gostando um pouco demais disso..."
+k "Uh... que diabos? Eu tiro os olhos das câmeras por um segundo, e... tem zumbis na casa."
+s "Não por muito mais tempo, prometo!!"
+"Passamos o resto do dia administrando o antídoto em cada pessoa. Cada um deles desmaiou assim que entregamos a cura."
 #I was exhausted by the time night rolled around."
 show bg MansionEvening with dissolve
 stop music
 stop sound #@stopsfx Minigun
 play music Sincerely
 show s happy at pos50s with dissolve
-s "Not quite the first date you expected, huh?"
-m "You can say that again."
-m "It was... definitely a first though."
+s "Não foi bem o primeiro encontro que você esperava, hein?"
+m "Você pode dizer isso de novo."
+m "Foi... definitivamente a primeira vez."
 show s laugh
-s "Kat told me that to make a date exciting, I had to get your heart racing."
+s "Kat me disse que, para tornar um encontro emocionante, eu precisava fazer seu coração disparar."
 show s happy
-s "I think I did a pretty good job at that!"
-"...I guess that's technically true, but aren't there easier ways?"
-"Something tells me this woman is full of more surprises."
+s "Acho que fiz um bom trabalho nisso!"
+"...Acho que isso é tecnicamente verdade, mas não há maneiras mais fáceis?"
+"Algo me diz que essa mulher é cheia de mais surpresas."
 $ scarlettAffection=1
 jump postDateSelector

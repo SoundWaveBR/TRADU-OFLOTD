@@ -4,160 +4,160 @@ show bg MansionMorning with dissolve
 $ scarlettAffection=2
 show s sad at pos50s with dissolve
 play music Sincerely
-"I found Scarlett out for a stroll outside the mansion."
-"She seemed a little down."
-m "Hey, Scarlett. You doing okay?"
+"Encontrei Scarlett dando uma volta do lado de fora da mansão."
+"Ela parecia um pouco deprimida."
+m "Ei, Scarlett. Você está bem?"
 show s surprised with vpunch
-s "A-Ah! Jeez!"
+s "A-Ah! Caramba!"
 show s worried
-s "Ah... It's just you, [name]. You almost gave me a heart attack."
-m "Sorry, I didn't mean to."
+s "Ah... É só você, [name]. Você quase me deu um ataque cardíaco."
+m "Desculpe, eu não queria."
 show s neutral
-s "It's, uh, not your fault. I'm just a bit on edge after the whole zombie... date? thing? Whatever it was."
+s "Não é, uh, sua culpa. Só estou um pouco nervoso depois de toda essa coisa de... encontro zumbi? Seja lá o que for."
 show s worried
-s "I guess I'm feeling a little sad about all that."
-m "Why? You saved everybody."
+s "Acho que estou me sentindo um pouco triste com tudo isso."
+m "Por quê? Você salvou todo mundo."
 show s sad
-s "We wouldn't have needed to save anybody if it wasn't for me."
+s "Não precisaríamos salvar ninguém se não fosse por mim."
 
 menu:
-    "Don't worry about it":
+    "Não se preocupe com isso":
         jump sd2_c1
-    "At least you fixed the situation":
+    "Pelo menos você resolveu a situação":
         jump sd2_c2
 
 
 label sd2_c1:
-m "We all make mistakes, Scarlett. Don't worry about it anymore."
+m "Todos nós cometemos erros, Scarlett. Não se preocupe mais com isso."
 show s annoyed
-s "Most people don't make mistakes that turn everybody into zombies."
-m "Well, yes, but hey, it makes for good TV!"
+s "A maioria das pessoas não comete erros que transformam todo mundo em zumbis."
+m "Bem, sim, mas ei, isso rende uma boa TV!"
 jump after_sd2_c1
 
 label sd2_c2:
-m "Hey, at least we don't have banana zombies running around anymore."
-m "Without your help, they'd still be running rampant."
+m "Ei, pelo menos não temos mais zumbis banana correndo por aí."
+m "Sem sua ajuda, eles ainda estariam correndo soltos."
 show s annoyed
-s "Still, they wouldn't have been running around in the first place if it wasn't for me."
-m "Well, that's true, but hey, it makes for great TV!"
+s "Ainda assim, eles não estariam correndo por aí em primeiro lugar se não fosse por mim."
+m "Bem, isso é verdade, mas ei, isso rende uma ótima TV!"
 
 label after_sd2_c1:
-"Which inadvertently, is pretty good for keeping me alive... but I'll keep quiet on that."
-m "Besides, you did it because you were trying to help me get my memories back."
+"O que, inadvertidamente, é muito bom para me manter vivo... mas vou ficar quieto sobre isso."
+m "Além disso, você fez isso porque estava tentando me ajudar a recuperar minhas memórias."
 show s happy
-m "That means more to me than I can say."
+m "Isso significa mais para mim do que posso dizer."
 show s sad
-s "...I'm sorry I couldn't do it."
+s "...Sinto muito por não ter conseguido."
 show s surprised
-s "If it's okay with you, I'll try again, and I'm sure this time -"
-m "Let's not worry about that for now. Thanks, though. I appreciate it."
+s "Se estiver tudo bem para você, tentarei novamente, e tenho certeza que dessa vez -"
+m "Não vamos nos preocupar com isso por enquanto. Mas obrigada. Eu aprecio isso."
 show s happy
-m "For now, I just want to get to know you better, Scarlett."
+m "Por enquanto, só quero te conhecer melhor, Scarlett."
 show s neutral
-m "We got... interrupted, last time. To say the least."
-m "Care to join me in making up for some lost time?"
+m "Fomos... interrompidos, da última vez. Para dizer o mínimo."
+m "Quer se juntar a mim para compensar o tempo perdido?"
 show s happy
-s "That would be fantastic!"
+s "Isso seria fantástico!"
 show s neutral
-s "There's somewhere I'd like to go, if it's okay with you...?"
-m "Lead the way!"
+s "Há um lugar que eu gostaria de ir, se estiver tudo bem para você...?"
+m "Mostre o caminho!"
 show s laugh
-s "You won't regret it!"
+s "Você não vai se arrepender!"
 show s worried
 show s neutral
 show s worried
 show s neutral
-s "At least, I think you won't."
-m "Should I be worried?"
+s "Pelo menos, acho que não vai."
+m "Devo me preocupar?"
 show s laugh
-s "Come on, let's go!"
-"She grabbed my hand and pulled me along with her."
-"Who could say no to a girl who could turn you to a zombie?"
+s "Vamos, vamos!"
+"Ela agarrou minha mão e me puxou junto com ela."
+"Quem poderia dizer não a uma garota que poderia te transformar em um zumbi?"
 hide s with dissolve
 show bg Black with dissolve # time:3
 $ renpy.pause(delay = 2.0, hard = False)
 stop music
 play music ElectroCabello
 show bg ScarlettNightclub with dissolve # time:2
-s "Behold!!!"
-m "...There's a nightclub in the mansion?"
-s "There is now! I made it myself!"
-s "Granted, I use it more as a testing ground than a real nightclub, but the staff really wanted something to blow off steam in..."
-s "And okay, I cheated a little bit, I made a robot that made the nightclub for me, but it still counts."
-m "I think you're probably the first person ever to say something like that."
-m "Also, I didn't know you knew how to build robots! That's amazing."
-s "Hell yeah, it's cool."
-s "I get the feeling that building things to make people happier was what I enjoyed the most before I came here."
-m "...What do you mean by that?"
+s "Vejam!!!"
+m "...Tem uma boate na mansão?"
+s "Agora tem! Eu mesmo a fiz!"
+s "Claro, eu a uso mais como um campo de testes do que uma boate de verdade, mas a equipe realmente queria algo para desabafar..."
+s "E tudo bem, eu trapaceei um pouco, fiz um robô que fez a boate para mim, mas ainda conta."
+m "Acho que você é provavelmente a primeira pessoa a dizer algo assim."
+m "Além disso, eu não sabia que você sabia construir robôs! Isso é incrível."
+s "Claro que sim, é legal."
+s "Tenho a sensação de que construir coisas para deixar as pessoas mais felizes era o que eu mais gostava antes de vir para cá."
+m "...O que você quer dizer com isso?"
 show bg Nightclub with dissolve
 show s laugh at pos50s with dissolve
-s "You wouldn't believe me if I told you!"
+s "Você não acreditaria se eu contasse!"
 show s surprised
-s "Actually... maybe you're the one person who would, maybe it's worth a shot."
-"Could she... be like me?"
+s "Na verdade... talvez você seja a única pessoa que faria isso, talvez valha a pena tentar."
+"Ela poderia... ser como eu?"
 stop music
 
 play music Bittersweet
 show s worried
-s "I... there's so much of my life I can't remember, for some reason."
-"I couldn't help but raise an eyebrow."
+s "Eu... tem tanta coisa da minha vida que não consigo lembrar, por algum motivo."
+"Não pude deixar de levantar uma sobrancelha."
 show s sad
-s "...There was a lot of broken people after the war in New Asia."
+s "...Havia muita gente destruída depois da guerra na Nova Ásia."
 show s serious
-s "Not just broken bones and missing limbs... but shattered minds. People trapped in their own heads."
+s "Não apenas ossos quebrados e membros faltando... mas mentes despedaçadas. Pessoas presas em suas próprias cabeças."
 show s neutral
-s "... I was told I had a gift for research - a gift that might help those people be able to reclaim their lives."
+s "... Disseram-me que eu tinha um dom para a pesquisa — um dom que poderia ajudar essas pessoas a recuperarem suas vidas."
 show s serious
-s "So I finished school early, and got my PhD. I led a task force dedicated to helping the survivors."
+s "Então terminei a escola mais cedo e fiz meu doutorado. Liderei uma força-tarefa dedicada a ajudar os sobreviventes."
 show s neutral
-s "We helped them forget their most painful, most traumatic memories... and move on."
+s "Nós os ajudamos a esquecer suas memórias mais dolorosas e traumáticas... e seguir em frente."
 show s laugh
-s "It was my life's work, you know! But now..."
+s "Era o trabalho da minha vida, sabia! Mas agora..."
 show s worried
-s "...I can't remember what it was. How it worked, if we even got anywhere with our research."
+s "...Não consigo lembrar o que era. Como funcionava, se chegamos a algum lugar com nossa pesquisa."
 show s laugh
-s "To be completely honest, I can't really remember how I got here either."
-m "I'm sorry to ask, but... how on earth did that happen?"
+s "Para ser completamente honesto, eu também não consigo lembrar como cheguei aqui."
+m "Sinto muito perguntar, mas... como diabos isso aconteceu?"
 show s sad
-s "If I knew before, I definitely don't know now."
+s "Se eu sabia antes, agora definitivamente não sei."
 show s worried
-s "Maybe testing got dangerous, and I wasn't willing to test on someone else."
+s "Talvez os testes tenham se tornado perigosos e eu não estivesse disposto a testar em outra pessoa."
 show s sad
-s "Maybe I... I don't know. I don't know."
+s "Talvez eu... eu não sei. Eu não sei."
 stop music
 play music SmoothLovin
 show s laugh
-s "The crazy thing is... I went from that... to being on some kind of dating show? What the hell?"
-m "I guess it does sound pretty weird."
+s "O mais louco é... eu fui disso... para algum tipo de programa de namoro? Que diabos?"
+m "Eu acho que parece bem estranho."
 show s surprised
-s "And the idea of getting married in one week? Who wrote this, an idiot?"
-"I couldn't help but laugh."
+s "E a ideia de se casar em uma semana? Quem escreveu isso, um idiota?"
+"Não consegui deixar de rir."
 show s happy
-s "But... what do I even have to lose at this point?"
-m "I wouldn't look at it that way."
-m "I can't remember anything either, but... I'm alive."
-m "As long as I'm alive - I've got everything to lose, and everything to gain."
+s "Mas... o que eu tenho a perder neste momento?"
+m "Eu não olharia dessa forma."
+m "Eu também não consigo lembrar de nada, mas... eu estou vivo."
+m "Enquanto eu estiver vivo - eu tenho tudo a perder e tudo a ganhar."
 show s laugh
-s "An optimist, huh. That's... worth something."
+s "Um otimista, hein. Isso... vale alguma coisa."
 show s sad
-s "I guess you'd understand, better than anyone."
+s "Acho que você entenderia melhor do que ninguém."
 show s neutral
-s "...What do you plan to do after this is all over?"
-m "Honestly, I don't know."
-m "I want my memories back, but if I can't get them back... I'd just try to make the best of things."
+s "...O que você planeja fazer depois que tudo isso acabar?"
+m "Sinceramente, não sei."
+m "Quero minhas memórias de volta, mas se não puder recuperá-las... tentarei fazer o melhor das coisas."
 show s tease
-s "That's some plan!"
-m "I'm still working the details out, give me a break!"
-m "At least you remember some things, I couldn't even remember my name at first!"
+s "Que plano!"
+m "Ainda estou trabalhando nos detalhes, me dá um tempo!"
+m "Pelo menos você lembra de algumas coisas, eu nem conseguia lembrar do meu nome no começo!"
 show s laugh
-s "You got me beat there!"
+s "Você me venceu!"
 show bg MansionIndoorsNight with dissolve # time:2
-"We talked for hours about how we both felt about our situations."
-"The good things, the bad things, about forgetting who you are."
-"We laughed about forgetting the embarrassing moments that probably plagued others for a lifetime."
-"We lamented the moments that truly made life worth living - the moments that made your life unique."
+"Conversamos por horas sobre como ambos nos sentíamos em relação às nossas situações."
+"As coisas boas, as coisas ruins, sobre esquecer quem você é."
+"Nós rimos sobre esquecer os momentos embaraçosos que provavelmente atormentaram os outros por uma vida inteira."
+"Nós lamentamos os momentos que realmente fizeram a vida valer a pena - os momentos que tornaram sua vida única."
 show s neutral
-s "...It's nice to have someone that understands."
+s "...É bom ter alguém que entende."
 show s laugh
 s "You know, I've got a silly idea, if you're interested."
 m "Let's hear it!"

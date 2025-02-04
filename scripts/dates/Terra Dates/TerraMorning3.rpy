@@ -3,30 +3,30 @@ label TerraMorning3:
 show bg GamesRoomMorning with dissolve
 play music RomanticJazz
 
-"I woke up on the floor of the Games Room."
-"Terra was sleeping on the sofa, with one hand still on her game console."
-"We had spent all night playing games and watching movies, like it was our own little sleepover."
+"Acordei no chão da Sala de Jogos."
+"Terra estava dormindo no sofá, com uma mão ainda no console de jogos."
+"Nós passamos a noite toda jogando e assistindo filmes, como se fosse nossa própria pequena festa do pijama."
 show t surprised at pos50t with vpunch
-t "...Pigeon Zombies Everywhere!!! AAAAAHHH!!!"
-"...And then she was up."
-"Let's hope this insane show never gets to the point where Terra's dreams make sense."
+t "...Pombos Zumbis Por Toda Parte!!! AAAAAHHH!!!"
+"...E então ela acordou."
+"Vamos torcer para que esse show insano nunca chegue ao ponto em que os sonhos de Terra façam sentido."
 show t annoyed
-t "Oh man, my head's pounding, but..."
+t "Nossa, minha cabeça está latejando, mas..."
 show t blush
-t "...I've got no regrets!"
-m "Me neither."
+t "...Eu não me arrependo!"
+m "Eu também não."
 show t happy
-t "We've got to do this again sometime soon, [name]."
-m "You bet!"
+t "Temos que fazer isso de novo em breve, [name]."
+m "Pode apostar!"
 show t neutral
-t "Is it time for you to go on a date with somebody else now?"
-m "...Yeah. That's just how it is."
+t "Está na hora de você sair com outra pessoa agora?"
+m "...Sim. É assim que é."
 show t happy
-t "Alright, have fun!"
+t "Tudo bem, divirta-se!"
 show t neutral
-t "Save some time for gaming with me later, okay?"
-m "Sounds like a plan."
+t "Guarde um tempo para jogar comigo mais tarde, ok?"
+m "Parece um plano."
 show t blush
-t "Awesome."
+t "Incrível."
 hide t with dissolve
 jump postMorningSelector

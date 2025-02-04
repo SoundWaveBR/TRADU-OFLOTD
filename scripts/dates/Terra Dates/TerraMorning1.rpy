@@ -9,43 +9,43 @@ show a neutral at pos30a with dissolve# former look:right
 show s surprised at pos70s with dissolve# former look:left
 show y happy at pos90y with dissolve# former look:left
 show t happy  at pos50t with dissolve# former ,,-1 # former look:right
-"We kicked off our morning with a delicious meal made by Violet."
+"Começamos nossa manhã com uma refeição deliciosa feita pela Violet."
 show y surprised
-y "So tell us more about your dream, Terra!"
+y "Então conte-nos mais sobre seu sonho, Terra!"
 show t worried
-t "I don't really remember much, but... I was in a video game, and..."
+t "Eu realmente não me lembro de muita coisa, mas... eu estava em um videogame, e..."
 show t surprised
-t "...I was getting hit on by a lot of pigeons?"
+t "...Eu estava sendo abordado por muitos pombos?"
 show y surprised
 y "...Uh..."
 show y laugh
-y "How am I supposed to respond to that?"
+y "Como devo responder a isso?"
 show t surprised
-t "...What if it was a sign?"
+t "...E se fosse um sinal?"
 show v worried
-v "I'm sorry, what?"
+v "Desculpa, o quê?"
 show v sassy
-v "It was a dream, nothing more. I don't see how..."
+v "Foi um sonho, nada mais. Não vejo como..."
 show a laugh
-"Allie had a devilish grin on her face."
+"Allie tinha um sorriso diabólico no rosto."
 show a happy
-a "...I think it IS a sign, Terra."
+a "...Eu acho que É um sinal, Terra."
 show a surprised
-a "It's a sign... that you should try making video games."
+a "É um sinal... de que você deveria tentar fazer videogames."
 show a laugh
-a "The world needs more pigeon dating sims!"
+a "O mundo precisa de mais simuladores de encontros com pombos!"
 show t surprised
-t "...You're right!"
+t "...Você tem razão!"
 show t happy
-t "There's no time to waste!"
+t "Não há tempo a perder!"
 hide t with dissolve
-"Terra ran off."
+"Terra fugiu."
 show v worried
-v "Oh my. Are you certain that was a good idea to spur her on?"
+v "Meu Deus. Você tem certeza de que foi uma boa ideia estimulá-la?"
 show a laugh
-a "Of course!"
+a "Claro!"
 show a happy
-a "Seriously, what's the worst that could happen?"
-"I felt a chill run down my spine."
+a "Sério, qual é a pior coisa que poderia acontecer?"
+"Senti um arrepio percorrer minha espinha."
 
 jump postMorningSelector

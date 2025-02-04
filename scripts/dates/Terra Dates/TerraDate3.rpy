@@ -6,12 +6,12 @@ $ terraAffection=3
 
 #; NNEEEEDS REWRITE!"
 #; she needs to show you the completed game
-"I found Terra sleeping on the sofa in the Games Room."
-"She looked so peaceful."
-"...Maybe I'll come back later."
+"Encontrei Terra dormindo no sofá da Sala de Jogos."
+"Ela parecia tão em paz."
+"...Talvez eu volte mais tarde."
 show t surprised at pos50t with vpunch
-t "...Zombies everywhere!!!!!! Ahhhhhhh!!!!!"
-"She bolted up suddenly."
+t "...Zumbis por todo lugar!!!!!! Ahhhhhhh!!!!!"
+"Ela pulou de repente."
 
 menu:
     "You okay?":
@@ -20,178 +20,178 @@ menu:
         jump td3_c2
 
 label td3_c1:
-m "Woah! You okay, Terra?"
+m "Uau! Você está bem, Terra?"
 show t worried
-t "Whew, it was just a dream."
+t "Onde, era apenas um sonho."
 show t neutral
-t "I'm good now, no worries."
-m "Seems like it was a pretty crazy dream."
+t "Estou bem agora, sem preocupações."
+m "Parece que foi um sonho bem louco."
 jump td3_pc
 
 label td3_c2:
-m "...Crazy dream?"
+m "...Sonho louco?"
 
 label td3_pc:
 
 show t surprised
-t "No kidding! I dreamed that we all got turned into zombies."
+t "Sério! Sonhei que todos nós fomos transformados em zumbis."
 show t happy
-t "Luckily, there's no way that could ever happen."
+t "Felizmente, isso não tem como acontecer."
 show t neutral
-m "...Did you go to bed late?"
+m "...Você foi dormir tarde?"
 show t happy
-t "Hell yeah! I spent all night working on the game."
+t "Claro que sim! Passei a noite toda trabalhando no jogo."
 show t neutral
-t "And I've finished it, too!"
+t "E eu terminei também!"
 show t happy
-t "Care to join me in testing it out?"
+t "Você quer se juntar a mim para testar?"
 show t blush
-t "I, uh... added some new features I'd like you try."
-m "Sure! I'd love to."
-"It looked like the same game I had played before."
-m "What am I looking for?"
+t "Eu, uh... adicionei alguns novos recursos que gostaria que você experimentasse."
+m "Claro! Eu adoraria."
+"Parecia o mesmo jogo que eu tinha jogado antes."
+m "O que estou procurando?"
 show t happy
-t "You'll see!"
+t "Você verá!"
 stop music
 play music BlippyTrance
 show bg LakeMorning with dissolve
-"I started up the game."
-"Moments later, I saw Terra's avatar run up to me."
+"Eu comecei o jogo."
+"Momentos depois, vi o avatar de Terra correndo até mim."
 show t happy
-t "You've made it just in time, the new event is about to start!"
-m "What's the new event?"
+t "Você chegou bem na hora, o novo evento está prestes a começar!"
+m "Qual é o novo evento?"
 stop music
 play music RocketPower
-"As if on cue, giant robotic pigeons flew from the sky and started to attack our avatars."
+"Como se fosse uma deixa, pombos robóticos gigantes voaram do céu e começaram a atacar nossos avatares."
 m "Aggggghhh!!!!"
 
 menu:
-    "Run for my life":
+    "Corra pela minha vida":
         jump td3_c3
-    "Fight the pigeons":
+    "Lute contra os pombos":
         jump td3_c4
 
 
 label td3_c3:
-"I ran for dear life."
+"Corri para salvar minha vida."
 jump td3_pc2
 
 label td3_c4:
-"I ran towards the pigeons, preparing for the fight of a lifetime."
+"Corri em direção aos pombos, me preparando para a luta da minha vida."
 
 label td3_pc2:
 
 show t neutral
-t "Don't worry, I gotcha!"
-"Terra pulled out a giant can of pigeon repellant and started blasting away."
+t "Não se preocupe, eu te peguei!"
+"Terra pegou uma lata gigante de repelente de pombos e começou a atirar."
 show t surprised
-t "Woah! I think something's bugged, it's not working at all!"
+t "Uau! Acho que tem algo bugado, não está funcionando de jeito nenhum!"
 show t happy
-t "Guess I gotta fix that. Hehehe..."
-"While Terra was laughing at her own mistake, I was being lifted into the sky by the pigeons."
-m "Uh... I think I'm screwed."
-m "Where are these pigeons taking me?"
-"I tried to move my avatar, but there was no way to resist the death grip of the robo pigeon."
+t "Acho que tenho que consertar isso. Hehehe..."
+"Enquanto Terra ria do próprio erro, eu estava sendo erguido para o céu pelos pombos."
+m "Uh... Acho que estou ferrado."
+m "Para onde esses pombos estão me levando?"
+"Tentei mover meu avatar, mas não havia como resistir ao aperto mortal do pombo robô."
 show t neutral
-t "Don't worry! They're about to fly into the territory of the Maple Syrup Dragon!"
-m "The... what?"
+t "Não se preocupe! Eles estão prestes a voar para o território do Dragão de Xarope de Bordo!"
+m "O... o quê?"
 show t worried
 t "Uh oh."
 show t surprised
-"The screen lit up with a blast of flying maple syrup."
-"...I never thought I'd ever say something like that, but here we are."
-"The maple syrup slammed into the pigeons, and forcefully stuck their wings together."
-"As a consequence, they started to fall to the ground at breakneck speed."
+"A tela se iluminou com uma explosão de xarope de bordo voador."
+"...Eu nunca pensei que diria algo assim, mas aqui estamos."
+"O xarope de bordo bateu nos pombos e uniu suas asas com força."
+"Como consequência, eles começaram a cair no chão em uma velocidade alucinante."
 m "AaaaaaAAAAHHHH!!!"
-m "Save me, I hadn't saved yet!"
+m "Salve-me, eu ainda não tinha salvado!"
 show t surprised
-t "Ah, I knew I forgot something! I forgot to add the ability to save."
+t "Ah, eu sabia que tinha esquecido de algo! Esqueci de adicionar a capacidade de salvar."
 show t happy
-t "I'll have to write that down!"
-"As Terra took notes, I rapidly fell to my doom."
-m "I'm happy for you, but if you could just for a minute -"
+t "Vou ter que anotar isso!"
+"Enquanto Terra tomava notas, eu rapidamente caí na minha desgraça."
+m "Estou feliz por você, mas se você pudesse por um minuto -"
 play sound Hit
 with vpunch
-"My avatar smacked into the ground, pigeon-first, and instantly died on impact."
-m "Aw man, I had so much stuff!"
+"Meu avatar caiu no chão, como um pombo, e morreu instantaneamente com o impacto."
+m "Nossa, cara, eu tinha tanta coisa!"
 show t neutral
-m "Is there at least a respawn mechanic? I've never died before in this game."
+m "Existe pelo menos uma mecânica de respawn? Eu nunca morri antes neste jogo."
 show t happy
-t "Of course!"
+t "Claro!"
 show t neutral
-t "Just hit the 'Retry' button."
-"I pressed the button, and watched the world around me reset to the village, sans the giant beasts of death."
+t "Basta apertar o botão 'Repetir'."
+"Apertei o botão e vi o mundo ao meu redor voltar à vila, sem as feras gigantes da morte."
 show t surprised
-"Except now, the village seemed ten times bigger than before."
-m "Wait, when did the village get so big?"
-"And then it dawned on me."
-m "Wait... it's not the village that got big."
+"Só que agora, a vila parecia dez vezes maior do que antes."
+m "Espera, quando a vila ficou tão grande?"
+"E então me dei conta."
+m "Espera... não foi a vila que ficou grande."
 with vpunch
-m "I got small!!!"
-"I took a more careful look at my avatar."
-"...I was a pigeon again."
-"I sighed deeply."
+m "Fiquei pequeno!!!"
+"Olhei com mais cuidado para o meu avatar."
+"...Eu era um pombo novamente."
+"Suspirei profundamente."
 show t happy
-"At the same time, Terra was giggling like a child."
+"Ao mesmo tempo, Terra estava rindo como uma criança."
 #...Pigeons, man."
 hide t with dissolve
 
-"We spent a few more hours testing out the rest of the game's new features."
-"Thankfully, there were no more pigeon easter eggs."
+"Passamos mais algumas horas testando o restante dos novos recursos do jogo."
+"Felizmente, não houve mais ovos de páscoa de pombos."
 stop music
 play music LoveTheme
 show bg LakeMorning with dissolve
 show t blush at pos50t with dissolve
-t "There's, uh... one last thing I want to test out, if that's okay?"
-m "Will it end with me getting turned into a pigeon?"
+t "Há, uh... uma última coisa que eu quero testar, se estiver tudo bem?"
+m "Isso vai acabar comigo sendo transformado em um pombo?"
 show t surprised
-t "No-o-o-o...."
+t "Nã-ã-ã-ã-ã-o..."
 show t happy
-t "Just come with me!"
-"I followed her avatar to the cabin we shared in the woods."
+t "Só venha comigo!"
+"Eu segui o avatar dela até a cabana que dividíamos na floresta."
 show t blush
-"When we got there, she turned around, walked up to me, and held out an item I'd never seen before."
+"Quando chegamos lá, ela se virou, veio até mim e me mostrou um item que eu nunca tinha visto antes."
 hide t with dissolve
 show bg TerraProposal with dissolve
-"She walked up to me, and gave me an item called {i}Ring of You're Pretty Cool{/i}."
-m "...What's this?"
+"Ela veio até mim e me deu um item chamado {i}Anel de Você é Bem Legal{/i}."
+m "...O que é isso?"
 #show t surprised
-t "Um. Let me try to explain!"
+t "Hum. Deixe-me tentar explicar!"
 #show t happy
-t "...I came onto this show with no idea of what it was about."
-t "Personally, I thought it was stupid at first."
-t "But... hanging out with you has been so much fun."
-t "I've never really got to work on my hobbies with anybody, till I met you."
-t "Honestly, I've never had someone to share all my crazy shit with, but you... you're different."
-t "So... I guess what I'm trying to say, is...."
-t "...You're pretty cool, and I hope we can keep doing this, even after the show is over."
+t "...Eu vim para esse programa sem ter a mínima ideia do que se tratava."
+t "Pessoalmente, eu achei estúpido no começo."
+t "Mas... sair com você tem sido muito divertido."
+t "Eu nunca consegui trabalhar meus hobbies com ninguém, até te conhecer."
+t "Sinceramente, eu nunca tive alguém para compartilhar todas as minhas loucuras, mas você... você é diferente."
+t "Então... eu acho que o que eu estou tentando dizer é..."
+t "...Você é bem legal, e eu espero que a gente possa continuar fazendo isso, mesmo depois que o programa acabar."
 
 menu:
-    "I'd love to":
+    "Eu adoraria":
         jump td3_c5
-    "Sounds like a plan":
+    "Parece um plano":
         jump td3_c6
 
 label td3_c5:
-m "I'd love to, Terra."
-m "You don't even have to ask!"
+m "Eu adoraria, Terra."
+m "Você nem precisa pedir!"
 jump td3_pc3
 
 label td3_c6:
-m "Sounds like a plan, Terra."
+m "Parece um plano, Terra."
 
 label td3_pc3:
 
-m "I've got to say, you caught me off guard with this."
+m "Tenho que dizer que você me pegou desprevenido com isso."
 show bg LakeMorning with dissolve
 show t surprised at pos50t with dissolve
-t "Why's that?"
-m "You giving this ring to me, it... uh, well, it could be a little misleading."
+t "Por que isso?"
+m "Você me dar esse anel, isso... uh, bem, pode ser um pouco enganoso."
 show t blush
-t "Y-You're not making any sense!"
+t "V-você não está fazendo sentido algum!"
 show bg GamesRoomEvening with dissolve
-"We laughed together, then walked back to the mansion with a spring in our step."
-"We played the day away, without a care in the world."
+"Nós rimos juntos, então voltamos para a mansão com um salto em nossos passos."
+"Nós brincamos o dia todo, sem nenhuma preocupação no mundo."
 
 if playthrough == 1 and currentDay == 6:
     jump LastDateTerra
@@ -203,52 +203,52 @@ else:
 label LastDateTerra:
 
 show t neutral
-t "...Well, that's enough gaming for today!"
+t "...Bem, chega de jogos por hoje!"
 show t happy
-t "You up for a movie date?"
-m "Sure! What do you want to watch?"
+t "Você está a fim de um encontro no cinema?"
+m "Claro! O que você quer assistir?"
 show t surprised
-t "How about... woah."
+t "Que tal... uau."
 stop music
 play music Smile
 play sound Shutdown
-"And then I saw something I'd never seen before - and would never see again."
+"E então vi algo que nunca tinha visto antes - e nunca mais veria."
 show t worried
 show bg GamesRoomNight with dissolve
-"The sky outside rapidly turned from orange to black, as if it were water being drowned in the darkest ink."
+"O céu lá fora rapidamente mudou de laranja para preto, como se fosse água sendo afogada na tinta mais escura."
 show bg Black with dissolve
 show t surprised
 hide t with dissolve
-"Then the bright sun in the sky... went out, like a candle in the wind."
-t "Woah! What's going on?"
-"She held my hand tight - I could feel that she was scared."
+"Então o sol brilhante no céu... se apagou, como uma vela ao vento."
+t "Uau! O que está acontecendo?"
+"Ela segurou minha mão com força - eu podia sentir que ela estava assustada."
 
 play sound GroupRun
 
-"I didn't have a chance to respond before I heard a rush of footsteps coming towards us in the dark."
-"Something isn't right - Oh no."
-"We were surrounded."
+"Não tive a chance de responder antes de ouvir uma onda de passos vindo em nossa direção no escuro."
+"Algo não está certo - Oh, não."
+"Estávamos cercados."
 stop sound #@stopsfx GroupRun
 
-"A familiar voice cut through the short silence of me holding my breath."
-q "I'm sorry, [name]. You just.... didn't make the cut."
-"We've got to get out of here."
-q "...Just make it quick, please."
-t "[name], I'm scared, what's happening!?"
-"I clasped her hand as tight as I could."
-m "We need to get out of here, come on!"
+"Uma voz familiar cortou o curto silêncio em que prendi a respiração."
+q "Sinto muito, [name]. Você só... não conseguiu."
+"Temos que sair daqui."
+q "...Só faça isso rápido, por favor."
+t "[name], estou com medo, o que está acontecendo!?"
+"Apertei a mão dela o mais forte que pude."
+m "Precisamos sair daqui, vamos!"
 play sound Hit
-"I didn't even make 3 steps before I was tackled down and cuffed behind my back."
+"Eu nem dei 3 passos antes de ser derrubado e algemado nas costas."
 play sound Handcuffs
-t "[name]! Hold on, I'll -"
-"I yelled at her to run, but she came back to try to help me."
-m "Terra, you've got to get out of here, I -"
-"She screamed - they must have got her."
-"It was no use. Even though she was right in front of me, I was powerless to get even an inch closer."
+t "[name]! Espere, eu vou -"
+"Eu gritei para ela correr, mas ela voltou para tentar me ajudar."
+m "Terra, você tem que sair daqui, eu -"
+"Ela gritou - eles devem tê-la pegado."
+"Não adiantou. Mesmo que ela estivesse bem na minha frente, eu não tinha forças para chegar nem um centímetro mais perto."
 play sound Handcuffs
-"They tackled her down in an instant. I heard the clink of the cuffs as they dragged her away."
-"I struggled with everything I had to get up, to save her, to run... for what felt like an eternity."
-"Then... nothing."
+"Eles a derrubaram em um instante. Ouvi o tilintar das algemas enquanto a arrastavam para longe."
+"Lutei com todas as minhas forças para me levantar, para salvá-la, para correr... pelo que pareceu uma eternidade."
+"Então... nada."
 
 if playthrough == 1:
     jump P1Ending
@@ -258,17 +258,17 @@ if playthrough == 2:
 label NotLastDateTerra:
 
 show t neutral
-t "...Well, that's enough gaming for today!"
+t "...Bem, chega de jogos por hoje!"
 show t happy
-t "You up for a movie date?"
-m "Sure! What do you want to watch?"
+t "Você está a fim de um encontro no cinema?"
+m "Claro! O que você quer assistir?"
 show t neutral
-t "It's a Hitchcock film! I've always wanted to see it."
-m "What's it called?"
+t "É um filme do Hitchcock! Sempre quis vê-lo."
+m "Como se chama?"
 show t happy
-t "...The Birds."
-"...I felt a blood vessel in my head pop."
-"This woman is bad for my heart."
-"...But she never fails to put a smile on my face."
+t "...Os Pássaros."
+"...Senti um vaso sanguíneo estourar na minha cabeça."
+"Essa mulher faz mal para o meu coração."
+"...Mas ela nunca deixa de colocar um sorriso no meu rosto."
 $ terraAffection=3
 jump postDateSelector

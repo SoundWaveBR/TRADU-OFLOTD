@@ -11,38 +11,38 @@ show s surprised at pos70s with dissolve # former look:left
 
 show t happy  at pos50t with dissolve # former ,,-1 # former look:right
 #; she's showing off the game to the other girls!"
-"The girls and I kicked off our morning by testing out Terra's game together."
-"It was multiplayer now, so we all could play together in the same 'world'."
-"This came with its own fair share of consequences."
+"As meninas e eu começamos nossa manhã testando o jogo da Terra juntas."
+"Agora era multijogador, então todos nós podíamos jogar juntos no mesmo 'mundo'."
+"Isso veio com sua própria cota de consequências."
 with vpunch # Violet
 show v angry
-v "I said, cover me! Or you'll have to finish making dinner yourself!"
+v "Eu disse, me cubra! Ou você terá que terminar de fazer o jantar você mesmo!"
 with vpunch # Allie
 show a surprised
-a "I'm trying, I'm trying! There's just too many mutant vegetables attacking!"
+a "Estou tentando, estou tentando! Tem muitos vegetais mutantes atacando!"
 with vpunch # Allie
 show a angry
-a "Yui, I need you to cover me! Where are you???"
+a "Yui, preciso que você me cubra! Onde você está???"
 with vpunch # Yui
 show y shy
-y "I'm sorry!! It's the Mayor's birthday, and I can't decide which berry to give him!!"
+y "Desculpe!! É o aniversário do prefeito e não consigo decidir qual fruta dar a ele!!"
 show a angry
-a "It can wait!"
+a "Isso pode esperar!"
 with vpunch # Yui
 show y angry
-y "But then I won't get bonus points!"
+y "Mas então não ganharei pontos de bônus!"
 show s surprised
-s "Come to think of it, I think we're running low on tomatoes and carrots. Do you need any, Violet?"
+s "Pensando bem, acho que estamos ficando sem tomates e cenouras. Você precisa de algum, Violet?"
 show v laugh
-v "We have enough to survive the winter, but more supplies are always welcome!"
+v "Temos o suficiente para sobreviver ao inverno, mas mais suprimentos são sempre bem-vindos!"
 show s happy
-s "I'm on it!"
+s "Estou cuidando disso!"
 show t happy
-t "Well, the game's definitely gotten more exciting!"
+t "Bem, o jogo definitivamente ficou mais emocionante!"
 show t worried
-t "I wanted for them to test the relationships, but maybe that'll have to wait a bit."
-m "I guess we'll see next time?"
+t "Eu queria que eles testassem os relacionamentos, mas talvez isso tenha que esperar um pouco."
+m "Acho que veremos na próxima vez?"
 show t blush
-t "Yeah, next time. I can't wait!"
-"We spent the rest of the morning playing Terra's game."
+t "É, na próxima. Mal posso esperar!"
+"Passamos o resto da manhã jogando o jogo da Terra."
 jump postMorningSelector

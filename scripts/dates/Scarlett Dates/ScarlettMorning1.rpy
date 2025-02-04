@@ -6,46 +6,46 @@ show bg MansionIndoorsMorning with dissolve
  # former ,,-1
 show a worried at pos30a with dissolve
 show s neutral at pos50s with dissolve
-a "Anyone else wake up with the world's worst headache?"
+a "Alguém mais acordou com a pior dor de cabeça do mundo?"
 show t worried at pos70t with dissolve
-t "Tell me about it. What did we even do yesterday?"
+t "Me conte sobre isso. O que nós fizemos ontem?"
 show y worried at pos90y with dissolve
-y "Honestly, I can't remember."
+y "Sinceramente, não consigo lembrar."
 show y neutral
-y "...Though I did have a dream that we were being chased by someone."
+y "...Embora eu tenha tido um sonho em que estávamos sendo perseguidos por alguém."
 show v surprised at pos10v with dissolve
-v "Oh really? And who was that?"
+v "Sério? E quem era?"
 show y surprised
 show a laugh
 show s surprised
-y "I think it was... Scarlett!"
+y "Acho que foi... Scarlett!"
 show a surprised
-a "What are the odds of that! I think I dreamed the same thing."
+a "Quais são as chances disso! Acho que sonhei a mesma coisa."
 show v surprised
-v "As did I...."
+v "Assim como eu..."
 show y serious
-y "She locked us in the library... then shot us to pieces!"
+y "Ela nos trancou na biblioteca... e depois nos atirou em pedaços!"
 show t surprised
-t "Woah! That's the same dream I had!"
+t "Uau! Esse é o mesmo sonho que eu tive!"
 show s worried
-s "W-What do you think... made you all dream up that?"
+s "O-O que vocês acham... que fez todos vocês sonharem com isso?"
 show s laugh
-s "Either way, it was just a dream, hahaha..."
+s "De qualquer forma, foi só um sonho, hahaha..."
 show y angry
-"Yui used Mean Glare! It's super effective!"
+"Yui usou o Mean Glare! É super efetivo!"
 show v happy
-v "Come now. There's no point getting upset at someone at what they did in a dream."
+v "Vamos lá. Não adianta ficar chateado com alguém pelo que ele fez em um sonho."
 show y neutral
-y "Hmm... you're right, Violet."
+y "Hmm... você está certa, Violet."
 show v angry
-v "And yet..."
+v "E ainda assim..."
 show s worried
 s "Ahahaha..."
 show v serious
-v "I seem to remember you being there too, [name]!"
-"Oh man, how am I going to talk my way out of this one...?"
-"Someway or another, Scarlett and I managed to convince everybody it was a crazy coincidence."
-"At least, I think we did. Violet was skeptical."
-"Naturally, she had every right to be. Everything she 'dreamed' really did happen."
-"...Let's hope this wasn't the kind of dream that comes back again."
+v "Parece que me lembro de você estar lá também, [name]!"
+"Cara, como vou me safar dessa...?"
+"De um jeito ou de outro, Scarlett e eu conseguimos convencer todo mundo de que foi uma coincidência maluca."
+"Pelo menos, acho que conseguimos. Violet estava cética."
+"Naturalmente, ela tinha todo o direito de estar. Tudo o que ela 'sonhou' realmente aconteceu."
+"...Vamos torcer para que esse não seja o tipo de sonho que volta de novo."
 jump postMorningSelector

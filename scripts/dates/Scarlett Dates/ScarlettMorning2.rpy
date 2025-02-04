@@ -7,57 +7,57 @@ show bg RoomMorning with dissolve
 #; could try to give a secret message
 #; could use a sound blocker and say i think i know what's going on with this game
 #;
-"The next day, I woke to the sound of an explosion outside."
-"I ran outside as fast as I could."
-m "What the..."
+"No dia seguinte, acordei com o som de uma explosão lá fora."
+"Corri para fora o mais rápido que pude."
+m "O que..."
 stop music
 show bg MansionMorning with dissolve
 play music Wholesome
 show s surprised at pos50s with dissolve
-"The first thing I saw was Scarlett, and black smoke emanating from the ground near her."
+"A primeira coisa que vi foi Scarlett e fumaça preta saindo do chão perto dela."
 show s worried
-s "Oh, hey there, [name]. Nice weather we're having, huh?"
-m "Hey, Scarlett... you okay?"
+s "Oh, olá, [name]. Estamos tendo um clima agradável, hein?"
+m "Ei, Scarlett... você está bem?"
 show s happy
-s "I'm pretty good, all things considered!"
+s "Estou muito bem, considerando tudo!"
 show s annoyed
-s "I've been experimenting again on trying to bring back people's memories. Without the whole monkey zombie bit."
+s "Estou experimentando novamente tentar trazer de volta as memórias das pessoas. Sem toda essa coisa de macaco zumbi."
 show s flirt
-s "I figure, if you and I ever, well... you know, I'd want us to know everything about each other."
+s "Imagino que se você e eu um dia, bem... você sabe, eu gostaria que soubéssemos tudo um sobre o outro."
 show s neutral
-s "...No secrets."
-m "I'd like that, Scarlett. Thanks."
+s "...Sem segredos."
+m "Eu gostaria disso, Scarlett. Obrigada."
 show s happy
-s "I'll let you know if I make any progress with that."
+s "Eu te aviso se eu fizer algum progresso com isso."
 show s laugh
-s "...Ugh, I gotta clean this up."
+s "...Ugh, preciso limpar isso."
 show s happy
-s "Give me a minute, and then we can head to the forest? I've been meaning to spend some time there since I got to this island."
-m "Sounds good by me!"
+s "Me dê um minuto, e então podemos ir para a floresta? Estou querendo passar um tempo lá desde que cheguei a esta ilha."
+m "Parece bom para mim!"
 stop music
 play music RomanticJazz
 hide s with dissolve
 show bg LakeMorning with dissolve #time:2
 show s flirt at pos50s with dissolve
 $ renpy.sound.play("audio/sfx/walking_on_dirt.mp3", loop=True) #loop:true
-"We walked together through the forest, hand in hand."
-"Talking about things we'd do after we got off this island... talking about everything and anything."
+"Nós andamos juntos pela floresta, de mãos dadas."
+"Conversando sobre coisas que faríamos depois que saíssemos desta ilha... falando sobre tudo e qualquer coisa."
 stop sound
 show s happy
-s "After we're off this island, whatever happens... do you maybe... want to catch a movie together?"
-m "Sure, but why a movie?"
+s "Depois que sairmos desta ilha, o que quer que aconteça... você talvez... queira assistir a um filme juntos?"
+m "Claro, mas por que um filme?"
 show s laugh
-s "You can laugh, but there's a part of me that just wants to be a regular girl for a day. That's something I could never forget."
+s "Você pode rir, mas há uma parte de mim que só quer ser uma garota normal por um dia. Isso é algo que eu nunca poderia esquecer."
 show s flirt
-s "And I'd like it if I could be that way, with you."
+s "E eu gostaria de poder ser assim, com você."
 show s happy
-s "What do you say?"
-m "I'd like that."
+s "O que você diz?"
+m "Eu gostaria disso."
 show s flirt
 s "Yay!"
-"Scarlett did a little dance of happiness."
+"Scarlett fez uma dancinha de felicidade."
 show s happy
-"We spent the rest of the morning together in the woods, enjoying each other's company... and maybe a little more than that."
-"Somehow, in the middle of it all, I forgot what kind of show I was on in the first place. It was just me and her."
-"In this moment, more than ever, I was glad to be alive."
+"Passamos o resto da manhã juntos na floresta, aproveitando a companhia um do outro... e talvez um pouco mais do que isso."
+"De alguma forma, no meio de tudo isso, eu esqueci em que tipo de show eu estava em primeiro lugar. Éramos só eu e ela."
+"Neste momento, mais do que nunca, eu estava feliz por estar vivo."
 jump postMorningSelector

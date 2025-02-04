@@ -3,40 +3,40 @@ label ScarlettMorning3:
 play music RomanticJazz
 show bg RoomMorning with dissolve
 
-"I woke up with Scarlett in my arms."
-"After talking with Kat last night, I asked Scarlett to join me for one more midnight walk."
-"...We ended up talking for hours."
-m "'Morning, Scarlett."
+"Acordei com Scarlett nos meus braços."
+"Depois de falar com Kat ontem à noite, pedi para Scarlett se juntar a mim para mais uma caminhada à meia-noite."
+"...Acabamos conversando por horas."
+m "'Bom dia, Scarlett."
 show s happy at pos50s with dissolve
-s "Oh, you're... awake. Hi there... [name].."
-"She was clearly half-asleep."
+s "Oh, você está... acordada. Olá... [name]."
+"Ela estava claramente meio dormindo."
 show s flirt
-s "I want to... invent something that... puts this moment into a bottle... forever..."
+s "Eu quero... inventar algo que... coloque esse momento em uma garrafa... para sempre..."
 show s laugh
-s "...Then I'd repurpose a factory... mass-produce it..."
+s "...Então eu reaproveitaria uma fábrica... produziria em massa..."
 show s flirt
-s "...Myahhhhh... love you..."
+s "...Myahhhhh... te amo..."
 hide s with dissolve
-"She dozed off as she embraced me in her arms and held me tight."
-"We must have stayed there together for over an hour - but I wish it didn't pass by so fast."
+"Ela cochilava enquanto me abraçava e me segurava forte."
+"Devemos ter ficado lá juntos por mais de uma hora - mas queria que não tivesse passado tão rápido."
 show s neutral at pos50s with dissolve
-s "...I'm so happy, you know?"
-m "Why's that?"
+s "...Estou tão feliz, sabia?"
+m "Por quê?"
 show s happy
-s "No matter how this show ends... we won't be alone."
+s "Não importa como esse show termine... não estaremos sozinhos."
 show s laugh
-s "What more could I ask for?"
+s "O que mais eu poderia pedir?"
 show s neutral
-s "I was terrified before, but now... I know everything will be alright."
-m "...Couldn't say it better myself, Scarlett."
+s "Eu estava aterrorizada antes, mas agora... Eu sei que tudo ficará bem."
+m "...Eu mesma não conseguiria dizer melhor, Scarlett."
 show s happy
-s "Anyway, Kat wants you to go on a date with someone else by now, right?"
-m "...Yeah. Sorry about that."
+s "De qualquer forma, Kat quer que você saia com outra pessoa agora, certo?"
+m "...Sim. Desculpe por isso."
 show s tease
-s "Don't worry about it."
+s "Não se preocupe com isso."
 show s laugh
-s "I've got an invention to deal with them later..."
-m "Sorry, what was that?"
+s "Eu tenho uma invenção para lidar com a carta..."
+m "Desculpe, o que foi isso?"
 show s flirt
-s "Oh, nothing! See you later, [name]."
+s "Ah, nada! Até mais tarde, [name]."
 jump postMorningSelector

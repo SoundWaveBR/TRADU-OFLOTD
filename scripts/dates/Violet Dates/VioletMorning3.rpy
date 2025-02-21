@@ -2,39 +2,39 @@ label VioletMorning3:
 
 play music LoveTheme
 show bg RoomMorning with dissolve
-"Waking up next to Violet felt like waking up next to an angel."
-"We had walked back from the beach past midnight last night, so any rest we could get was very welcome."
-"For several minutes, all I could do was watch her silver hair catch the sunlight."
-"She was the most beautiful thing I'd ever seen."
+"Acordar ao lado de Violet foi como acordar ao lado de um anjo."
+"Nós tínhamos caminhado de volta da praia depois da meia-noite ontem à noite, então qualquer descanso que pudéssemos ter era muito bem-vindo."
+"Por vários minutos, tudo o que eu conseguia fazer era observar seus cabelos prateados refletindo a luz do sol."
+"Ela era a coisa mais linda que eu já tinha visto."
 show v happy at pos50v with dissolve
-v "...Morning, [name]."
-m "Morning to you too, Violet."
+v "...Bom dia, [name]."
+m "Bom dia para você também, Violet."
 show v blush
-v "Do you mind... if we just, perhaps... stay here for a spell?"
-m "Not one bit."
+v "Você se importa... se nós apenas, talvez... ficarmos aqui por um tempo?"
+m "Nem um pouco."
 show v laugh
-v "Fantastic."
-"She rolled herself towards me and hugged me with all her strength."
+v "Fantástico."
+"Ela rolou em minha direção e me abraçou com toda a força."
 show v happy
-v "No takebacks!"
-"We laid together in the bed all morning, enjoying each other's warmth and company."
-"...I don't want this moment to end."
+v "Sem voltas!"
+"Ficamos deitados juntos na cama a manhã toda, aproveitando o calor e a companhia um do outro."
+"...Não quero que esse momento acabe."
 show v laugh
-v "I simply cannot wait till we leave here together, [name]."
+v "Eu simplesmente não posso esperar até que saiamos daqui juntos, [name]."
 show v happy
-v "We will be the greatest partnership for all time!"
+v "Seremos a melhor parceria de todos os tempos!"
 show v laugh
-v "An empire like no other!"
-"I do like an ambitious woman."
+v "Um império como nenhum outro!"
+"Eu gosto de mulheres ambiciosas."
 show v neutral
-v "...Ah, it's time for you to spend some time with another girl, no?"
-m "...Yeah. Sorry about that, it's in the contract."
+v "...Ah, é hora de você passar um tempo com outra garota, não?"
+m "...Sim. Desculpe por isso, está no contrato."
 show v neutral
-v "It's no matter."
+v "Não importa."
 show v laugh
-v "To bicker about this would be fruitless. It's the very nature of this show."
+v "Discutir sobre isso seria inútil. É a própria natureza deste show."
 show v happy
-v "Do entertain yourself with whoever today's date will be!"
+v "Divirta-se com quem quer que seja o seu par hoje!"
 show v sassy
-v "But know that anything she could offer... would pale to what a queen could."
+v "Mas saiba que qualquer coisa que ela pudesse oferecer... seria insignificante diante do que uma rainha poderia oferecer."
 jump postMorningSelector

@@ -4,38 +4,38 @@ show bg KitchenMorning with dissolve
 play music BlippyTrance
 show v neutral at pos70v with dissolve# former look:left
 show t worried at pos30t with dissolve # former look:right
-v "...Then you set the meat at around... 300 degrees for 40 minutes."
+v "...Então você coloca a carne em torno de... 300 graus por 40 minutos."
 show t serious
-t "Mmhm, okay... got it."
-"Terra furiously scribbled down notes."
+t "Mmhm, ok... entendi."
+"Terra rabiscou furiosamente as notas."
 show t surprised
-t "Wait a minute! Couldn't I just cook it for 600 degrees for 20 minutes?"
+t "Espere um minuto! Eu não poderia simplesmente cozinhá-lo a 600 graus por 20 minutos?"
 show v worried
-v "That's not quite how this works, I'm afraid."
+v "Não é bem assim que funciona, infelizmente."
 show t worried
-t "But the math checks out!"
-m "What's going on?"
+t "Mas a matemática confere!"
+m "O que está acontecendo?"
 show v happy
-v "Oh! Good morning, [name]. How do you do?"
+v "Ah! Bom dia, [name]. Como vai?"
 show v laugh
-v "I'm teaching Terra the proper way to prepare a pot roast."
+v "Estou ensinando a Terra a maneira correta de preparar um assado."
 show t happy
 show v worried
-t "So far I'd say it's going pretty well!"
+t "Até agora eu diria que está indo muito bem!"
 show v happy
-v "...Terra will be the one to prepare lunch today, instead of me."
+v "...Terra será quem preparará o almoço hoje, em vez de mim."
 show t annoyed
-"Terra turned one of the dials on the stove as far as it would go to the right."
+"Terra girou um dos botões do fogão o máximo que pôde para a direita."
 show t happy
-t "And the student... has surpassed the master."
+t "E o aluno... superou o mestre."
 show v worried
-v "On second thought... perhaps I'll prepare an alternative course. One moment, please."
+v "Pensando bem... talvez eu prepare um prato alternativo. Um momento, por favor."
 hide v with dissolve
 show t angry
-t "Oh ye of little faith!!"
+t "Ó homens de pouca fé!!"
 hide t with dissolve
 show bg Black with dissolve
-"Time for the moment of truth - lunch is served!"
+"É hora do momento da verdade: o almoço está servido!"
 show bg KitchenMorning with dissolve
 
 show y neutral at pos10y with dissolve # former look:left
@@ -47,7 +47,7 @@ show v neutral at pos30v with dissolve# former ,,-1 # former look:left
 
 show t worried at pos50t
 t "..."
-"Terra was nervously clasping her hands tight."
+"Terra estava nervosamente apertando as mãos com força."
 show s surprised
 s "...!"
 show y surprised
@@ -62,35 +62,35 @@ show a happy
 show v happy
 stop music
 play music CheeryMonday
-all "It's delicious!"
+all "Está uma delícia!"
 show t happy with vpunch
-t "...! I did it, oh my gosh!!!"
-"Terra did a little dance in celebration, and gave Violet a high five."
+t "...! Eu consegui, meu Deus!!!"
+"Terra fez uma dancinha em comemoração e deu um high five para Violet."
 show t surprised
-t "...Should I become a food Vlogger? I'm a cooking savant. This talent shouldn't be wasted..."
+t "...Devo me tornar um Vlogger de comida? Sou um gênio da culinária. Esse talento não deve ser desperdiçado..."
 #hide t
 show t happy at pos30t
 show v happy at pos50v
 # show s happy at pos70s
 
 with dissolve
-m "Psst, Hey Violet."
+m "Psiu, oi, Violet."
 #show v happy at pos50v with dissolve
-v "What is it, [name]?"
-m "Is this what you cooked, or is this what Terra cooked?"
+v "O que é isso, [name]?"
+m "Foi isso que você cozinhou ou foi isso que Terra cozinhou?"
 show v happy
-"Violet smiled and winked at me."
+"Violet sorriu e piscou para mim."
 show v laugh
-v "I don't know what you are talking about."
-"She sipped on her soup contently."
-"I couldn't help but smile back at her. Damn, this was the best meal I've ever had."
+v "Não sei do que você está falando."
+"Ela tomou um gole da sopa contente."
+"Não pude deixar de sorrir de volta para ela. Droga, essa foi a melhor refeição que já comi."
 
 if currentDay == 1:
     jump OneDayOnly
 
-"...Granted, my memory only goes back about [currentDay] days, but still, it counts for something!"
+"...É verdade que minha memória só remonta a [currentDay] dias, mas ainda assim, isso conta para alguma coisa!"
 jump postMorningSelector
 
 label OneDayOnly:
-"...Granted, my memory only goes back [currentDay] day, but still, it counts for something!"
+"...É verdade que minha memória só remonta a [currentDay] dia, mas ainda assim, isso conta para alguma coisa!"
 jump postMorningSelector

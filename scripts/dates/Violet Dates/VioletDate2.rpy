@@ -8,7 +8,7 @@ show v neutral at pos50v with dissolve
 "Encontrei Violet dando uma volta do lado de fora da mansão."
 m "Ei, Violet, o que houve?"
 show v happy
-v "Olá, [nome]. Só pensei em dar uma boa caminhada à tarde. Este lugar realmente traz lembranças de casa."
+v "Olá, [name]. Só pensei em dar uma boa caminhada à tarde. Este lugar realmente traz lembranças de casa."
 m "Você morava em sua própria ilha particular?"
 show v laugh
 v "Nada tão... burguês."

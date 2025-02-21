@@ -64,154 +64,154 @@ m "Eu não perderia isso por nada no mundo, Violet."
 hide v with dissolve
 show bg Hills with dissolve # time:2
 show bg VioletPicnic with dissolve # time:2
-"We walked outside for a while, then settled on a lovely spot with a nice mix of shade and sunlight for our picnic."
-"The way her silver hair caught the sunlight - it was enough to make you believe in angels."
-"She was so beautiful."
-v "Dig in! I've brought plenty. Please don't hold yourself back!"
-m "I've got to be the luckiest person alive."
-v "Save that talk for after you try this! I'm letting you have the first bite."
-m "Should I be worried?"
-"I smiled as she mock-pouted."
-m "Just kidding."
-"She laughed and smiled as she spoon-fed me a delicious egg roll."
-m "...Called it! I'm the luckiest person alive."
-m "Not just because the food's delicious, but because you're here next to me, Violet."
-m "You've made this week so special."
-v "I feel the same way, [name]."
-v "And there is more where that came from!"
-m "You're absolutely right - I've got something prepared for just the two of us next."
+"Nós andamos um pouco lá fora, então nos acomodamos em um lugar adorável com uma mistura agradável de sombra e luz do sol para nosso piquenique."
+"O jeito como seu cabelo prateado refletia a luz do sol - era o suficiente para fazer você acreditar em anjos."
+"Ela era tão linda."
+v "Coma! Eu trouxe bastante. Por favor, não se segure!"
+m "Eu tenho que ser a pessoa mais sortuda do mundo."
+v "Guarde essa conversa para depois que você experimentar isso! Vou deixar você dar a primeira mordida."
+m "Eu deveria ficar preocupada?"
+"Eu sorri enquanto ela fingia fazer beicinho."
+m "Brincadeira."
+"Ela riu e sorriu enquanto me dava um delicioso rolinho primavera."
+m "...Já disse! Eu sou a pessoa mais sortuda do mundo."
+m "Não só porque a comida é deliciosa, mas porque você está aqui do meu lado, Violet."
+m "Você tornou esta semana tão especial."
+v "Eu me sinto da mesma forma, [name]."
+v "E tem mais de onde isso veio!"
+m "Você está absolutamente certo - tenho algo preparado para nós dois a seguir."
 play sound Intercom
-k "You owe me one, [name]."
+k "Você me deve uma, [name]."
 v "...?"
-"We enjoyed the delicious food and conversation over the rest of the afternoon."
+"Nós aproveitamos a comida deliciosa e a conversa durante o resto da tarde."
 show bg Hills with dissolve # time:2
 
-"We walked back to the mansion hand in hand, smiling all the while."
+"Voltamos para a mansão de mãos dadas, sorrindo o tempo todo."
 show bg GamesRoomMorning with dissolve # time:2
-"Next stop... the only movie theatre on the island."
+"Próxima parada... o único cinema da ilha."
 show v surprised at pos50v with dissolve
-v "I didn't know we had a room like this in the mansion!"
-m "I'm not surprised. Terra's pretty terra-torial about this room, from what I've seen and heard."
+v "Eu não sabia que tínhamos um quarto como este na mansão!"
+m "Não estou surpreso. Terra é bem terra-torial sobre este quarto, pelo que eu vi e ouvi."
 show v happy
-m "But right now, it's our very own private movie theatre!"
-"I did a little jazz hands at the TV."
+m "Mas agora, é o nosso próprio cinema particular!"
+"Fiz um pouco de jazz hands na TV."
 show v laugh
-"Violet clapped, as if I had just put on a performance of a lifetime."
-"I made a dramatic bow, then took a look at what movies we had in store."
+"Violet bateu palmas, como se eu tivesse acabado de fazer uma performance única na vida."
+"Fiz uma reverência dramática e então dei uma olhada nos filmes que tínhamos guardados."
 show v neutral
-"Let's see... we have romcoms, fantasy medieval movies, war movies, a few superhero movies, and last, but not least, a horror movie."
+"Vamos ver... temos comédias românticas, filmes de fantasia medievais, filmes de guerra, alguns filmes de super-heróis e, por último, mas não menos importante, um filme de terror."
 show v happy
-"I'll put on a romcom. From what Violet was saying earlier, this would definitely be her favorite."
+"Vou colocar uma comédia romântica. Pelo que Violet disse antes, essa definitivamente seria a favorita dela."
 show v blush
-"I started the movie, then went back and sat next to Violet, with my arm around her."
+"Comecei o filme, depois voltei e sentei ao lado de Violet, com meu braço em volta dela."
 show v surprised
-"The story was about a girl who moved to a place called New York to become a writer, falls in love with a boy she meets there, and eventually, realizes her dream and her love."
+"A história era sobre uma garota que se mudou para um lugar chamado Nova York para se tornar escritora, se apaixona por um garoto que conhece lá e, eventualmente, realiza seu sonho e seu amor."
 show v blush
-"It wasn't anything special, but Violet was thoroughly entranced for the whole movie."
-"Me... I was more entranced by her."
-"After the credits rolled, Violet practically burst into tears."
+"Não foi nada especial, mas Violet ficou completamente encantada durante todo o filme."
+"Eu... fiquei mais encantado por ela."
+"Depois que os créditos rolaram, Violet praticamente caiu no choro."
 show v sad
-v "This was the best movie I've ever seen in my whole life! My whole life!!"
-m "Then how about... we take a scene you liked from the movie... and turn it into a painting?"
+v "Este foi o melhor filme que já vi em toda a minha vida! Minha vida inteira!!"
+m "Então que tal... pegarmos uma cena que você gostou do filme... e transformá-la em uma pintura?"
 show v surprised
-v "Oh my gosh, you didn't...!"
-m "Just wait right here for a second."
+v "Meu Deus, você não...!"
+m "Espere aqui um segundo."
 show v happy
 v "Okay."
 hide v with dissolve
 show bg MansionIndoorsNoon with dissolve
-"I had no idea where to find art supplies, but I knew if there was anyone who could, it was Kat."
-m "Kat? I think you know the sitch."
+"Eu não tinha ideia de onde encontrar materiais de arte, mas sabia que se havia alguém que pudesse, era Kat."
+m "Kat? Acho que você sabe da situação."
 play sound Intercom
 #show k laugh
-k "You got some nerve putting this together at the last minute... but I like that about you!"
+k "Você teve muita coragem de fazer isso na última hora... mas eu gosto disso em você!"
 #show k neutral
-k "Four! Set up everything they need for a paint night in the main hall of the mansion, stat!"
+k "Quatro! Preparem tudo o que eles precisam para uma noite de pintura no salão principal da mansão, imediatamente!"
 #show b4 worried
-b4 "Aw man, I just finished my shift!"
+b4 "Ah cara, acabei de terminar meu turno!"
 #show k laugh
-k "Even better! You've got free time for this!"
+k "Melhor ainda! Você tem tempo livre para isso!"
 show bg MansionIndoorsNight with dissolve
 show v happy at pos50v with dissolve
-"And so we started painting on canvases in the main hall."
+"E então começamos a pintar em telas no salão principal."
 
 
 menu:
-    n "I think I'll paint a picture of..."
+    n "Acho que vou pintar um quadro de..."
 
-    "Violet and I watching a movie together":
+    "Violet e eu assistindo a um filme juntas":
         jump vd3_c1
-    "A scene from the movie":
+    "Uma cena do filme":
         jump vd3_c2
 
 label vd3_c1:
-"...Violet and I watching the movie together."
-"This counts, right?"
+"...Violet e eu assistindo ao filme juntas."
+"Isso conta, certo?"
 #Violet. I know I said I'd paint a scene from the movie too, but it'd be a crime not to at this point."
 show v happy
-v "What are you painting, [name]?"
-m "...I'm painting a picture of us, watching the movie together."
+v "O que você está pintando, [name]?"
+m "...Estou pintando um quadro de nós dois assistindo ao filme juntos."
 show v blush
-m "It's the most beautiful scene 'from the movie', you know? It'd be a shame not to capture it."
+m "É a cena mais linda 'do filme', sabia? Seria uma pena não capturá-la."
 show v laugh
-v "You are quite the flirt, you know that?"
+v "Você é um grande flertador, sabia?"
 show v happy
-v "...But I like that about you."
-"Her smile could melt the coldest heart."
-m "So which scene are you painting, Violet?"
+v "...Mas eu gosto disso em você."
+"O sorriso dela poderia derreter o coração mais frio."
+m "Então, qual cena você está pintando, Violet?"
 jump vd3_pc
 
 label vd3_c2:
-"...A scene from the movie."
-"Agh, there's too many to pick from!"
+"...Uma cena do filme."
+"Agh, tem muitas para escolher!"
 show v sassy
-v "Which scene are you painting, [name]?"
-m "Haven't decided yet. How about you?"
+v "Que cena você está pintando, [name]?"
+m "Ainda não decidi. E você?"
 
 label vd3_pc:
 
 show v happy
-v "I'm drawing the scene where the girl runs out in the rain to tell the boy that she loves him. It was just... so romantic."
-"She sighed like a lovestruck teenager."
-"I could tell she was putting her whole heart into her painting - she captured the scene perfectly."
-"As for me... let's just say I was more focused on making the people have the right number of heads, and was working from there."
+v "Estou desenhando a cena em que a garota corre na chuva para dizer ao garoto que o ama. Foi simplesmente... tão romântico."
+"Ela suspirou como uma adolescente apaixonada."
+"Eu podia dizer que ela estava colocando todo o seu coração na pintura - ela capturou a cena perfeitamente."
+"Quanto a mim... digamos que eu estava mais focado em fazer as pessoas terem o número certo de cabeças, e estava trabalhando a partir daí."
 show v laugh
-"An hour or so later, we finished and compared our final artworks."
-"She's an incredibly talented artist. Me, not so much."
+"Mais ou menos uma hora depois, terminamos e comparamos nossas obras de arte finais."
+"Ela é uma artista incrivelmente talentosa. Eu, nem tanto."
 show v happy
-"That was... embarassing, but man, it was worth it just to see her smile and break into laughter."
+"Isso foi... constrangedor, mas cara, valeu a pena só para vê-la sorrir e cair na gargalhada."
 show v surprised
-"Her laughter was interrupted by a gurgle from her stomach."
+"Sua risada foi interrompida por um gorgolejo vindo de seu estômago."
 show v laugh
-v "Mother would punish me for sure if she heard me make that sound - but who cares now!"
-"Violet was unstoppable at this point."
-m "Is it time for dinner?"
+v "Mamãe com certeza me puniria se me ouvisse fazer esse som - mas quem se importa agora!"
+"Violet estava imparável neste momento."
+m "Está na hora do jantar?"
 show v sassy
-v "I do believe it is!"
+v "Eu acredito que sim!"
 stop music
 play music RomanticJazz
 show v laugh
 show bg Palace with dissolve # time:2
-"I volunteered to cook, but she wanted to go back to the restaurant that we went to on our first date. So we did."
-"Apparently, she was trying too hard to be prim and proper back then, and didn't actually get to eat as much as she wanted."
+"Eu me ofereci para cozinhar, mas ela queria voltar ao restaurante que fomos no nosso primeiro encontro. Então fomos."
+"Aparentemente, ela estava se esforçando demais para ser afetada e correta naquela época, e não conseguiu comer tanto quanto queria."
 show v happy
-"She ate up a storm. Almost literally. Almost."
-"We spent dinner wolfing down delicious food without a care in the world, and laughing about scenes in the movie and our little artsy adventure."
-"Then finally... we went for the long-awaited walk on the beach."
+"Ela comeu muito. Quase literalmente. Quase."
+"Passamos o jantar devorando comida deliciosa sem nenhuma preocupação no mundo, e rindo sobre cenas do filme e nossa pequena aventura artística."
+"Então finalmente... fomos para a tão esperada caminhada na praia."
 show bg BeachEvening with dissolve
-"We held hands as we walked along the ocean. The waves of the ocean seemed to play music for us as we skirted by."
+"Nós nos demos as mãos enquanto andávamos ao longo do oceano. As ondas do oceano pareciam tocar música para nós enquanto passávamos por elas."
 show v laugh
-"At times, we talked without end."
+"Às vezes, conversávamos sem parar."
 show v blush
-"At other times, we enjoyed each other's company and warmth in silence."
-"Either way, we were as happy as can be."
-"We talked about the how the past, the present, and future, were so different than before because of each other."
+"Em outras ocasiões, nós aproveitávamos a companhia e o calor um do outro em silêncio."
+"De qualquer forma, nós éramos tão felizes quanto podíamos ser."
+"Nós falávamos sobre como o passado, o presente e o futuro eram tão diferentes do que antes por causa um do outro."
 show v happy
-v "You know, [name]... if you asked me to marry you, right now... without a doubt, I'd accept."
+v "Você sabe, [name]... se você me pedisse em casamento agora mesmo... sem dúvida, eu aceitaria."
 show v laugh
-v "I know it sounds quite crazy, to say that in such a short period of time... but I just know."
+v "Eu sei que parece loucura dizer isso em tão pouco tempo... mas eu sei."
 show v blush
-"She kissed me passionately, with everything she had."
+"Ela me beijou apaixonadamente, com tudo o que tinha."
 
 if playthrough == 1 and currentDay == 6:
     jump LastDateViolet
@@ -222,41 +222,41 @@ else:
 
 label LastDateViolet:
 
-"We fell together onto the soft sand of the beach."
-m "...Will you marry me, Violet?"
-"I looked at her and saw the most beautiful smile from the most beautiful girl there was."
-m "I know the final ceremony's tomorrow, but... I want you to know how I feel."
-"A moment passed. It felt like my heart was trapped in my throat."
+"Nós caímos juntos na areia macia da praia."
+m "...Você quer se casar comigo, Violet?"
+"Eu olhei para ela e vi o sorriso mais lindo da garota mais linda que havia."
+m "Eu sei que a cerimônia final é amanhã, mas... eu quero que você saiba como eu me sinto."
+"Um momento se passou. Parecia que meu coração estava preso na garganta."
 show v happy
-v "Of course. I know what I said, [name]."
-"And then I saw something I'd never seen before - and would never see again."
+v "Claro. Eu sei o que eu disse, [name]."
+"E então vi algo que nunca tinha visto antes - e nunca mais veria."
 stop music
 play music Smile
 show v worried
 show bg BeachNight with dissolve
 play sound Shutdown
-"The sky outside rapidly turned from bright blue to black, as if it were water being drowned in the darkest ink."
+"O céu lá fora rapidamente mudou de azul brilhante para preto, como se fosse água sendo afogada na tinta mais escura."
 hide v with dissolve
 show bg Black with dissolve
-"Then the bright sun in the sky... went out, like a candle in the wind, as the warmth of the beach sand disappeared in an instant."
+"Então o sol brilhante no céu... se apagou, como uma vela ao vento, enquanto o calor da areia da praia desapareceu em um instante."
 play sound Intercom
 
-q "Please collect the cast - the experiment is complete."
+q "Por favor, recolham o gesso. O experimento está concluído."
 stop sound #@stopsfx GroupRun
 play sound GroupRun
-"The last thing I saw was Violet screaming as shadowy figures grabbed her from behind."
-"A second later, and I couldn't even see my hands reaching for Violet's, desperately trying to pull her back to me."
+"A última coisa que vi foi Violet gritando enquanto figuras sombrias a agarravam por trás."
+"Um segundo depois, e eu não conseguia nem ver minhas mãos alcançando as de Violet, tentando desesperadamente puxá-la de volta para mim."
 
-"Then I felt somebody grab me from behind - no, not somebody - there must have been several people."
+"Então senti alguém me agarrar por trás - não, não alguém - deve ter havido várias pessoas."
 
 play sound Hit
-"They forced me to the ground and cuffed me behind my back."
+"Eles me forçaram a deitar no chão e me algemaram nas costas."
 play sound Handcuffs
-"I screamed, but there was no sound."
-"I couldn't hear anything. Not even the sound of the waves."
-"I tried to fight, but there was no way out."
-"I screamed for Violet, for her to run as far as she could - but I heard no response."
-"Then... nothing."
+"Eu gritei, mas não houve som algum."
+"Eu não conseguia ouvir nada. Nem mesmo o som das ondas."
+"Eu tentei lutar, mas não havia saída."
+"Eu gritei por Violet, para ela correr o mais longe que pudesse - mas não ouvi resposta."
+"Então... nada."
 stop sound
 if playthrough == 1:
     jump P1Ending
@@ -265,8 +265,8 @@ if playthrough == 2:
 
 label NotLastDateViolet:
 
-"And what came next... was the perfect ending to our lovely date."
+"E o que veio depois... foi o final perfeito para o nosso lindo encontro."
 show v blush
-v "...Come closer."
+v "...Chegue mais perto."
 $ violetAffection=3
 jump postDateSelector

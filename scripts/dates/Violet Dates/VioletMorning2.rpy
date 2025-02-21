@@ -9,70 +9,70 @@ show t happy at pos30t with dissolve
 show y happy at pos70y with dissolve
 show a happy at pos90a with dissolve# former ,,-1
 show v neutral  at pos50v with dissolve# former ,,-1
-"I walked down to the kitchen, where the girls were having breakfast."
+"Fui até a cozinha, onde as meninas estavam tomando café da manhã."
 show s happy
-s "So how was the date?"
+s "Então, como foi o encontro?"
 show a laugh
-a "Yeah, tell us!"
-"Terra was furiously scribbling down notes, with the title {b}War Plans{/b} in bold."
+a "Sim, conte-nos!"
+"Terra estava furiosamente rabiscando notas, com o título {b}Planos de Guerra{/b} em negrito."
 show v blush
-v "It was... really quite nice."
+v "Foi... realmente muito legal."
 show v happy
-v "We actually made this cake and the cookies yesterday, together. [name] and I."
+v "Na verdade, fizemos este bolo e os biscoitos ontem, juntos. [name] e eu."
 show v blush
-v "I... I hope you all enjoy it."
+v "Eu... eu espero que todos vocês gostem."
 show s happy
-s "They're amazing, Violet. Thanks for making it for us!"
+s "Eles são incríveis, Violet. Obrigada por fazer isso para nós!"
 show y laugh
-y "Thanks so much! They're so delicious!"
+y "Muito obrigada! Eles são tão deliciosos!"
 show a laugh
 show t annoyed
-"Terra scribbled, {b}War of Attrition is likely not an option{\b}."
+"Terra rabiscou: {b}Guerra de Atrito provavelmente não é uma opção{\b}."
 show a surprised
-a "What are you writing there, Terra?"
+a "O que você está escrevendo aí, Terra?"
 show t surprised
-t "Nooooothing..."
+t "Naaaaaaaalguma coisa..."
 #; comments just be made based on the other's affection levels
 show s surprised
-s "So... how come there's cookie batter everywhere?"
+s "Então... como é que tem massa de biscoito em todo lugar?"
 show s laugh
-s "No matter where I look, I can see batter on every surface of the kitchen."
-"It wasn't just the batter. Violet and I had knocked over quite a few things in our firefight."
+s "Não importa para onde eu olhe, consigo ver massa em todas as superfícies da cozinha."
+"Não foi só a massa. Violet e eu derrubamos algumas coisas no nosso tiroteio."
 show v blush
-v "Ah, that's..."
+v "Ah, isso é..."
 show a laugh
-a "You sure it was juuuuust baking together?"
-m "Aw, I thought it was more than that."
+a "Tem certeza que era só assar junto?"
+m "Ah, pensei que fosse mais do que isso."
 show v surprised
-"I charaded as if I was heartbroken."
+"Eu fingi que estava com o coração partido."
 show a laugh
-a "I gotta hand it to you, Violet! I didn't think you had it in you!"
+a "Tenho que admitir, Violet! Não achei que você fosse capaz!"
 show a sassy
 a "Hubba Hubba."
 show v surprised
-v "Wait... no! Nothing... like that happened!"
-"Allie and I laughed and made finger guns at each other."
+v "Espera... não! Nada... assim aconteceu!"
+"Allie e eu rimos e fizemos armas de dedo uma para a outra."
 show y surprised
-y "I don't get it."
+y "Não entendi."
 show a laugh
-a "That's cuz you're a good person, Yui."
+a "É porque você é uma boa pessoa, Yui."
 show s happy
-s "Ah, I think what Allie is trying to say is that Violet and [name] -"
+s "Ah, acho que o que Allie está tentando dizer é que Violet e [name] -"
 show a happy at pos15a with easeinleft
-"Allie stuffed a cookie into Scarlett's mouth before she could finish her sentence."
+"Allie enfiou um biscoito na boca de Scarlett antes que ela pudesse terminar a frase."
 show s surprised
 s "Mmmphh!"
 show a surprised # t pos90a
-a "Wow, these cookies are pretty useful!"
+a "Uau, esses biscoitos são muito úteis!"
 show a laugh
-a "You gotta teach me how to make these sometime, Violet!"
+a "Você tem que me ensinar a fazer isso um dia, Violet!"
 show v happy
-v "It would be my pleasure, Allie!"
+v "Seria um prazer, Allie!"
 show s happy
-s "Ooh, teach me too!"
+s "Ooh, me ensina também!"
 show s flirt
-s "Why should [name] have all the good stuff?"
+s "Por que [name] deveria ter todas as coisas boas?"
 show v blush
 v "Aah..."
-"We spend the rest of the morning fooling around in the kitchen."
+"Passamos o resto da manhã brincando na cozinha."
 jump postMorningSelector

@@ -6,10 +6,10 @@ play music Morning
 "Eu tinha acabado de sair da mansão para encontrar Violet, quando uma limusine branca apareceu e parou na minha frente."
 show b1 neutral at pos50b with dissolve
 "Um saiu do banco do motorista e caminhou em minha direção."
-b1 "[nome], bom dia. Por favor, entre."
+b1 "[name], bom dia. Por favor, entre."
 m "O que há com essa conversa formal?"
 show b1 worried
-b1 "Por favor, entre no carro, [nome]! Você já ouviu o que ela fez com meu mano!"
+b1 "Por favor, entre no carro, [name]! Você já ouviu o que ela fez com meu mano!"
 m "...?"
 show b1 serious
 "Ele abriu a porta do passageiro e me conduziu para dentro."
@@ -76,7 +76,7 @@ show v blush
 v "...Você poderia dizer isso."
 m "...? O que você quer dizer?"
 show v neutral
-v "...De qualquer forma, conte-me mais sobre você, [nome]."
+v "...De qualquer forma, conte-me mais sobre você, [name]."
 m "Não há muito a dizer. Amnésia é uma droga e tanto."
 show v surprised
 v "Você não... lembra do seu passado?"
@@ -100,7 +100,7 @@ m "...Você sabe, esses manuais... são apenas romances de ficção comuns, cert
 stop music
 play music CrinolineDreams
 show v laugh
-v "Hah! Você é bem engraçada, [nome]. Uma característica admirável de se ter... Eu gosto disso."
+v "Hah! Você é bem engraçada, [name]. Uma característica admirável de se ter... Eu gosto disso."
 m "..."
 m "De qualquer forma, você não me contou sobre você, Violet."
 m "Quem é você, o que você faz para se divertir? Eu gostaria de saber!"
@@ -128,7 +128,7 @@ m "Quem se importa com o que seus pais pensam? Aqui, nesta ilha a um milhão de 
 m "Que tal encontrarmos um tempo juntos para... recuperar o tempo perdido?"
 show v happy
 "Ela riu como uma criança."
-v "Isso seria... Isso seria maravilhoso, [nome]."
+v "Isso seria... Isso seria maravilhoso, [name]."
 show v laugh
 v "Vou reservar um tempo na minha agenda para você."
 "Passamos as próximas horas aproveitando a melhor refeição que o dinheiro pode comprar."

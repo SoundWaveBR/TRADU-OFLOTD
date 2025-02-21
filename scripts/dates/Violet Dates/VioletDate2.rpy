@@ -5,215 +5,214 @@ play music JazzBrunch
 $ violetAffection=2
 
 show v neutral at pos50v with dissolve
-"I found Violet taking a walk outside the mansion."
-m "Hey Violet, what's up?"
+"Encontrei Violet dando uma volta do lado de fora da mansão."
+m "Ei, Violet, o que houve?"
 show v happy
-v "Hello there, [name]. I just thought I'd take a nice afternoon walk. This place truly does bring back memories of home."
-m "You lived on your own personal island?"
+v "Olá, [nome]. Só pensei em dar uma boa caminhada à tarde. Este lugar realmente traz lembranças de casa."
+m "Você morava em sua própria ilha particular?"
 show v laugh
-v "Nothing quite that... bourgeousie."
-m "Anyway, I've got a surprise for you. Wanna see?"
+v "Nada tão... burguês."
+m "De qualquer forma, tenho uma surpresa para você. Quer ver?"
 show v surprised
-v "For me? I..."
+v "Para mim? Eu..."
 show v neutral
-"I motioned for her to follow me into the mansion."
+"Fiz sinal para que ela me seguisse até a mansão."
 show bg MansionIndoorsMorning with dissolve #time:1
 $ renpy.pause(delay = 1.0, hard = False)
 show bg KitchenMorning with dissolve #time:1
 show v surprised
 stop music
 play music CrinolineDreams
-m "I asked Kat to pull a few strings, and, well... we have everything we need to bake whatever we want now."
+m "Pedi para Kat mexer alguns pauzinhos e, bem... agora temos tudo o que precisamos para assar o que quisermos."
 show v happy
-v "Oh my..."
-"Violet looked at me with childlike wonder in her eyes."
+v "Oh meu..."
+"Violet olhou para mim com uma admiração infantil em seus olhos."
 show v laugh
-v "Let's get right to it then, why don't we!"
-"She was practically shaking with excitement. Her smile and laughter was positively infectious."
+v "Vamos direto ao assunto, por que não?"
+"Ela estava praticamente tremendo de excitação. Seu sorriso e risada eram positivamente contagiosos."
 show v happy
-"We decided to make a chocolate cake. It was her favorite flavor, and I don't remember mine."
-"That said, I also don't remember a thing about how to make cakes... but with Violet, that wasn't a problem."
+"Decidimos fazer um bolo de chocolate. Era o sabor favorito dela, e eu não lembro do meu."
+"Dito isso, eu também não lembro de nada sobre como fazer bolos... mas com Violet, isso não era um problema."
 show v laugh
-"She got me up to speed with a soft and steady hand, and before long, we had the cake in the oven, baking away."
-"I wish it took longer to make. Seeing Violet do what she loved most was a treat."
-"When she pulled the cake out of the oven, she looked like a kid on Christmas Day."
+"Ela me colocou no ritmo com uma mão suave e firme, e em pouco tempo, tínhamos o bolo no forno, assando."
+"Gostaria que demorasse mais para fazer. Ver Violet fazer o que ela mais amava foi um deleite."
+"Quando ela tirou o bolo do forno, parecia uma criança no dia de Natal."
 hide v with dissolve
 show bg VioletBaking with dissolve
-v "Now, just for the finishing touches...! A little more here, a little more there..."
-"She was in her own world, humming away as she danced around the cake, decorating it as she went along."
-"I couldn't help but smile and watch her in adoration."
-"She's pure happiness right now. I wish I could take this moment and just freeze it in time, for safekeeping."
-v "I can't wait to share this with the others!"
-v "But first... [name], would you mind testing it?"
-m "You don't have to ask, believe me! I'm first in line to try it out."
+v "Agora, só para os retoques finais...! Um pouco mais aqui, um pouco mais ali..."
+"Ela estava em seu próprio mundo, cantarolando enquanto dançava ao redor do bolo, decorando-o conforme avançava."
+"Eu não pude deixar de sorrir e observá-la em adoração."
+"Ela é pura felicidade agora. Eu queria poder aproveitar este momento e congelá-lo no tempo, para mantê-lo seguro."
+v "Mal posso esperar para compartilhar isso com os outros!"
+v "Mas primeiro... [name], você se importaria em testar?"
+m "Você não precisa perguntar, acredite em mim! Eu sou o primeiro da fila para experimentar."
 show bg KitchenMorning with dissolve
 show v worried at pos50v with dissolve
-v "Thank you, I just... am unsure if what I make is worth eating... or not."
-m "Why's that?"
+v "Obrigado, eu só... não tenho certeza se o que eu faço vale a pena comer... ou não."
+m "Por quê?"
 show v happy
-v "My family's caretaker, Shirley, was the one who taught me to bake."
+v "A cuidadora da minha família, Shirley, foi quem me ensinou a cozinhar."
 show v neutral
-v "Besides my sister, Shirley was the only one who ever bothered to try what I made."
+v "Além da minha irmã, Shirley foi a única que se preocupou em experimentar o que eu fiz."
 show v worried
-v "...Sometimes I worry they told me it's delicious just to make me feel better."
-"I took a little off the top of her cake with my finger and licked it off."
-m "It's delicious, Violet. You better believe it!"
+v "...Às vezes me preocupo que me disseram que é delicioso só para me fazer sentir melhor."
+"Tirei um pouco do topo do bolo dela com meu dedo e lambi."
+m "É delicioso, Violet. Pode acreditar!"
 show v blush
-v "...Would you want to help me a little longer? I'm having far too much fun to just stop now."
+v "...Você quer me ajudar um pouco mais? Estou me divertindo muito para parar agora."
 show v laugh
-v "I've just started making some cookies, and I find I quite enjoy your company and help, [name]."
-m "I'd love to! Let me know how I can help."
-"Violet passed me a bowl full of cookie dough, then a tray."
+v "Acabei de começar a fazer alguns biscoitos e acho que gosto bastante da sua companhia e ajuda, [name]."
+m "Eu adoraria! Me diga como posso ajudar."
+"Violet me passou uma tigela cheia de massa de biscoito, depois uma bandeja."
 show v happy
-v "All you need to do is make little cookie shaped pieces out of this dough, then put them on the tray."
+v "Tudo o que você precisa fazer é moldar pequenos pedaços dessa massa em formato de biscoito e colocá-los na assadeira."
 show v worried
-v "Do try not to put any of them too close together on the tray, or it'll become something of a mutant cookie in the oven."
-m "Got it. No mutant cookies here."
-"I ripped off a piece of dough from the bowl, and rolled it into the size and shape of a cookie."
+v "Tente não colocar nenhum deles muito perto um do outro na bandeja, ou ele se tornará algo como um biscoito mutante no forno."
+m "Entendi. Nenhum biscoito mutante aqui."
+"Eu arranquei um pedaço de massa da tigela e enrolei no tamanho e formato de um biscoito."
 show v laugh
-v "Perfect. You're a natural."
-m "Thanks, Violet! I..."
-"Wow."
-"In the time it took me to make one, Violet had made six perfect cookies."
-"She moved with mechanical efficiency as she kneaded balls of dough into perfectly shaped cookies."
-m "Wow. I thought you were great before, but you're really incredible. How long have you been doing this?"
+v "Perfeito. Você tem um talento natural."
+m "Obrigado, Violet! Eu..."
+"Uau."
+"No tempo que levei para fazer um, Violet fez seis biscoitos perfeitos."
+"Ela se movia com eficiência mecânica enquanto amassava bolas de massa em biscoitos de formato perfeito."
+m "Uau. Eu achava você ótima antes, mas você é realmente incrível. Há quanto tempo você faz isso?"
 show v neutral
-v "Perhaps... since I was about, say, five?"
+v "Talvez... desde que eu tinha, digamos, cinco anos?"
 show v happy
-v "To this day, it remains the only thing I can best my sister at."
-"I finished making another cookie as Violet finished three more."
+v "Até hoje, continua sendo a única coisa em que consigo superar minha irmã."
+"Acabei de fazer outro biscoito enquanto Violet terminava mais três."
 show v neutral
-"She held up one of the cookies and raised it to her face."
+"Ela levantou um dos biscoitos e o levou até o rosto."
 show v happy
-v "You've gotten quite skilled at this, [name]."
+v "Você se tornou bastante habilidoso nisso, [name]."
 show v laugh
-v "I just wanted to say again... thank you for arranging this. I'm on top of the world right now."
-m "It was my pleasure, Violet."
-"Gosh, she's adorable when she smiles."
-"For a few seconds, we kept working on the cookies in amiable silence, our eyes locked on each other's."
-m "You said you had a sister?"
+v "Só queria dizer de novo... obrigada por organizar isso. Estou no topo do mundo agora."
+m "Foi um prazer, Violet."
+"Nossa, ela fica adorável quando sorri."
+"Por alguns segundos, continuamos trabalhando nos biscoitos em um silêncio amável, nossos olhos fixos um no outro."
+m "Você disse que tinha uma irmã?"
 show v happy
-v "Why yes indeed! Viola Valentine. First twins in the family. She..."
+v "Sim, de fato! Viola Valentine. Primeiras gêmeas na família. Ela..."
 show v surprised
 v "Oh, I'm out of my room on my tray."
 show v laugh
 stop music
 play music TheShowMustBeGo
-"She flashed a devious smile in my direction, right before she lightly threw a dough ball at my face."
-m "What's with that cheeky -"
+"Ela lançou um sorriso malicioso na minha direção, logo antes de atirar levemente uma bola de massa no meu rosto."
+m "O que há com essa atrevida -"
 play sound Hit
 show v laugh
 with vpunch
-"Before I could react, it splatted against and stuck to my face."
-"She burst into childlike laughter."
-v "Nice catch, [name]! Perhaps you might try using your hands next time?"
-m "Oh, it's on."
+"Antes que eu pudesse reagir, ele espirrou e grudou no meu rosto."
+"Ela caiu na gargalhada infantil."
+v "Boa pegada, [name]! Talvez você possa tentar usar as mãos da próxima vez?"
+m "Ah, está ligado."
 show v happy
-"I couldn't stop myself from smiling as I grabbed some 'ammo' from my own cookie tray, and threw them at her."
+"Não consegui parar de sorrir enquanto pegava um pouco de 'munição' da minha própria bandeja de biscoitos e jogava nela."
 play sound Whoosh
 show v neutral at pos30v
 show v happy  at pos50v
-"She dodged them with ease and laughed."
+"Ela os desviou com facilidade e riu."
 show v laugh
-v "It's quite humorous how an old caretaker managed to do what you are struggling to do now."
-"I interrupted her gloating with another dough ball throw."
+v "É bem engraçado como um velho zelador conseguiu fazer o que você está lutando para fazer agora."
+"Eu interrompi sua alegria com outro arremesso de bola de massa."
 show v surprised
 play sound Hit
 with vpunch
-"This time, it made a satisfying 'SPLAT!' against her left cheek."
-m "STRIIIIIIIIIKE!!!!!!!"
+"Dessa vez, fez um 'SPLAT!' satisfatório contra sua bochecha esquerda."
+m "BATIIIIIIIIII!!!!!!!"
 show v serious
-v "Oh... you are so going down."
+v "Ah... você está indo muito mal."
 show v laugh
-"Her smile turned devilish as she grabbed another dough ball."
-"Oh shit."
+"Seu sorriso se tornou diabólico quando ela pegou outra bola de massa."
+"Oh merda."
 
 menu:
-    n "I've only a second before her next volley, I..."
+    n "Tenho apenas um segundo antes do próximo ataque dela, eu..."
 
-    "Go on the offensive":
+    "Vá para a ofensiva":
         jump vd2c1
-    "Go on the defensive":
+    "Fique na defensiva":
         jump vd2c2
 
 label vd2c1:
 
 play sound Hit
 with vpunch
-"I'd just started to reach for another dough ball from the tray when a dough ball splatted against my forehead, sending me recoiling backwards."
+"Eu estava começando a pegar outra bola de massa da bandeja quando uma bola de massa espirrou na minha testa, me fazendo recuar para trás."
 m "Ahhh!!!!"
 jump vd2pc2
 
 label vd2c2:
-"I ducked behind the kitchen counter."
-"An instant later, a dough ball flew above my head."
-m "Hah! Nice -"
+"Eu me abaixei atrás do balcão da cozinha."
+"Um instante depois, uma bola de massa voou sobre minha cabeça."
+m "Hah! Legal -"
 
 play sound Hit
 with vpunch
-"While I was gloating, Violet threw a dough ball that splatted against my forehead."
+"Enquanto eu estava me gabando, Violet jogou uma bola de massa que espirrou na minha testa."
 m "Aghhh!!!"
 
 label vd2pc2:
 
 with vpunch
 play sound Hit
-"And then another landed, right next to it."
-m "Ahhhh!!!!! Mercy!!"
+"E então outro pousou, bem ao lado dele."
+m "Ahhhh!!!!! Misericórdia!!"
 with vpunch
 play sound Hit
-"And then another."
-"I crumpled to the floor in defeat."
+"E então outro."
+"Eu caí no chão em derrota."
 show v laugh
-v "I declare this... my victory, in absolute confidence!"
-"She laughed as she pointed at all the dough on my face."
-"I took the opportunity to interrupt her speech with another dough ball."
+v "Eu declaro isso... minha vitória, em absoluta confiança!"
+"Ela riu enquanto apontava para toda a massa no meu rosto."
+"Aproveitei a oportunidade para interromper seu discurso com outra bola de massa."
 show v surprised
 play sound Hit
 with vpunch
-"It splatted right against her left cheek."
+"Atingiu bem na bochecha esquerda dela."
 show v laugh
-v "Oh, you're even more dead now."
-"Forget surviving this crazy TV show - I don't know if I'm surviving the next five minutes."
-"It was like looking a tiger dead in the eye."
-"Violet reloaded her ammo and was winding up for another throw."
-"It was all I could do to reach for one more ball and scream in defiance."
-m "BRING IT ON!!!!!!!!"
+v "Esqueça sobreviver a esse programa de TV maluco - não sei se vou sobreviver aos próximos cinco minutos."
+"Foi como olhar um tigre nos olhos."
+"Violet recarregou sua munição e estava se preparando para outro arremesso."
+"Foi tudo o que pude fazer para alcançar mais uma bola e gritar em desafio."
+m "VAMOS LÁ!!!!!!!!"
 play sound Explosion
 "..."
-"Some say you can still hear my screams in that kitchen to this day."
+"Alguns dizem que você ainda pode ouvir meus gritos naquela cozinha até hoje."
 "..."
 stop music
 play music CrinolineDreams
-"We finished cleaning up after our impromptu food fight, and brought the desserts that survived the great war to the porch."
-"Her smile and laughter were infectious."
+"Terminamos de limpar depois da nossa guerra de comida improvisada e trouxemos as sobremesas que sobreviveram à grande guerra para a varanda."
+"Seu sorriso e risada eram contagiantes."
 show v laugh
-v "Pardon me, but I guess we can rule out you being a baseball player before you had come to this island."
-"She put her hand tenderly against my face as she wiped off some remaining dough."
-"We locked eyes yet again. Her eyes were practically magnetic."
+v "Desculpe-me, mas acho que podemos descartar a possibilidade de você ser um jogador de beisebol antes de vir para esta ilha."
+"Ela colocou a mão carinhosamente no meu rosto enquanto limpava um pouco da massa restante."
+"Nós nos olhamos novamente. Os olhos dela eram praticamente magnéticos."
 show v happy
-v "Thanks for playing along, [name], I... I suppose it's been too long since I've had that much fun."
+v "Obrigado por participar, [name], eu... acho que já faz muito tempo que não me divirto tanto."
 show v blush
-v "So... thank you, for indulging my little whim."
-m "It was a lot of fun for me too, Violet. Don't mention it."
-m "Besides, I think I got a few good hits in to make it worth it."
+v "Então... obrigada por satisfazer meu pequeno capricho."
+m "Foi muito divertido para mim também, Violet. Não mencione isso."
+m "Além disso, acho que consegui algumas boas tacadas para valer a pena."
 show v laugh
-v "I'm worried for you! It appears your amnesia is getting even worse!"
-"Violet laughed as she picked off some more crumbs off my face and licked them off her finger."
+v "Estou preocupada com você! Parece que sua amnésia está piorando ainda mais!"
+"Violet riu enquanto pegava mais algumas migalhas do meu rosto e as lambia do dedo."
 show v blush
-"Her eyes seemed to linger on mine."
+"Seus olhos pareciam permanecer nos meus."
 show v happy
-v "I do hope we can spend more time together soon, I... quite liked this."
-m "I'd like that, Violet. I had a lot of fun with you too."
-m "You're full of surprises, you know?"
+v "Espero que possamos passar mais tempo juntos em breve, eu... gostei bastante disso."
+m "Eu gostaria disso, Violet. Eu me diverti muito com você também."
+m "Você é cheia de surpresas, sabia?"
 show v laugh
-v "Just wait and see, there's more where that came from!"
-"We spend the rest of the day talking and eating little desserts together on the porch."
-"Though Violet seemed quite distant when I first met her, I learned that the real Violet was nothing like that at all, and full of surprises."
-"She could be unexpectedly shy one moment, then mischevious as a child another."
-"One thing's for sure - being around her makes my heart skip a beat, and the time fly."
+v "Espere e veja, tem mais de onde isso veio!"
+"Passamos o resto do dia conversando e comendo pequenas sobremesas juntos na varanda."
+"Embora Violet parecesse bem distante quando a conheci, aprendi que a verdadeira Violet não era nada disso, e cheia de surpresas."
+"Ela podia ser inesperadamente tímida em um momento, então travessa como uma criança em outro."
+"Uma coisa é certa - estar perto dela faz meu coração pular uma batida, e o tempo voar."
 hide v with dissolve
 show bg Black with dissolve
-"Before I realized how much time had passed, it was already pitch black outside."
+"Antes que eu percebesse quanto tempo havia passado, já estava escuro como breu lá fora."
 $ violetAffection=2
 jump postDateSelector

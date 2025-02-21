@@ -5,62 +5,62 @@ $ violetAffection=3
 show bg KitchenMorning with dissolve
 play music NightInVenice
 show v happy at pos50v with dissolve
-"I found Violet in the same place I met her. She was taking out a fresh batch of cookies from the oven."
-m "Morning, Violet!"
-"I slid next to her, and grabbed one of the cookies in one smooth motion."
-m "Ow! Hot."
-"I flung the cookie into my mouth anyway."
-m "Worth the pain! Damn, that was delicious."
+"Encontrei Violet no mesmo lugar que a conheci. Ela estava tirando uma fornada de biscoitos do forno."
+m "Bom dia, Violet!"
+"Eu deslizei para perto dela e peguei um dos biscoitos em um movimento suave."
+m "Ai! Quente."
+"Eu joguei o biscoito na minha boca de qualquer maneira."
+m "Valeu a pena a dor! Caramba, estava delicioso."
 show v laugh
-v "Wait a moment, you silly goose!"
+v "Espere um momento, seu ganso bobo!"
 show v happy
-v "You never fail to make me laugh, [name]. I quite admire that."
-"I did a mocking bow, with my arms behind my back, and put on my best fancy accent."
-m "The pleasure's all mine, milady."
+v "Você nunca deixa de me fazer rir, [name]. Eu admiro muito isso."
+"Fiz uma reverência zombeteira, com os braços atrás das costas, e coloquei meu melhor sotaque chique."
+m "O prazer é todo meu, milady."
 show v laugh
-v "Stop, you!"
-"I wolfed down another cookie. Hell yeah."
+v "Pare, você!"
+"Eu devorei outro biscoito. Claro que sim."
 show v surprised
-v "You do know those are for sharing with everyone, right?"
-m "I'm part of everyone - what's the problem here?"
-"We laughed together at the bit we were performing."
+v "Você sabe que elas são para compartilhar com todos, certo?"
+m "Eu sou parte de todos - qual é o problema aqui?"
+"Nós rimos juntos na parte que estávamos fazendo."
 show v blush
-v "Ah, that reminds me... [name]."
-m "What's up, Violet?"
+v "Ah, isso me lembra... [name]."
+m "O que foi, Violet?"
 show v worried
-v "It's come to my attention... that this show will be ending quite soon."
-m "...Yeah, it is."
+v "Chegou ao meu conhecimento... que esse show vai acabar muito em breve."
+m "...Sim, vai."
 show v sassy
-v "Oh, do cheer up, please! I don't intend to feel sorry for myself."
+v "Oh, anime-se, por favor! Não pretendo sentir pena de mim mesmo."
 show v neutral
-v "Instead... I want to use the time we have left here to do something I've... always longed to do."
-m "And what's that?"
+v "Em vez disso... quero usar o tempo que nos resta aqui para fazer algo que... sempre desejei fazer."
+m "E o que é isso?"
 show v blush
-v "What I want... is to go on a date, the kind that normal people go on."
+v "O que eu quero... é ir a um encontro, do tipo que pessoas normais vão."
 show v happy
-v "The kind that I've only read about! Having a picnic! Watching a movie at the theatre! Long walks on the beach! Even something crazy, like... a paint night!"
+v "O tipo sobre o qual eu só li! Fazer um piquenique! Assistir a um filme no cinema! Longas caminhadas na praia! Até mesmo algo louco, como... uma noite de pintura!"
 show v blush
-v "And then we can watch the sunset go down together, and it'd be so romantic..."
-"Her enthusiasm was adorable. She was practically bouncing around the room like a ping pong ball."
-m "...I think we can make that happen."
+v "E então podemos assistir ao pôr do sol juntos, e seria tão romântico..."
+"O entusiasmo dela era adorável. Ela estava praticamente quicando pela sala como uma bola de pingue-pongue."
+m "...Acho que podemos fazer isso acontecer."
 show v happy
-v "Can we now! Which one!"
-m "Why not all of them?"
-"She's got the most beautiful smile, damn."
+v "Podemos agora! Qual deles!"
+m "Por que não todos eles?"
+"Ela tem o sorriso mais lindo, droga."
 show v surprised
-v "Really? You've got to be kidding me."
-m "You can count on me, Violet. I'll make it happen."
+v "Sério? Você só pode estar brincando comigo."
+m "Pode contar comigo, Violet. Eu farei acontecer."
 show v laugh
 with vpunch # params:Violet
 v "Yay!"
-"She did a little cheer and dance. Gosh, I can't stop smiling looking at her."
-"That said... I have no idea what to do. Guess this'll be touch 'n' go!"
+"Ela fez um pequeno grito de alegria e dançou. Nossa, não consigo parar de sorrir olhando para ela."
+"Dito isso... não tenho ideia do que fazer. Acho que isso vai ser arriscado!"
 show v happy
-v "It wouldn't be fair if you figured out everything. Let me handle the picnic!"
-"She pulled out a basket from behind her."
+v "Não seria justo se você descobrisse tudo. Deixe-me cuidar do piquenique!"
+"Ela puxou uma cesta de trás dela."
 show v laugh
-v "Care to join me in the lovely outdoors?"
-m "I wouldn't miss it for the world, Violet."
+v "Quer se juntar a mim no lindo ar livre?"
+m "Eu não perderia isso por nada no mundo, Violet."
 hide v with dissolve
 show bg Hills with dissolve # time:2
 show bg VioletPicnic with dissolve # time:2

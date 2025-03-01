@@ -5,40 +5,40 @@ $ yuiAffection=1
 
 play music Meadow
 
-"The forest to the north of the house was as serene as could be."
-"With each step forward, I felt the soft earth give away beneath my feet, and the wind caress my skin."
-"Green as far as the eye can see... and her, in a flowing white dress, standing in the middle of it all."
+"A floresta ao norte da casa era tão serena quanto possível."
+"A cada passo à frente, eu sentia a terra macia ceder sob meus pés, e o vento acariciar minha pele."
+"Verde até onde os olhos podem ver... e ela, em um vestido branco esvoaçante, parada no meio de tudo."
 show y happy at pos50y with dissolve
-y "Hey there, [name]. Whatcha doing all the way out here?"
+y "Ei, [name]. O que você está fazendo aqui fora?"
 
 menu:
-    "I was looking for you":
+    "Eu estava procurando você":
         jump yd1c1
-    "I could ask you the same":
+    "Eu ia te perguntar a mesma coisa":
         jump yd1c2
 
 label yd1c1:
-m "I was looking for you, Yui."
+m "Eu estava procurando por você, Yui."
 show y laugh
-m "I was hoping we could spend some time together."
+m "Eu esperava que poderiamos passar um tempo juntos."
 show y happy
-y "Then consider me the luckiest girl in the whole world!"
-"Yui had the cutest giggle - the kind that instantly put a smile on your face."
+y "Então me considere a garota mais sortuda do mundo!"
+"Yui tinha uma risadinha fofa, do tido que coloca um sorriso no seu rosto instataneamente."
 show y happy
-y "Well, you've found me now."
+y "Bem, você me encontrou agora."
 show y laugh
-y "Care to join me for a walk?"
-m "...I'd like that."
+y "Se importa de se juntar a mim para uma caminhada?"
+m "...Eu adoraria."
 jump yd1pc
 
 label yd1c2:
-m "I could ask you the same."
+m "Eu ia te perguntar a mesma coisa."
 show y laugh
-y "I guess so!"
-"Yui had the cutest giggle - the kind that instantly put a smile on your face."
+y "Acho que sim!"
+"Yui tinha uma risadinha fofa, do tido que coloca um sorriso no seu rosto instataneamente."
 show y happy
-y "Care to join me for a walk?"
-m "I'd like that."
+y "Se importa de se juntar a mim para uma caminhada?"
+m "...Eu adoraria."
 
 label yd1pc:
 

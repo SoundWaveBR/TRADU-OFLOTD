@@ -4,173 +4,173 @@ show bg Hills with dissolve
 play music Meadow
 $ yuiAffection=2
 
-"I could see Yui waving at me from the top of the hill."
+"Eu podia ver Yui acenando para mim do topo da colina."
 show y happy at pos50y with dissolve
-y "Hey there, [name]! It's nice to see you again!"
-m "It's nice to see you too, Yui!"
-m "You wanted to show me something?"
-"Now that I was closer, I could see Yui was holding one hand behind her back."
+y "Oi, [name]! É bom te ver de novo!"
+m "É bom te ver também, Yui!"
+m "Você queria me mostrar algo?"
+"Agora que eu estava mais perto, pude ver que Yui estava segurando uma mão atrás das costas."
 show y laugh
-y "Believe me, it's the most amazing thing you've ever seen."
+y "Acredite, é a coisa mais incrível que você já viu."
 show y angry
-y "Behold!!!!"
+y "Eis!!!!"
 
 hide y with dissolve
 stop music
 play music LoveTheme
 show bg YuiHoldingBunny with dissolve
 
-y "It's a bunny!!!"
-"It was indeed a bunny."
-m "Where did this little guy come from?"
+y "É um coelhinho!!!"
+"Era de fato um coelhinho."
+m "De onde veio esse pequeno?"
 #show y surprised
-y "To be honest, I've got no idea."
-m "I wonder if he's a wild one, or maybe somebody's pet."
+y "Para ser honesta, não faço ideia."
+m "Eu me pergunto se ele é um selvagem, ou talvez o animal de estimação de alguém."
 #show y worried
-y "I've asked around, but it doesn't look like he belongs to anybody."
+y "Eu perguntei por aí, mas não parece que ele pertença a ninguém."
 #show y neutral
-y "So, I... I've been taking care of him since I've found him."
+y "Então, eu... eu tenho cuidado dele desde que o encontrei."
 #show y laugh
-y "I just couldn't help myself, y'know?"
-"Yui's smile was as earnest as could be."
-m "Didn't you have a pet bunny back home?"
+y "Eu simplesmente não consegui me controlar, sabe?"
+"A expressão de Yui era tão sincera quanto poderia ser."
+m "Você não tinha um coelhinho de estimação em casa?"
 #show y happy
-y "I had two! Bun and Bunbun!"
+y "Eu tinha dois! Bun e Bunbun!"
 #show y surprised
-y "Both of them are total rascals. But Bunbunbun here is a good boy, aren't you?"
-"She nuzzled against Bunbunbun's head."
+y "Ambos eram uns travessos. Mas Bunbunbun aqui é um bom garoto, não é?"
+"Ela esfregou a cabeça de Bunbunbun."
 #show y happy
-y "Yes, you are ~
-Nuzzle, nuzzle."
-"We played with the bunny for a little while."
-"She picked the bunny up and held it in her arms. Bunbunbun looked quite content."
-m "You know, you're pretty amazing with animals, Yui."
+y "Sim, você é ~
+Nuzzle, nuzzle. (Ela esfregou o nariz contra o coelho.)"
+"Nós brincamos com o coelhinho por um tempo."
+"Ela pegou o coelhinho e o segurou em seus braços. Bunbunbun parecia bastante contente."
+m "Você sabe, você é incrível com animais, Yui."
 show bg Hills with dissolve
 show y laugh at pos50y with dissolve
-y "Well, I've been surrounded by animals my whole life!"
+y "Bem, eu estive cercada por animais a minha vida toda!"
 show y neutral
-y "Back at my house, well... to be honest, it was more of a barn than anything."
+y "De volta para casa, bem... para ser honesta, era mais um celeiro do que qualquer outra coisa."
 show y happy
-y "Since my sisters were too young, and grandma was getting up there, I'd take care of all the animals."
+y "Como minhas irmãs eram muito novas, e minha avó já estava ficando velha, eu cuidava de todos os animais."
 show y neutral
-y "Grandma's taken care of them ever since they were born."
+y "A vovó cuidou deles desde que nasceram."
 show y sad
-y "My parents were supposed to take care of them after grandma retired, but..."
+y "Meus pais deveriam cuidar deles depois que a vovó se aposentasse, mas..."
 show y happy
-y "Well, you know... life happens. I'm just glad to have what I have."
+y "Bem, você sabe... a vida acontece. Eu só estou feliz por ter o que tenho."
 show y surprised
 y "Ah!"
-"Bunbunbun had managed to squeeze out of her hands, and ran off."
+"Bunbunbun conseguiu escapar de suas mãos e saiu correndo."
 show y angry
-y "We gotta catch him! Let's go!"
-m "On it!"
-"I ran as fast as I could after Bunbunbun, but it was no use - the distance kept widening."
-"Before long, we couldn't even see him anymore."
+y "Temos que pegá-lo! Vamos!"
+m "Estou indo!"
+"Eu corri o mais rápido que pude atrás de Bunbunbun, mas não adiantou - a distância só aumentava."
+"Antes de muito tempo, não conseguimos nem vê-lo mais."
 show y worried
-m "Sorry, I couldn't catch him... he's really fast, for something so small."
+m "Desculpe, eu não consegui pegá-lo... ele é realmente rápido, para algo tão pequeno."
 show y happy
-y "Ah, don't worry about it! Bunbunbun likes to do this all the time. He's a bit mischevious, but he won't do anything dangerous."
+y "Ah, não se preocupe com isso! Bunbunbun gosta de fazer isso o tempo todo. Ele é um pouco travesso, mas não fará nada perigoso."
 show y laugh
-y "We can take our time looking for him."
+y "Podemos levar nosso tempo procurando por ele."
 show y neutral
-y "If you're willing to help!"
-m "Of course, Yui!"
+y "Se você estiver disposto a ajudar!"
+m "Claro, Yui!"
 $ renpy.sound.play("audio/sfx/walking_on_dirt.mp3", loop=True) #loop:true
-"We started walking towards where we last saw Bunbunbun, right after we caught our breath again."
+"Nós começamos a andar em direção aonde vimos Bunbunbun pela última vez, logo depois que recuperamos o fôlego."
 show y happy
-y "Gosh... isn't it so nice to be outside? The smell of fresh air, the breeze?"
+y "Nossa... não é tão bom estar lá fora? O cheiro do ar fresco, a brisa?"
 show y laugh
-y "There's nothing like it!"
-m "There really isn't!"
-"I smiled."
+y "Não há nada como isso!"
+m "Realmente não há!"
+"Eu sorri."
 show y happy
 stop sound
-y "At first, I was really excited to go to the city."
+y "No começo, eu estava realmente animada para ir para a cidade."
 show y neutral
-y "There's so many people, so many things to do, so many beautiful things..."
+y "Há tantas pessoas, tantas coisas para fazer, tantas coisas bonitas..."
 show y happy
-y "...And most of all, I got to meet you!"
-m "Shucks, you're going to make me blush."
+y "...E, acima de tudo, eu conheci você!"
+m "Ah, você vai me fazer ficar vermelho."
 show y laugh
-"She laughed and touched my arm."
+"Ela riu e tocou meu braço."
 show y neutral
-y "Even so, the city's just not my thing."
+y "Mesmo assim, a cidade simplesmente não é a minha praia."
 show y sad
-y "...It's a little bit funny. Though the reason I had to come home all of a sudden was terrible, I... a little part of me was glad to be home."
+y "...É um pouco engraçado. Embora a razão pela qual eu tive que voltar para casa de repente fosse terrível, eu... uma pequena parte de mim estava feliz por estar em casa."
 show y neutral
-y "Ever had that kind of feeling before?"
-m "I have. It's strange, but sometimes, there's good in the bad - and sometimes, that good can outweigh the bad."
+y "Você já teve esse tipo de sentimento antes?"
+m "Eu já. É estranho, mas às vezes, há coisas boas no ruim - e às vezes, essa coisa boa pode superar a ruim."
 show y laugh
-y "Exactly. You get it, [name]."
+y "Exatamente. Você entende, [name]."
 show y happy
-y "My family's never been closer."
+y "Minha família nunca esteve tão unida."
 show y laugh
-y "And that's all I want."
+y "E isso é tudo o que eu quero."
 show y neutral
-y "They told me to make a lot of money in the city... make something of myself, all that."
+y "Eles me disseram para ganhar muito dinheiro na cidade... fazer algo de mim mesma, tudo isso."
 show y worried
-y "It might seem... old-fashioned, but I just want to put the people I love first."
+y "Pode parecer... antiquado, mas eu só quero colocar as pessoas que amo em primeiro lugar."
 show y happy
-y "That's all ya got in life, really!"
+y "Isso é tudo o que realmente importa na vida!"
 show y neutral
 #y "I'm curious... what do you put first in life?"
 
 menu:
-    y "I'm curious... what do you put first in life?"
+    y "Estou curiosa... o que você coloca em primeiro lugar na vida?"
 
-    "Family":
+    "Família":
         jump Family
-    "Career":
+    "Carreira":
         jump Career
-    "Happiness":
+    "Felicidade":
         jump Happiness
 
 label Family:
-m "That'd have to be family, no doubt."
+m "Isso teria que ser família, sem dúvida."
 jump AfterValue
 
 label Career:
-m "That'd have to be my career."
+m "Isso teria que ser minha carreira."
 jump AfterValue
 
 label Happiness:
-m "Happiness. If you don't have that, what do you have?"
+m "Felicidade. Se você não tem isso, o que você tem?"
 jump AfterValue
 
 label AfterValue:
 
 show y happy
-y "Oh, is that so!"
+y "Oh, é mesmo!"
 show y laugh
-y "I think we'd make a great team, then."
-"We talked for several hours about what we wanted out of life. We seemed to match up perfectly. I was beaming the whole time."
-"It was hard to believe that -"
+y "Acho que formaríamos uma ótima equipe, então."
+"Nós conversamos por várias horas sobre o que queríamos da vida. Parecíamos combinar perfeitamente. Eu estava radiante o tempo todo."
+"Era difícil acreditar que -"
 show y surprised
 stop sound # stopsfx
-y "It's Bunbunbun!!"
-"Yui pointed in front of us, and sure enough, there was Bunbunbun, chomping on a bush."
+y "É Bunbunbun!!"
+"Yui apontou para frente, e com certeza, lá estava Bunbunbun, mordendo um arbusto."
 show y angry at pos95y #used to be 100
 play sound Whoosh
-"I'd never seen anyone move so fast - Yui descended on Bunbunbun like a hawk, and grabbed him in an instant."
+"Eu nunca vi ninguém se mover tão rápido - Yui desceu sobre Bunbunbun como uma águia e o agarrou em um instante."
 show y annoyed  at pos50y with easeinright
-y "You are going back to your den, you bad little bunny!"
+y "Você vai voltar para sua toca, você coelhinho travesso!"
 show y happy
-y "But I'm happy you're safe."
-"She nuzzled her face against his fur. Bunbunbun was practically purring with delight."
+y "Mas estou feliz que você está seguro."
+"Ela esfregou o rosto contra o pelo dele. Bunbunbun estava praticamente ronronando de alegria."
 show y blush
-"Then she looked right at me."
+"Então ela olhou bem para mim."
 show y happy
-y "I can't promise I could give you the most exciting life, with the most twists and turns around every corner..."
+y "Eu não posso prometer que poderia te dar a vida mais emocionante, com as reviravoltas mais inesperadas a cada esquina..."
 show y neutral
-y "But I can promise, that if you chose me, I'd always be by your side. No matter what."
+y "Mas eu posso prometer que, se você me escolher, eu sempre estarei ao seu lado. Não importa o que aconteça."
 show y blush
-y "Wherever you were... I'd come running, always."
-"She took a step towards me and kissed my cheek."
-"We locked eyes, and for that time, all I could see was her, and how beautiful she was."
+y "Onde quer que você esteja... eu viria correndo, sempre."
+"Ela deu um passo em direção a mim e beijou minha bochecha."
+"Nós nos encaramos, e por aquele momento, tudo o que eu podia ver era ela, e quão bonita ela era."
 show y happy
-"Bunbunbun seemed to be a little jealous after that."
+"Bunbunbun parecia estar um pouco com ciúmes depois disso."
 show y laugh
-y "Thanks again for the help, [name]. Being with you made this all go a lot faster... and made it really special to me."
-m "Anytime, Yui. I'm happy to."
-"We walked back together to the mansion, holding hands and smiling all the while."
+y "Obrigado novamente pela ajuda, [name]. Estar com você fez tudo isso acontecer muito mais rápido... e tornou tudo realmente especial para mim."
+m "A qualquer momento, Yui. Estou feliz em ajudar."
+"Nós voltamos juntos para a mansão, de mãos dadas e sorrindo o tempo todo."
 jump postDateSelector

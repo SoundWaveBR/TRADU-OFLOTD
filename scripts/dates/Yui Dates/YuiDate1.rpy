@@ -45,88 +45,88 @@ label yd1pc:
 hide y with dissolve
 $ renpy.sound.play("audio/sfx/walking_on_dirt.mp3", loop=True)
 show bg YuiInField with dissolve # time:1
-"We started to walk down the forest path together."
-"I couldn't help but be fascinated by her hair, flowing like water in the wind."
+"Nós começamos a andar floresta a dentro."
+"Eu não pude deixar de ficar fascinado pelo cabelo dela, fluindo como água ao vento."
 #show y neutral
-y "I doubt you remember, but..."
+y "Eu duvido que você se lembre, mas..."
 #show y laugh
-y "I'm from way out in the country. I grew up surrounded by animals, nature, you name it!"
+y "Eu sou do interior. Cresci cercada por animais, natureza, você nomeia!"
 #show y happy
-y "It was just me and my grandma, my sisters, and the alpacas, and my bunnies Bun and Bunbun, and the chickens, and... too many farm animals to count!"
+y "Era só eu, minha avó, minhas irmãs, as alpacas, meus coelhos Bun e Bunbun, as galinhas, e... muitos animais de fazenda para contar!"
 #show y happy
-y "To answer your question from earlier... nature takes me back home."
-m "Do you still live there?"
+y "Para responder sua pergunta de antes... a natureza me leva de volta para casa."
+m "Você ainda mora lá?"
 #show y laugh
-y "Yep! Wouldn't have it any other way."
+y "Sim! Não teria de outra forma."
 
 #show y neutral
-y "Though I had moved to the city for a bit, way back when."
+y "Embora eu tenha me mudado para a cidade por um tempo, lá atrás."
 #show y happy
-y "You know, that's when I met you!"
-m "How'd we meet?"
+y "Você sabe, você sabe, foi quando eu te conheci!"
+m "Como nos conhecemos?"
 #show y neutral
-y "Well..."
+y "Bem..."
 stop sound
 show bg Hills with dissolve
 show y sad at pos50y with dissolve
 
-y "You know, one thing I hated about the city... is that everyone's in a rush."
+y "Sabe, uma coisa que eu odiava na cidade... é que todo mundo está sempre com pressa."
 show y serious
-y "People just walk by each other as if they're obstacles to get past, instead of... well, people."
+y "As pessoas simplesmente passam umas pelas outras como se fossem obstáculos a serem superados, em vez de... bem, pessoas."
 show y sad
-y "I came to the city alone. Didn't know left from right."
+y "Eu vim para a cidade sozinha. Não sabia a minha esquerda da direita."
 show y laugh
-y "And... I got lost! I swear every building looks the same."
-m "You can say that again."
+y "E... eu me perdi! Eu juro que todos os prédios parecem iguais."
+m "Você pode dizer isso de novo."
 show y sad
-y "I'd try to ask people for directions to where I would live, or where the school was, but no one would give me the time of day."
+y "Eu tentava perguntar às pessoas direções para onde eu moraria, ou onde era a escola, mas ninguém me dava a hora do dia."
 show y blush
-y "Except for you."
-m "I helped you?"
+y "Exceto por você."
+m "Eu te ajudei?"
 show y laugh
-y "Yeah. You didn't even know me, but you took the time to help me figure my way around."
+y "Sim. Você nem me conhecia, mas tirou um tempo para me ajudar a encontrar meu caminho."
 show y blush
-y "Gosh, I'd never been so embarrassed in my life."
-m "Why were you embarrassed?"
+y "Nossa, eu nunca fiquei tão envergonhada na minha vida."
+m "Por que você ficou envergonhada?"
 show y neutral
-y "Uh... you know."
+y "Uh... você sabe."
 show y blush
-y "Hehe. Shy."
+y "Hehe. Tímida."
 m "?"
 show y neutral
-y "We found out later we went to the same high school, but we never talked too much after that."
-m "Aw, I'm sorry about that."
+y "Descobrimos depois que estudamos na mesma escola, mas nunca conversamos muito depois disso."
+m "Aw, sinto muito por isso."
 show y surprised
-y "Oh, it's not your fault, [name]! I had to move back home pretty soon after, anyway."
-m "Well, I'm happy I'm getting a second chance to get to know you better, Yui."
+y "Ah, não foi sua culpa, [name]! Eu tive que voltar para casa pouco tempo depois, de qualquer forma."
+m "Bem, estou feliz por ter uma segunda chance de te conhecer melhor, Yui."
 show y happy
-y "I feel the same way, [name]!"
+y "Eu sinto o mesmo, [name]!"
 show y blush
-y "You're just like how I remember."
+y "Você é exatamente como eu me lembro."
 show y surprised
-y "Well, actually, the whole trying to date 5 girls at a time thing came out of nowhere, but... life is full of surprises, I guess."
+y "Bem, na verdade, toda essa história de tentar namorar 5 garotas ao mesmo tempo surgiu do nada, mas... a vida é cheia de surpresas, eu acho."
 show y laugh
 stop music
 play sound MysteryPiano
-y "It shouldn't take long to remove them from the equation."
-m "Sorry, what did you say? I couldn't hear you."
+y "Não deve demorar muito para removê-las da equação."
+m "Desculpe, o que você disse? Eu não consegui ouvir."
 play music Meadow
 show y shy
-y "Just a little joke. Hehe..."
+y "Era só uma piadinha. Hehe..."
 show y neutral
-y "I was just saying, I'm so happy to see you again!"
+y "Eu só estava dizendo, estou tão feliz por te ver novamente!"
 show y happy
-y "Here's to the future!"
+y "Um brinde ao futuro!"
 show y laugh
-"We spent the rest of the day taking in the nature, and making up for lost time."
-"Apparently, I was always ending up in trouble back then."
+"Nós passamos o resto do dia aproveitando a natureza e compensando o tempo perdido."
+"Aparentemente, eu sempre acabava me metendo em encrenca naquela época."
 show y happy
-"I guess not much has changed..."
-"Something about Yui made it so easy to open up. I found myself almost telling her the truth about the show several times."
-"Even though I couldn't tell her the whole truth, I could tell her just enough of what was worrying me to make me feel at home and at ease."
+"Eu acho que não mudou muito..."
+"Algo sobre a Yui tornava tão fácil se abrir. Eu me peguei quase contando a verdade sobre o show várias vezes."
+"Mesmo que eu não pudesse contar a ela toda a verdade, eu poderia contar a ela apenas o suficiente do que estava me preocupando para me fazer sentir em casa e à vontade."
 show y laugh
-y "Whatever's getting you down... I'm sure it'll all be okay."
+y "O que quer que esteja te incomodando... tenho certeza de que tudo ficará bem."
 show y happy
-y "No matter what... I'm on your side, [name]."
+y "Não importa o que aconteça... eu estou do seu lado, [name]."
 $ yuiAffection=1
 jump postDateSelector

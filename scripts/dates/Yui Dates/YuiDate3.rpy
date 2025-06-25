@@ -5,116 +5,116 @@ label YuiDate3:
 show bg RoomMorning with dissolve
 $ yuiAffection=3
 play music AlmostNew
-"I could see Yui from my room's window, walking around the front of the mansion. It looked like she was looking for something."
-"I practically jumped down the stairs, then ran outside to see her."
+"Eu podia ver Yui da janela do meu quarto, andando pela frente da mansão. Parecia que ela estava procurando algo."
+"Eu praticamente pulei escada abaixo e corri para fora para vê-la."
 show bg MansionMorning with dissolve
 show y happy at pos50y with dissolve
-y "Hey there, [name]!"
+y "Oi, [name]!"
 show y surprised
-y "What's the hurry? You look like you're in quite the rush!"
-m "I just wanted to see you a little earlier."
+y "Qual é a pressa? Você parece estar com bastante pressa!"
+m "Eu só queria te ver um pouco mais cedo."
 show y blush
-y "Gosh, that's really sweet of you."
+y "Gosh, isso é realmente doce da sua parte."
 show y happy
-y "I've been meaning to see you too, uh..."
+y "Eu também estava querendo te ver, uh..."
 show y neutral
-y "I've just been doing a lot of thinking since you helped me get Bunbunbun."
-m "Ah, How's the big B doing?"
+y "Eu estive pensando muito desde que você me ajudou a pegar o Bunbunbun."
+m "Ah, como está o grande Bunbunbun?"
 show y surprised
-y "Ah, come to think of it! That's why I came out here!"
+y "Ah, agora que eu penso nisso! É por isso que eu vim aqui fora!"
 show y worried
-y "He ran out here in a hurry, and I was trying to catch up."
+y "Ele saiu correndo para cá, e eu estava tentando alcançá-lo."
 show y laugh
-y "Though this has already happened a few times, and each time, he somehow ends up back in my room."
-m "I'm sure he's fine, I wouldn't be worried."
+y "Embora isso já tenha acontecido algumas vezes, e cada vez, ele acaba de alguma forma de volta no meu quarto."
+m "Estou certo de que ele está bem, eu não me preocuparia."
 show y happy
-y "I just can't help myself, you know?"
-m "You're a really sweet person, Yui. I love that about you."
+y "Eu simplesmente não consigo me controlar, sabe?"
+m "Você é uma pessoa realmente doce, Yui. Eu amo isso em você."
 show y blush
-y "...You are too, [name]."
+y "...Você também é, [name]."
 show y happy
-y "Do you have time today to hang out? There's something I'd like to do with you."
-m "Of course I do, for you."
+y "Você tem tempo hoje para sair? Tem algo que eu gostaria de fazer com você."
+m "Claro que tenho, por você."
 show y shy
-y "Even if... it's a little boring?"
-m "I'm sure it can't be that boring if it's with you, you know?"
-m "Whatever it is, I'm down."
+y "Mesmo que... seja um pouco chato?"
+m "Tenho certeza de que não pode ser tão chato se for com você, sabe?"
+m "O que quer que seja, estou dentro."
 show y happy
-y "Okay! Here we go!!"
+y "Okay! Aqui vamos nós!!"
 show bg BeachMorning with dissolve
 show y neutral
 stop music
 play music AlmostBliss
-"And so we walked together to the beach..."
-"...and started fishing, side-by-side."
+"E assim caminhamos juntos até a praia..."
+"...e começamos a pescar, lado a lado."
 show y happy
-y "Ahhhh... now this is the life."
-m "I have to admit, this wasn't what I expected."
+y "Ahhhh... agora isso é vida."
+m "Eu tenho que admitir, isso não era o que eu esperava."
 show y laugh
-y "This was, by far, the best way to pass the time out in the countryside!"
+y "Esta foi, de longe, a melhor maneira de passar o tempo no campo!"
 show y shy
-y "To be honest, I'm not much for crazy activities, like skydiving, or shopping trips."
+y "Para ser honesta, eu não sou muito fã de atividades malucas, como paraquedismo ou passeios de compras."
 show y happy
-y "I'd rather just spend my days quietly, with the person I love, talking from dusk till dawn."
+y "Eu prefiro passar meus dias tranquilamente, com a pessoa que amo, conversando do crepúsculo até o amanhecer."
 show y laugh
-y "Just enjoying each other's company, y'know? That's the best."
+y "Apenas aproveitando a companhia um do outro, sabe? Isso é o melhor."
 show y worried
-y "Is... is this okay with you?"
-m "Of course it is, Yui."
-m "Getting the chance to learn more about you, to try the things you like... that's where the real fun is."
-m "I'd also much prefer that to doing crazy things all the time, too."
-m "Though I do think shopping trips aren't really in the same category as skydiving."
+y "Está... está tudo bem para você?"
+m "Claro que está, Yui."
+m "Ter a chance de aprender mais sobre você, de experimentar as coisas que você gosta... é aí que está a verdadeira diversão."
+m "Eu também prefiro isso a fazer coisas malucas o tempo todo."
+m "Embora eu ache que passeios de compras não estão realmente na mesma categoria que paraquedismo."
 show y laugh
-y "They are when you live deep in the country!"
-m "Hey, you up for a little contest?"
+y "Eles estão quando você vive no interior!"
+m "Ei, você está a fim de uma pequena competição?"
 show y happy
-y "Sure! Let's do it! What is it?"
-m "Want to see who can catch more fish?"
+y "Claro! Vamos fazer isso! O que é?"
+m "Quer ver quem consegue pegar mais peixes?"
 show y laugh
 stop music
 play sound AnimeShine
 y "..."
 play music CarpeDiem
 show y angry
-y "You're on! Hmph!"
-"Apparently I had fanned the flames of Yui's competitive spirit."
-"For the next few hours, we kept on at it, while we enjoyed each other's conversation and company."
+y "Você está dentro! Hmph!"
+"aparentemente, eu havia atiçado as chamas do espírito competitivo de Yui."
+"Durante as próximas horas, continuamos com isso, enquanto desfrutávamos da conversa e da companhia um do outro."
 show y surprised
-"Yui was a natural. She was catching fish left and right."
+"Yui era uma natural. Ela estava pegando peixes à esquerda e à direita."
 show y neutral
-"Each time she caught one, she let it back into the ocean, and each time, I wondered when my first one would bite."
-"...I never ended up catching a single one."
+"Cada vez que ela pegava um, ela o deixava de volta no oceano, e a cada vez, eu me perguntava quando meu primeiro iria morder."
+"...Eu nunca acabei pegando um único."
 show y happy
-"But that didn't matter. What did was that we were having a ball."
+"Mas isso não importava. O que importava era que estávamos nos divertindo."
 stop music
 play music LoveTheme
 show y neutral
-y "Thanks for indulging me, [name]."
-m "Hey, I had a lot fun too, Yui. Don't worry about it."
+y "Obrigado por me acompanhar, [name]."
+m "Ei, eu também me diverti muito, Yui. Não se preocupe com isso."
 show y laugh
-y "You don't have to lie."
+y "Você não precisa mentir."
 show y worried
-y "I... know I'm not like the other girls."
+y "Eu... sei que não sou como as outras garotas."
 show y sad
-y "I grew up with nothing, and...it shows in how I spend my time, what I wear, everything."
+y "Eu cresci sem nada, e... isso se reflete em como eu passo meu tempo, o que eu visto, tudo."
 show y neutral
-y "...I love you so much, you know?"
+y "...Eu te amo tanto, você sabe?"
 show y happy
-y "If I had you, I'd give you all the love in my heart, every moment of every day."
+y "Se eu tivesse você, eu te daria todo o amor do meu coração, a cada momento de cada dia."
 show y blush
-y "I really would live for love. That's what I've always wanted."
+y "Eu realmente viveria pelo amor. Isso é o que sempre quis."
 show y sad
-y "But I know I could never give you all the things everyone else could. The money, the acclaim, the excitement."
+y "Mas eu sei que nunca poderia te dar todas as coisas que todo mundo poderia. O dinheiro, o reconhecimento, a emoção."
 show y worried
-y "And I find myself worrying, what if you picked me, and the second we leave this island..."
+y "E eu me pego preocupada, e se você me escolhesse, e no segundo em que deixássemos esta ilha..."
 show y sad
-y "...You realize that I can't give you the life you deserve, and you start to hate me."
+y "...Você percebe que eu não posso te dar a vida que você merece, e você começa a me odiar."
 show y laugh
-y "I... don't know what I'd do if it came to that."
+y "Eu... não sei o que eu faria se chegássemos a isso."
 show y happy
-y "So before it comes to that, I want to ask you."
+y "Então, antes que isso aconteça, eu quero te perguntar."
 show y blush
-y "...Would just me be enough?"
+y "...Só eu seria o suficiente?"
 
 if playthrough == 1 and currentDay == 6:
     jump LastDateYui
@@ -126,41 +126,41 @@ else:
 label NotLastDateYui:
 
 menu:
-    "Yes":
+    "Sim":
         jump YuiYes
-    "No":
+    "Não":
         jump YuiNo
 
 label YuiYes:
 
 $ YuiDate3Good=1
-m "Of course you'd be enough, Yui."
+m "Claro que você seria o suficiente, Yui."
 show y happy
-m "I don't need to be in the spotlight, I don't need to be rich."
+m "Eu não preciso estar no centro das atenções, eu não preciso ser rico."
 show y blush
-m "More than all that... I want you, and just you."
+m "Mais do que tudo isso... eu quero você, e apenas você."
 show y blush
-y "...I've waited so long to hear you say that."
-"She pulled me close and kissed me."
+y "...Eu esperei tanto tempo para ouvir você dizer isso."
+"Ela me puxou para perto e me beijou."
 show y laugh
-y "I love you so much. I always have, and I always will."
+y "Eu te amo tanto. Eu sempre amei, e sempre amarei."
 show y happy
-y "I'll always put our happiness first. I'll make you so happy every day..."
-m "I'll do the same, I promise."
+y "Eu sempre colocarei nossa felicidade em primeiro lugar. Eu vou te fazer tão feliz todos os dias..."
+m "Eu farei o mesmo, eu prometo."
 show y laugh
-y "Pinch me... I must be dreaming."
-m "This is as real as it gets, Yui."
-m "Here on out, it's just going to be me and you."
+y "Me belisque... eu devo estar sonhando."
+m "Isso é o mais real que existe, Yui."
+m "A partir de agora, será apenas eu e você."
 show y blush
-y "I... I just can't hold myself back anymore, [name]."
-"She pushed me onto the warm sand of the beach, and pressed herself against me."
+y "Eu... Eu simplesmente não consigo mais me segurar, [name]."
+"Ela me empurrou para a areia quente da praia e se pressionou contra mim."
 m "Yui..."
-"She kissed me once more. Her hands wrapped around me as mine pulled her closer."
+"Ela me beijou mais uma vez. Suas mãos se envolveram em torno de mim enquanto as minhas a puxavam para mais perto."
 hide y with dissolve
-y "Let's make up for lost time, [name]..."
-"What happened next was imagination come to life."
-"I lost all track of time and the outside world - only Yui mattered."
-"...And I wouldn't have it any other way."
+y "Vamos compensar o tempo perdido, [name]..."
+"O que aconteceu a seguir foi a imaginação ganhando vida."
+"Eu perdi toda a noção do tempo e do mundo exterior - apenas Yui importava."
+"...E eu não teria de outra forma."
 jump postDateSelector
 
 label YuiNo:
@@ -168,28 +168,28 @@ label YuiNo:
 $ YuiDate3Good=0
 stop music
 play music Smile
-"...Though I know how I feel, it doesn't take a rocket scientist to saying this would be a terrible idea for ratings."
-"After all, the more girls that are in the running, the higher the ratings are."
-m "...Of course you'd be enough, Yui."
+"...Embora eu saiba como me sinto, não é preciso ser um gênio para dizer que isso seria uma péssima ideia para a audiência."
+"Depois de tudo, quanto mais garotas estiverem na disputa, maiores serão as audiências."
+m "...Claro que você seria o suficiente, Yui."
 show y happy
-m "I don't need to be in the spotlight, I don't need to be rich."
+m "Eu não preciso estar no centro das atenções, eu não preciso ser rico."
 show y blush
-m "More than all that... I want you, and just you."
+m "Mais do que tudo isso... eu quero você, e apenas você."
 show y blush
-y "...I've waited so long to hear you say that."
-"She pulled me close and kissed me."
+y "...Eu esperei tanto tempo para ouvir você dizer isso."
+"Ela me puxou para perto e me beijou."
 show y laugh
-y "I love you so much, I always have, and I always will."
+y "Eu te amo tanto, eu sempre amei, e sempre amarei."
 show y happy
-y "I'll always put our happiness first. I'll make you so happy every day..."
-"...I'm sorry, Yui."
-m "Here on out... it's just going to be me and you."
+y "Eu sempre colocarei nossa felicidade em primeiro lugar. Eu vou te fazer tão feliz todos os dias..."
+"...Desculpe, Yui."
+m "A partir de agora, será apenas eu e você."
 show y blush
-y "I... I just can't hold myself back anymore, [name]."
-"She pushed me onto the warm sand of the beach, and pressed herself against me."
+y "Eu... Eu simplesmente não consigo mais me segurar, [name]."
+"Ela me empurrou para a areia quente da praia e se pressionou contra mim."
 m "Yui..."
-"She kissed me once more. Her hands wrapped around me as mine pulled her closer."
-"...But my heart isn't in it."
+"Ela me beijou mais uma vez. Suas mãos se envolveram em torno de mim enquanto as minhas a puxavam para mais perto."
+"...Mas meu coração não está nisso."
 $ yuiAffection=3
 
 jump postDateSelector
@@ -200,26 +200,26 @@ label LastDateYui:
 show y surprised
 stop music
 play music Smile
-"...My breath was taken away before I had a chance to say what I wanted to."
-"I saw something I'd never seen before - and would never see again."
+"...Minha respiração foi levada antes que eu tivesse a chance de dizer o que queria."
+"Eu vi algo que nunca tinha visto antes - e nunca veria novamente."
 hide y with dissolve
 play sound Shutdown
-"The sky rapidly turned from bright blue to black, as if it were water being drowned in the darkest ink."
+"O céu rapidamente se transformou de um azul brilhante para o preto, como se estivesse sendo afogado na tinta mais escura."
 show bg Black with dissolve
-"Then the bright sun in the sky... went out, like a candle in the wind."
+"Então o sol brilhante no céu... se apagou, como uma vela ao vento."
 play sound GroupRun
 
-"The last thing I saw was Yui screaming as shadowy figures grabbed her from behind."
+"A última coisa que vi foi Yui gritando enquanto figuras sombrias a agarravam por trás."
 stop sound #@stopsfx GroupRun
-"A second later, it was pitch black. I couldn't even see my hands reaching out to try to save her."
-"Then I felt somebody grab me from behind. No, not somebody - there must have been several people."
+"Um segundo depois, estava tudo escuro. Eu não conseguia nem ver minhas mãos se estendendo para tentar salvá-la."
+"Então eu senti alguém me agarrar por trás. Não, não era alguém - devia haver várias pessoas."
 play sound Hit
-"They forced me to the ground and cuffed me behind my back."
+"Eles me forçaram ao chão e me algemaram atrás das costas."
 play sound Handcuffs
-"I screamed, but there was no sound."
-"I tried to fight, but there was no way out."
-"I screamed for Yui, for her to run as far as she could - but I heard no response."
-"Then... nothing."
+"Eu gritei, mas não havia som."
+"Eu tentei lutar, mas não havia como escapar."
+"Eu gritei por Yui, para que ela corresse o mais longe que pudesse - mas não ouvi resposta."
+"Então... nada."
 
 if playthrough == 1:
     jump P1Ending

@@ -2,43 +2,43 @@ label YuiMorning1:
 
 show bg MansionMorning with dissolve
 play music Morning
-"In the morning, the girls and I decided to hang out in the garden outside the house."
+"De manhã, as meninas e eu decidimos passar um tempo no jardim em frente à casa."
 show t happy at pos30t with dissolve
 show y surprised at pos50y with dissolve # former ,,-1
 show s happy at pos70s with dissolve
-y "Oh, wow! There's all kinds of flowers here that I've never seen here before!"
+y "Nossa! Tem todo tipo de flor aqui que eu nunca vi antes!"
 show s surprised
-s "Really! You've never seen a tulip?"
+s "Sério! Você nunca viu uma tulipa?"
 show y happy
-y "Grandma and I only grew hyacinths back home, so nope."
+y "Na minha terra natal, eu e a minha avó só cultivávamos jacintos, então não."
 show t surprised
-t "Not even on the internet?"
+t "Nem mesmo na internet.?"
 show t happy
-t "And I thought I had to get out more."
+t "E pensei que precisava sair mais."
 show s neutral
-s "I can believe that, the only flowers I ever work with are Venus fly traps."
+s "Posso acreditar nisso, as únicas flores com as quais trabalho são dioneias (plantas carnívoras).."
 show t surprised
-t "What do you do with those?"
+t "O que você faz com eles?"
 show s laugh
-s "Well, we do a lot of experiments at the lab."
+s "Bem, nós fazemos muitos experimentos no laboratório."
 show s happy
-s "Don't you ever find yourself thinking, wouldn't it be cool to make a Venus fly trap that could walk... and talk?"
+s "Você já parou para pensar: "Não seria legal criar uma planta carnívora que pudesse andar... e falar?""
 show y surprised
 y "..."
 show t surprised
-t "Literally never."
+t "Literalmente nunca."
 show s sad
-s "Ah, It's whatever. She ran away two years ago."
+s "Ah, tanto faz. Ela fugiu há dois anos."
 show s neutral
-s "Both my neighbors lost their pet cats the same day, too."
+s "Meus dois vizinhos também perderam seus gatos de estimação no mesmo dia."
 show s sad
-s "I miss you, Fluffy..."
+s "Sinto sua falta, Fluffy..."
 show y surprised
-y "You sure they were lost?"
+y "Tem certeza de que estavam perdidos?"
 show v happy at pos10v with easeinleft # former look:right
-v "Tea's ready!"
-m "Thanks, Violet!"
-"I got a cup for everybody. The aroma from the tea really worked up my appetite."
+v "O chá está pronto!"
+m "Obrigado, Violet!"
+"Comprei uma xícara para cada um. O aroma do chá realmente me abriu o apetite."
 
 if violetAffection <= 1:
     jump treatversion1
@@ -47,22 +47,22 @@ if violetAffection == 2:
 
 label treatversion1:
 show v happy
-v "I have prepared some treats for us as well. Please enjoy!"
+v "Preparei algumas guloseimas para nós também. Aproveitem!"
 jump aftertreats
 
 label treatversion2:
 show v laugh
-v "I've prepared some treats for us as well. Please do enjoy!"
+v "Preparei algumas guloseimas para nós também. Aproveitem!"
 show v happy
-v "They're not quite up to par with the batch we had made, [name], but rest assured, you'll find no complaints with this either."
-m "Who could complain about surprise cookies?"
+v "Eles não estão à altura do lote que fizemos, [name], mas fique tranquilo, você também não encontrará reclamações sobre isso."
+m "Quem poderia reclamar de biscoitos surpresa?"
 show v neutral
-v "You're quite right."
+v "Você está certo."
 show v happy
-v "Let's make more together soon. I have other recipes I would like to try!"
+v "Vamos fazer mais juntos em breve. Tenho outras receitas que gostaria de experimentar!"
 jump aftertreats
 
 label aftertreats:
-"We spent the rest of the morning eating delicious treats and sipping on delicious tea, as we theorized what might have happened to Fluffy."
-"Personally, my money's on the felines being the culprits. Every Kat I've met has had a nasty surprise up their sleeve."
+"Passamos o resto da manhã comendo guloseimas deliciosas e tomando um chá delicioso, enquanto teorizávamos o que poderia ter acontecido com Fluffy."
+"Pessoalmente, aposto que os felinos são os culpados. Cada Kat que conheci teve uma surpresa desagradável na manga."
 jump postMorningSelector

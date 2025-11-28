@@ -6,37 +6,37 @@ show s annoyed at pos90s with dissolve # former look:left
 show v surprised at pos70v with dissolve
 show t neutral at pos10t with dissolve
 show a happy at pos30a with dissolve # former look:right
-s "You've got to be kidding."
+s "Você deve estar brincando."
 show v laugh
-v "My goodness, he really said that?"
+v "Meu Deus, ele realmente disse isso?"
 show t happy
-t "Yeah, and he was all like -"
+t "Sim, e ele estava tipo -"
 show a surprised
-a "Woah, what the hell is that?"
+a "Uau, que diabos é isso?"
 stop music
 play music LeGrandChase
-"A flash of white raced through the kitchen, sending the girls into a frenzy."
+"Um flash branco percorreu a cozinha, deixando as meninas em frenesi."
 show t surprised
 show a surprised
 show v surprised
 show s surprised
-s "What the hell is that?"
+s "O que diabos é isso?"
 show y surprised  at pos50y  with easeinright # former ,,-1
-y "Coming through, sorry!!!!"
+y "Passando, desculpe!!!!"
 with vpunch # Allie
 with vpunch # Terra
 with vpunch # Violet
 with vpunch # Scarlett
-"Yui practically bulldozed through the other girls in the kitchen."
-m "What's going on?"
+"Yui praticamente destruiu as outras garotas na cozinha."
+m "O que está acontecendo?"
 show y angry
 with vpunch # Yui
-y "I take it back!!!"
+y "Eu retiro!!!"
 show y angry
-y "Bunbunbun is a bad boy!!!"
+y "Bunbunbun é um menino mau!!!"
 show y surprised
-y "He just seemed so well-behaved, I thought I'd let him outside again, and -"
-"Bunbunbun effortlessly swerved past Yui, under Violet, and leapt onto Allie."
+y "Ele parecia tão bem-comportado que pensei em deixá-lo sair de novo e..."
+"Bunbunbun desviou sem esforço de Yui, sob Violet, e saltou sobre Allie."
 show a surprised
 a "Whah!"
 show a angry_hatless with vpunch
